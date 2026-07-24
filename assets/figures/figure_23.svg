@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="660" viewBox="0 0 1200 660">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<style>text{font-family:Arial,Helvetica,sans-serif}.title{font-weight:700;font-size:24px}.sub{font-size:13px;fill:#566}.label{font-size:13px;fill:#243}.small{font-size:11px;fill:#465}.tick{font-size:11px;fill:#687}</style>
+<text x="600.0" y="34" text-anchor="middle" class="title">Hippeastrum core-stage expression shifts</text>
+<text x="600.0" y="58" text-anchor="middle" class="sub">Gene-level CPM; monocot dataset lacks directly comparable HE/TE; darker bars = replicate-consistent &gt;=7/9</text>
+<line x1="92" x2="1160" y1="564.0" y2="564.0" stroke="#d9e0e4" stroke-width="1"/>
+<text x="80" y="568.0" text-anchor="end" class="tick">12577</text>
+<line x1="92" x2="1160" y1="444.5" y2="444.5" stroke="#d9e0e4" stroke-width="1"/>
+<text x="80" y="448.5" text-anchor="end" class="tick">6288</text>
+<line x1="92" x2="1160" y1="325.0" y2="325.0" stroke="#d9e0e4" stroke-width="1"/>
+<text x="80" y="329.0" text-anchor="end" class="tick">0</text>
+<line x1="92" x2="1160" y1="205.5" y2="205.5" stroke="#d9e0e4" stroke-width="1"/>
+<text x="80" y="209.5" text-anchor="end" class="tick">6288</text>
+<line x1="92" x2="1160" y1="86.0" y2="86.0" stroke="#d9e0e4" stroke-width="1"/>
+<text x="80" y="90.0" text-anchor="end" class="tick">12577</text>
+<line x1="92" x2="1160" y1="325.0" y2="325.0" stroke="#222" stroke-width="1.2"/>
+<rect x="92" y="76" width="16" height="16" fill="#d88a42" opacity="0.42"/>
+<text x="114" y="89" class="small">UP |log2FC|&gt;=1</text>
+<rect x="327" y="76" width="16" height="16" fill="#c65f1a" opacity="1"/>
+<text x="349" y="89" class="small">UP consistent</text>
+<rect x="562" y="76" width="16" height="16" fill="#5f94bd" opacity="0.42"/>
+<text x="584" y="89" class="small">DOWN |log2FC|&gt;=1</text>
+<rect x="797" y="76" width="16" height="16" fill="#2f6f9f" opacity="1"/>
+<text x="819" y="89" class="small">DOWN consistent</text>
+<rect x="145.8" y="227.5" width="46" height="97.5" fill="#d88a42" opacity="0.35"/>
+<rect x="145.8" y="228.0" width="46" height="97.0" fill="#c65f1a"/>
+<text x="168.8" y="219.5" text-anchor="middle" class="small">5129</text>
+<text x="168.8" y="242.0" text-anchor="middle" class="small" fill="#fff">5103</text>
+<rect x="205.8" y="325.0" width="46" height="207.8" fill="#5f94bd" opacity="0.35"/>
+<rect x="205.8" y="325.0" width="46" height="207.1" fill="#2f6f9f"/>
+<text x="228.8" y="550.8" text-anchor="middle" class="small">10937</text>
+<text x="228.8" y="525.1" text-anchor="middle" class="small" fill="#fff">10899</text>
+<text x="198.8" y="610" text-anchor="middle" class="label">EC?GE</text>
+<rect x="359.4" y="302.9" width="46" height="22.1" fill="#d88a42" opacity="0.35"/>
+<rect x="359.4" y="303.3" width="46" height="21.7" fill="#c65f1a"/>
+<text x="382.4" y="294.9" text-anchor="middle" class="small">1163</text>
+<text x="382.4" y="317.3" text-anchor="middle" class="small" fill="#fff">1144</text>
+<rect x="419.4" y="325.0" width="46" height="35.5" fill="#5f94bd" opacity="0.35"/>
+<rect x="419.4" y="325.0" width="46" height="35.1" fill="#2f6f9f"/>
+<text x="442.4" y="378.5" text-anchor="middle" class="small">1867</text>
+<text x="442.4" y="353.1" text-anchor="middle" class="small" fill="#fff">1848</text>
+<text x="412.4" y="610" text-anchor="middle" class="label">GE?CE</text>
+<rect x="573.0" y="251.0" width="46" height="74.0" fill="#d88a42" opacity="0.35"/>
+<rect x="573.0" y="251.9" width="46" height="73.1" fill="#c65f1a"/>
+<text x="596.0" y="243.0" text-anchor="middle" class="small">3895</text>
+<text x="596.0" y="265.9" text-anchor="middle" class="small" fill="#fff">3847</text>
+<rect x="633.0" y="325.0" width="46" height="35.0" fill="#5f94bd" opacity="0.35"/>
+<rect x="633.0" y="325.0" width="46" height="34.9" fill="#2f6f9f"/>
+<text x="656.0" y="378.0" text-anchor="middle" class="small">1843</text>
+<text x="656.0" y="352.9" text-anchor="middle" class="small" fill="#fff">1837</text>
+<text x="626.0" y="610" text-anchor="middle" class="label">CE?LateCE</text>
+<rect x="786.6" y="255.3" width="46" height="69.7" fill="#d88a42" opacity="0.35"/>
+<rect x="786.6" y="255.6" width="46" height="69.4" fill="#c65f1a"/>
+<text x="809.6" y="247.3" text-anchor="middle" class="small">3670</text>
+<text x="809.6" y="269.6" text-anchor="middle" class="small" fill="#fff">3652</text>
+<rect x="846.6" y="325.0" width="46" height="182.6" fill="#5f94bd" opacity="0.35"/>
+<rect x="846.6" y="325.0" width="46" height="181.9" fill="#2f6f9f"/>
+<text x="869.6" y="525.6" text-anchor="middle" class="small">9611</text>
+<text x="869.6" y="499.9" text-anchor="middle" class="small" fill="#fff">9571</text>
+<text x="839.6" y="610" text-anchor="middle" class="label">EC?CE</text>
+<rect x="1000.2" y="232.5" width="46" height="92.5" fill="#d88a42" opacity="0.35"/>
+<rect x="1000.2" y="233.6" width="46" height="91.4" fill="#c65f1a"/>
+<text x="1023.2" y="224.5" text-anchor="middle" class="small">4867</text>
+<text x="1023.2" y="247.6" text-anchor="middle" class="small" fill="#fff">4811</text>
+<rect x="1060.2" y="325.0" width="46" height="64.1" fill="#5f94bd" opacity="0.35"/>
+<rect x="1060.2" y="325.0" width="46" height="63.7" fill="#2f6f9f"/>
+<text x="1083.2" y="407.1" text-anchor="middle" class="small">3372</text>
+<text x="1083.2" y="381.7" text-anchor="middle" class="small" fill="#fff">3353</text>
+<text x="1053.2" y="610" text-anchor="middle" class="label">GE?LateCE</text>
+<text x="28" y="330.0" transform="rotate(-90 28 330.0)" text-anchor="middle" class="label">Gene count</text>
+</svg>

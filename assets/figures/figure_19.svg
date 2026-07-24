@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1220" height="660" viewBox="0 0 1220 660">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<style>text{font-family:Arial,Helvetica,sans-serif}.title{font-weight:700;font-size:24px}.sub{font-size:13px;fill:#566}.label{font-size:13px;fill:#243}.small{font-size:11px;fill:#465}.tick{font-size:11px;fill:#687}</style>
+<text x="610.0" y="34" text-anchor="middle" class="title">Cunninghamia lanceolata reference-based core-stage shifts</text>
+<text x="610.0" y="58" text-anchor="middle" class="sub">CULA reference genes, FPKM trend; darker bars = replicate-consistent &gt;=7/9</text>
+<line x1="92" x2="1178" y1="562.0" y2="562.0" stroke="#d9e0e4" stroke-width="1"/>
+<text x="80" y="566.0" text-anchor="end" class="tick">2035</text>
+<line x1="92" x2="1178" y1="443.0" y2="443.0" stroke="#d9e0e4" stroke-width="1"/>
+<text x="80" y="447.0" text-anchor="end" class="tick">1017</text>
+<line x1="92" x2="1178" y1="324.0" y2="324.0" stroke="#d9e0e4" stroke-width="1"/>
+<text x="80" y="328.0" text-anchor="end" class="tick">0</text>
+<line x1="92" x2="1178" y1="205.0" y2="205.0" stroke="#d9e0e4" stroke-width="1"/>
+<text x="80" y="209.0" text-anchor="end" class="tick">1017</text>
+<line x1="92" x2="1178" y1="86.0" y2="86.0" stroke="#d9e0e4" stroke-width="1"/>
+<text x="80" y="90.0" text-anchor="end" class="tick">2035</text>
+<line x1="92" x2="1178" y1="324.0" y2="324.0" stroke="#222" stroke-width="1.2"/>
+<rect x="92" y="76" width="16" height="16" fill="#d88a42" opacity="0.42"/>
+<text x="114" y="89" class="small">UP |log2FC|&gt;=1</text>
+<rect x="327" y="76" width="16" height="16" fill="#c65f1a" opacity="1"/>
+<text x="349" y="89" class="small">UP consistent</text>
+<rect x="562" y="76" width="16" height="16" fill="#5f94bd" opacity="0.42"/>
+<text x="584" y="89" class="small">DOWN |log2FC|&gt;=1</text>
+<rect x="797" y="76" width="16" height="16" fill="#2f6f9f" opacity="1"/>
+<text x="819" y="89" class="small">DOWN consistent</text>
+<rect x="131.5" y="163.5" width="44" height="160.5" fill="#d88a42" opacity="0.35"/>
+<rect x="131.5" y="163.8" width="44" height="160.2" fill="#c65f1a"/>
+<text x="153.5" y="155.5" text-anchor="middle" class="small">1373</text>
+<text x="153.5" y="177.8" text-anchor="middle" class="small" fill="#fff">1370</text>
+<rect x="189.5" y="324.0" width="44" height="207.0" fill="#5f94bd" opacity="0.35"/>
+<rect x="189.5" y="324.0" width="44" height="201.9" fill="#2f6f9f"/>
+<text x="211.5" y="549.0" text-anchor="middle" class="small">1770</text>
+<text x="211.5" y="518.9" text-anchor="middle" class="small" fill="#fff">1727</text>
+<text x="182.5" y="608" text-anchor="middle" class="label">Callus0-&gt;EC</text>
+<rect x="312.5" y="200.5" width="44" height="123.5" fill="#d88a42" opacity="0.35"/>
+<rect x="312.5" y="201.0" width="44" height="123.0" fill="#c65f1a"/>
+<text x="334.5" y="192.5" text-anchor="middle" class="small">1056</text>
+<text x="334.5" y="215.0" text-anchor="middle" class="small" fill="#fff">1052</text>
+<rect x="370.5" y="324.0" width="44" height="82.2" fill="#5f94bd" opacity="0.35"/>
+<rect x="370.5" y="324.0" width="44" height="82.0" fill="#2f6f9f"/>
+<text x="392.5" y="424.2" text-anchor="middle" class="small">703</text>
+<text x="392.5" y="399.0" text-anchor="middle" class="small" fill="#fff">701</text>
+<text x="363.5" y="608" text-anchor="middle" class="label">EC-&gt;GE</text>
+<rect x="493.5" y="235.1" width="44" height="88.9" fill="#d88a42" opacity="0.35"/>
+<rect x="493.5" y="235.8" width="44" height="88.2" fill="#c65f1a"/>
+<text x="515.5" y="227.1" text-anchor="middle" class="small">760</text>
+<text x="515.5" y="249.8" text-anchor="middle" class="small" fill="#fff">754</text>
+<rect x="551.5" y="324.0" width="44" height="125.3" fill="#5f94bd" opacity="0.35"/>
+<rect x="551.5" y="324.0" width="44" height="125.1" fill="#2f6f9f"/>
+<text x="573.5" y="467.3" text-anchor="middle" class="small">1072</text>
+<text x="573.5" y="442.1" text-anchor="middle" class="small" fill="#fff">1070</text>
+<text x="544.5" y="608" text-anchor="middle" class="label">GE-&gt;TE</text>
+<rect x="674.5" y="280.3" width="44" height="43.7" fill="#d88a42" opacity="0.35"/>
+<rect x="674.5" y="280.4" width="44" height="43.6" fill="#c65f1a"/>
+<text x="696.5" y="272.3" text-anchor="middle" class="small">374</text>
+<text x="696.5" y="294.4" text-anchor="middle" class="small" fill="#fff">373</text>
+<rect x="732.5" y="324.0" width="44" height="78.3" fill="#5f94bd" opacity="0.35"/>
+<rect x="732.5" y="324.0" width="44" height="77.6" fill="#2f6f9f"/>
+<text x="754.5" y="420.3" text-anchor="middle" class="small">670</text>
+<text x="754.5" y="394.6" text-anchor="middle" class="small" fill="#fff">664</text>
+<text x="725.5" y="608" text-anchor="middle" class="label">TE-&gt;CE</text>
+<rect x="855.5" y="297.9" width="44" height="26.1" fill="#d88a42" opacity="0.35"/>
+<rect x="855.5" y="298.4" width="44" height="25.6" fill="#c65f1a"/>
+<text x="877.5" y="289.9" text-anchor="middle" class="small">223</text>
+<text x="877.5" y="312.4" text-anchor="middle" class="small" fill="#fff">219</text>
+<rect x="913.5" y="324.0" width="44" height="4.0" fill="#5f94bd" opacity="0.35"/>
+<rect x="913.5" y="324.0" width="44" height="3.9" fill="#2f6f9f"/>
+<text x="935.5" y="346.0" text-anchor="middle" class="small">34</text>
+<text x="935.5" y="320.9" text-anchor="middle" class="small" fill="#fff">33</text>
+<text x="906.5" y="608" text-anchor="middle" class="label">CE-&gt;LateCE</text>
+<rect x="1036.5" y="254.3" width="44" height="69.7" fill="#d88a42" opacity="0.35"/>
+<rect x="1036.5" y="254.3" width="44" height="69.7" fill="#c65f1a"/>
+<text x="1058.5" y="246.3" text-anchor="middle" class="small">596</text>
+<text x="1058.5" y="268.3" text-anchor="middle" class="small" fill="#fff">596</text>
+<rect x="1094.5" y="324.0" width="44" height="137.4" fill="#5f94bd" opacity="0.35"/>
+<rect x="1094.5" y="324.0" width="44" height="137.0" fill="#2f6f9f"/>
+<text x="1116.5" y="479.4" text-anchor="middle" class="small">1175</text>
+<text x="1116.5" y="454.0" text-anchor="middle" class="small" fill="#fff">1172</text>
+<text x="1087.5" y="608" text-anchor="middle" class="label">GE-&gt;CE</text>
+<text x="28" y="330.0" transform="rotate(-90 28 330.0)" text-anchor="middle" class="label">Reference gene count</text>
+</svg>
