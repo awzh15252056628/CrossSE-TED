@@ -1,0 +1,13 @@
+species	gene_id	role	note	protein_ok	cds_ok	resolved_cds_id	protein_len	cds_len	is_main_set
+Camellia_oleifera	maker-HiC_scaffold_10-snap-gene-1860.33-mRNA-1	syntenic_main	collinear with Lchi09014	True	True	maker-HiC_scaffold_10-snap-gene-1860.33-mRNA-1	330	993	True
+Camellia_oleifera	maker-HiC_scaffold_7-snap-gene-1397.22-mRNA-1	secondary_copy	high-similarity non-anchor copy	True	True	maker-HiC_scaffold_7-snap-gene-1397.22-mRNA-1	334	1005	False
+Castanea_mollissima	CmMahoganyH2.02G171900.1.v1.1	single_copy		True	True	CmMahoganyH2.02G171900.1.v1.1	333	1002	True
+Liquidambar	KAK9284459.1	single_copy		True	True	KAK9284459.1	331	996	True
+Liriodendron_chinense	Lchi09014	anchor_main	reference PsbO main copy	True	True	Lchi09014	332	999	True
+Liriodendron_chinense	Lchi23640	secondary_copy	same orthogroup paralog	True	True	Lchi23640	260	783	False
+Picea_abies	MA_491379g0010	single_copy		True	True	MA_491379g0010	347	1044	True
+QuercusSuber	XP_023926621.1	single_copy		True	True	XP_023926621.1	333	1002	True
+Vitis_vinifera	XP_002274796.1	syntenic_besthit	collinear with Lchi09014; higher BLAST score to anchor than the second Vitis copy	True	True	XP_002274796.1	332	999	True
+Vitis_vinifera	XP_002283699.1	syntenic_secondary	also collinear with Lchi09014/Lchi23640	True	True	XP_002283699.1	331	996	False
+Zea_mays	NP_001130585.1	besthit	best bit-score to Lchi09014 among Zea copies in MCScanX BLAST	True	True	NP_001130585.1	335	1008	True
+Zea_mays	NP_001344440.1	secondary_copy		True	True	NP_001344440.1	329	990	False

@@ -1,0 +1,73 @@
+{
+  "orthogroup": "OG0010580",
+  "gene_family": "PsbO/OEE1; PSII oxygen-evolving enhancer protein 1",
+  "members_tsv": "/data/hongky_data/HKY/PsbO_OEE1_pairwise_KaKs_20260519/psbo_oee1_members.tsv",
+  "pairwise_tsv": "/data/hongky_data/HKY/PsbO_OEE1_pairwise_KaKs_20260519/psbo_oee1_cross_species_pairwise_kaks.tsv",
+  "species_pair_summary_tsv": "/data/hongky_data/HKY/PsbO_OEE1_pairwise_KaKs_20260519/psbo_oee1_species_pair_summary.tsv",
+  "axt": "/data/hongky_data/HKY/PsbO_OEE1_pairwise_KaKs_20260519/work/psbo_oee1_cross_species_pairs.axt",
+  "raw_kaks_outputs": {
+    "GY": "/data/hongky_data/HKY/PsbO_OEE1_pairwise_KaKs_20260519/work/psbo_oee1_cross_species_pairs.GY.KaKs.raw.tsv"
+  },
+  "n_members_defined": 12,
+  "n_members_with_protein_and_cds": 12,
+  "n_cross_species_pairs_attempted": 62,
+  "methods": [
+    "GY"
+  ],
+  "method_summaries": {
+    "GY": {
+      "n_rows": 62,
+      "n_valid_kaks": 62,
+      "n_kaks_lt_1": 62,
+      "fraction_kaks_lt_1": 1.0,
+      "min_kaks": 0.0170447,
+      "median_kaks": 0.04142055,
+      "mean_kaks": 0.058461201612903226,
+      "max_kaks": 0.470663,
+      "n_syntenic_rows": 18,
+      "n_valid_syntenic_rows": 18
+    }
+  },
+  "main_pair_summaries": {
+    "GY": {
+      "n_rows": 28,
+      "n_valid_kaks": 28,
+      "n_kaks_lt_1": 28,
+      "fraction_kaks_lt_1": 1.0,
+      "min_kaks": 0.0186909,
+      "median_kaks": 0.04562645,
+      "mean_kaks": 0.07334968571428571,
+      "max_kaks": 0.470663,
+      "n_syntenic_rows": 10,
+      "n_valid_syntenic_rows": 10
+    }
+  },
+  "lchi09014_anchor_pair_summaries": {
+    "GY": {
+      "n_rows": 10,
+      "n_valid_kaks": 10,
+      "n_kaks_lt_1": 10,
+      "fraction_kaks_lt_1": 1.0,
+      "min_kaks": 0.0170447,
+      "median_kaks": 0.03068385,
+      "mean_kaks": 0.03212103,
+      "max_kaks": 0.0512151,
+      "n_syntenic_rows": 5,
+      "n_valid_syntenic_rows": 5
+    }
+  },
+  "syntenic_pair_summaries": {
+    "GY": {
+      "n_rows": 18,
+      "n_valid_kaks": 18,
+      "n_kaks_lt_1": 18,
+      "fraction_kaks_lt_1": 1.0,
+      "min_kaks": 0.0235504,
+      "median_kaks": 0.06431065,
+      "mean_kaks": 0.09053708888888888,
+      "max_kaks": 0.470663,
+      "n_syntenic_rows": 18,
+      "n_valid_syntenic_rows": 18
+    }
+  }
+}
