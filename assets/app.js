@@ -14,13 +14,17 @@ function stageText(stages) {
   return stages.length > 12 ? shown + " ..." : shown;
 }
 
+function formatScientificName(value) {
+  return escapeHtml(value).replace(/\bsp\.$/, '<span class="taxon-rank">sp.</span>');
+}
+
 function renderSpecies() {
   $("speciesGrid").innerHTML = DB.species.map(s => {
     const typeTags = Object.entries(s.data_types || {}).map(([k,v]) => `<span class="tag blue">${k} x ${v}</span>`).join("");
     const supp = s.supplementary_count ? `<span class="tag rose">supplement x ${s.supplementary_count}</span>` : "";
     const stage = s.stages && s.stages.length ? s.stages.join(" / ") : "Supplementary trend or integrated matrix";
     return `<article class="species-card">
-      <h3><span>${s.cn}</span><span class="tag green">${s.abbr}</span></h3>
+      <h3><span>${formatScientificName(s.cn)}</span><span class="tag green">${s.abbr}</span></h3>
       <div class="latin">${s.latin}</div>
       <div class="tags"><span class="tag">${s.project}</span><span class="tag amber">${s.matrix_count} matrices</span><span class="tag">${s.max_columns} columns max</span>${typeTags}${supp}</div>
       <div class="stage-list"><strong>Stages/treatments: </strong>${stage}</div>
@@ -48,7 +52,7 @@ function renderData() {
     return (!q || hay.includes(q)) && (!sp || x.species_cn === sp) && (!typ || x.data_type === typ);
   });
   $("dataBody").innerHTML = rows.map(x => `<tr>
-    <td>${x.id}</td><td><strong>${x.species_cn}</strong><br><span class="latin">${x.latin || ""}</span></td>
+    <td>${x.id}</td><td><strong>${formatScientificName(x.species_cn)}</strong><br><span class="latin">${x.latin || ""}</span></td>
     <td><span class="tag ${x.data_type==='chip_trend'?'rose':'blue'}">${x.data_type}</span></td>
     <td>${x.columns}</td><td>${stageText(x.stages)}</td><td>${x.size}</td>
     <td>${DB.single_file ? `<span class="file-label">${escapeHtml(x.file)}</span><br><span class="gene-meta">Raw matrix is not embedded in the GitHub single-file edition</span>` : `<a class="download" href="${x.link}">${escapeHtml(x.file)}</a>`}</td>
