@@ -813,7 +813,7 @@ function exportPrimerResults() {
   if (!primerDesignRows.length) return;
   const header = ["rank","forward_primer_5to3","forward_start","forward_end","forward_tm_c","forward_gc_pct","reverse_primer_5to3","reverse_start","reverse_end","reverse_tm_c","reverse_gc_pct","product_size_bp","tm_difference_c","pair_complementary_run","score"];
   const rows = primerDesignRows.map(row => [row.rank,row.forward,row.forwardStart,row.forwardEnd,row.forwardTm.toFixed(2),row.forwardGc.toFixed(2),row.reverse,row.reverseStart,row.reverseEnd,row.reverseTm.toFixed(2),row.reverseGc.toFixed(2),row.productSize,row.tmDifference.toFixed(2),row.pairRun,row.score.toFixed(3)]);
-  downloadText("PlantSE-DB_primer_design.tsv", [header, ...rows].map(row => row.join("\t")).join("\n"), "text/tab-separated-values;charset=utf-8");
+  downloadText("CrossSE-TED_primer_design.tsv", [header, ...rows].map(row => row.join("\t")).join("\n"), "text/tab-separated-values;charset=utf-8");
 }
 
 function smithWaterman(query, subject, matchScore, mismatchScore, gapScore) {
@@ -978,7 +978,7 @@ function exportBlastResults() {
   if (!blastSearchRows.length) return;
   const header = ["rank","subject","score","identity_pct","identities","alignment_length","gaps","query_start","query_end","subject_start","subject_end","subject_strand"];
   const rows = blastSearchRows.map((hit, index) => [index + 1,hit.subjectName,hit.score,(hit.identities * 100 / hit.alignmentLength).toFixed(2),hit.identities,hit.alignmentLength,hit.gaps,hit.queryStart,hit.queryEnd,hit.displaySubjectStart,hit.displaySubjectEnd,hit.strand]);
-  downloadText("PlantSE-DB_local_alignment.tsv", [header, ...rows].map(row => row.join("\t")).join("\n"), "text/tab-separated-values;charset=utf-8");
+  downloadText("CrossSE-TED_local_alignment.tsv", [header, ...rows].map(row => row.join("\t")).join("\n"), "text/tab-separated-values;charset=utf-8");
 }
 
 function makeExampleDna(length = 650) {
@@ -1133,7 +1133,7 @@ function exportKnockoutOligos() {
   if (!knockoutPrimerRows.length) return;
   const header = ["rank","guide_5to3","expressed_guide_5to3","pam","strand","protospacer_start","protospacer_end","cut_between","gc_pct","heuristic_score","forward_cloning_oligo_5to3","reverse_cloning_oligo_5to3"];
   const rows = knockoutPrimerRows.map(row => [row.rank,row.guide,row.expressedGuide,row.pam,row.strand,row.start,row.end,row.cutLabel,row.gc.toFixed(2),row.score.toFixed(2),row.forwardOligo,row.reverseOligo]);
-  downloadText("PlantSE-DB_knockout_oligos.tsv", [header, ...rows].map(row => row.join("\t")).join("\n"), "text/tab-separated-values;charset=utf-8");
+  downloadText("CrossSE-TED_knockout_oligos.tsv", [header, ...rows].map(row => row.join("\t")).join("\n"), "text/tab-separated-values;charset=utf-8");
 }
 
 function terminalStopCodon(sequence) {
@@ -1202,7 +1202,7 @@ function exportOverexpressionPrimers() {
   if (!overexpressionPrimerRows.length) return;
   const header = ["primer","full_sequence_5to3","five_prime_addition","annealing_sequence_5to3","annealing_tm_c","annealing_gc_pct","total_length_nt"];
   const rows = overexpressionPrimerRows.map(row => [row.name,row.full,row.tail,row.annealing,row.tm.toFixed(2),row.gc.toFixed(2),row.length]);
-  downloadText("PlantSE-DB_overexpression_primers.tsv", [header, ...rows].map(row => row.join("\t")).join("\n"), "text/tab-separated-values;charset=utf-8");
+  downloadText("CrossSE-TED_overexpression_primers.tsv", [header, ...rows].map(row => row.join("\t")).join("\n"), "text/tab-separated-values;charset=utf-8");
 }
 
 function initFunctionalPrimerTools() {
