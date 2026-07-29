@@ -448,7 +448,7 @@
           rows,
           stages,
           dataset:{label:"Liriodendron hybrid validated 11-stage FPKM means (TAU result table)", file:"Lc_stage_tau.tsv"},
-          species:"Liriodendron chinense / hybrid"
+          species:"Liriodendron hybrid"
         };
       }
       const chunk = await loadGeneChunk(abbr);
