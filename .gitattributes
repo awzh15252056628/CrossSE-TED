@@ -1,0 +1,7 @@
+# Generated PDF files are binary publication artifacts even when their
+# internal streams happen to be ASCII-encoded.
+*.pdf binary
+
+# Figure 1 is a large renderer-generated SVG; treat it as an indivisible
+# release artifact so line-ending normalization cannot change its checksum.
+assets/publication_figures/Figure_1.svg binary

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1000" height="720" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1000 720" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1000" height="720"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-720)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="1000" height="720" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="321.54541015625" y="682" style="font-family: TimesNewRoman-Bold; font-size: 25px;fill: rgb(12%,30%,47%); stroke:none;" transform="translate(0,1364) scale(1,-1)">CrossSE-TED resource workflow</text>
+			<text x="55" y="645" style="font-family: TimesNewRoman-Bold; font-size: 30px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,1290) scale(1,-1)">A</text>
+			<rect x="90" y="385" width="390" height="260" rx="10" ry="10" style="stroke: rgb(35%,60%,83%); stroke-linecap: butt; stroke-width: 1.6; fill: rgb(86%,92%,96%); fill-rule: evenodd;"/>
+			<text x="244.072265625" y="620" style="font-family: TimesNewRoman-Bold; font-size: 22px;fill: rgb(35%,60%,83%); stroke:none;" transform="translate(0,1240) scale(1,-1)">Discover</text>
+			<text x="186.053466796875" y="595" style="font-family: TimesNewRoman; font-size: 15px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,1190) scale(1,-1)">Sample and BioProject browsing</text>
+			<text x="169.21875" y="578" style="font-family: TimesNewRoman; font-size: 15px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,1156) scale(1,-1)">Gene, annotation, and literature search</text>
+			<text x="165.25634765625" y="561" style="font-family: TimesNewRoman; font-size: 15px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,1122) scale(1,-1)">Traceable links to public source records</text>
+			<text x="520" y="645" style="font-family: TimesNewRoman-Bold; font-size: 30px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,1290) scale(1,-1)">B</text>
+			<rect x="555" y="385" width="390" height="260" rx="10" ry="10" style="stroke: rgb(18%,56%,51%); stroke-linecap: butt; stroke-width: 1.6; fill: rgb(86%,93%,91%); fill-rule: evenodd;"/>
+			<text x="706.0107421875" y="620" style="font-family: TimesNewRoman-Bold; font-size: 22px;fill: rgb(18%,56%,51%); stroke:none;" transform="translate(0,1240) scale(1,-1)">Compare</text>
+			<text x="629.4140625" y="595" style="font-family: TimesNewRoman; font-size: 15px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,1190) scale(1,-1)">Stage-expression and specificity queries</text>
+			<text x="632.32177734375" y="578" style="font-family: TimesNewRoman; font-size: 15px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,1156) scale(1,-1)">Ortholog and gene-family comparisons</text>
+			<text x="630.648193359375" y="561" style="font-family: TimesNewRoman; font-size: 15px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,1122) scale(1,-1)">TF and coexpression-network browsing</text>
+			<text x="55" y="330" style="font-family: TimesNewRoman-Bold; font-size: 30px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,660) scale(1,-1)">C</text>
+			<rect x="90" y="70" width="390" height="260" rx="10" ry="10" style="stroke: rgb(30%,61%,41%); stroke-linecap: butt; stroke-width: 1.6; fill: rgb(88%,94%,85%); fill-rule: evenodd;"/>
+			<text x="197.34912109375" y="305" style="font-family: TimesNewRoman-Bold; font-size: 22px;fill: rgb(30%,61%,41%); stroke:none;" transform="translate(0,610) scale(1,-1)">Prioritize evidence</text>
+			<text x="170.8740234375" y="280" style="font-family: TimesNewRoman; font-size: 15px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,560) scale(1,-1)">Within-species differential expression</text>
+			<text x="174.217529296875" y="263" style="font-family: TimesNewRoman; font-size: 15px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,526) scale(1,-1)">Candidate cross-dataset concordance</text>
+			<text x="130.440673828125" y="246" style="font-family: TimesNewRoman; font-size: 15px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,492) scale(1,-1)">Precomputed PsbO/OEE1 microsynteny and Ka/Ks</text>
+			<text x="520" y="330" style="font-family: TimesNewRoman-Bold; font-size: 30px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,660) scale(1,-1)">D</text>
+			<rect x="555" y="70" width="390" height="260" rx="10" ry="10" style="stroke: rgb(90%,62%,33%); stroke-linecap: butt; stroke-width: 1.6; fill: rgb(98%,89%,83%); fill-rule: evenodd;"/>
+			<text x="664.4384765625" y="305" style="font-family: TimesNewRoman-Bold; font-size: 22px;fill: rgb(90%,62%,33%); stroke:none;" transform="translate(0,610) scale(1,-1)">Design and export</text>
+			<text x="613.17626953125" y="280" style="font-family: TimesNewRoman; font-size: 15px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,560) scale(1,-1)">Local Smith-Waterman sequence comparison</text>
+			<text x="573.343505859375" y="263" style="font-family: TimesNewRoman; font-size: 15px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,526) scale(1,-1)">PCR primers, CRISPR guides, and overexpression primers</text>
+			<text x="622.93212890625" y="246" style="font-family: TimesNewRoman; font-size: 15px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,492) scale(1,-1)">TSV/CSV export for downstream analysis</text>
+			<path d="M 480,500 L 520,500 Z" style="stroke: rgb(35%,60%,83%); stroke-linecap: butt; stroke-width: 3;"/>
+			<polygon points="520 500, 510 505.5, 510 494.5" style="stroke: rgb(35%,60%,83%); stroke-linecap: butt; stroke-width: 1; fill: rgb(35%,60%,83%); fill-rule: evenodd;"/>
+			<path d="M 250,365 L 250,330 Z" style="stroke: rgb(35%,60%,83%); stroke-linecap: butt; stroke-width: 3;"/>
+			<polygon points="250 330, 255.5 340, 244.5 340" style="stroke: rgb(35%,60%,83%); stroke-linecap: butt; stroke-width: 1; fill: rgb(35%,60%,83%); fill-rule: evenodd;"/>
+			<path d="M 715,365 L 715,330 Z" style="stroke: rgb(35%,60%,83%); stroke-linecap: butt; stroke-width: 3;"/>
+			<polygon points="715 330, 720.5 340, 709.5 340" style="stroke: rgb(35%,60%,83%); stroke-linecap: butt; stroke-width: 1; fill: rgb(35%,60%,83%); fill-rule: evenodd;"/>
+			<path d="M 480,200 L 520,200 Z" style="stroke: rgb(35%,60%,83%); stroke-linecap: butt; stroke-width: 3;"/>
+			<polygon points="520 200, 510 205.5, 510 194.5" style="stroke: rgb(35%,60%,83%); stroke-linecap: butt; stroke-width: 1; fill: rgb(35%,60%,83%); fill-rule: evenodd;"/>
+			<text x="197.418212890625" y="25" style="font-family: TimesNewRoman-Italic; font-size: 12.5px;fill: rgb(40%,40%,40%); stroke:none;" transform="translate(0,50) scale(1,-1)">The browser tools support candidate prioritization and experimental design; they do not constitute functional validation.</text>
+		</g>
+	</g>
+</svg>

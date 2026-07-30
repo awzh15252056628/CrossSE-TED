@@ -1,0 +1,1001 @@
+rank	source	target	interaction	pearson_r	abs_r	correlation_sign	source_degree	target_degree	core_score	source_annotation	target_annotation
+1	Lchi23901	Lchi16235	positive_coexpression	0.99048859	0.99048859	positive	1111	181	444.16649377	B-box zinc finger protein 20-like	beta-glucosidase 44-like
+2	Lchi23901	Lchi17443	positive_coexpression	0.99044669	0.99044669	positive	1111	181	444.14770448	B-box zinc finger protein 20-like	plant/F18G18-20 protein
+3	Lchi23901	Lchi17168	positive_coexpression	0.99678719	0.99678719	positive	1111	177	442.02426508	B-box zinc finger protein 20-like	thiamine thiazole synthase 2, chloroplastic-like
+4	Lchi23901	Lchi18724	positive_coexpression	0.99134737	0.99134737	positive	1111	178	440.85207512	B-box zinc finger protein 20-like	protein DETOXIFICATION 33-like
+5	Lchi23901	Lchi17615	positive_coexpression	0.98878747	0.98878747	positive	1111	177	438.47679739	B-box zinc finger protein 20-like	zinc finger CCCH domain-containing protein 53-like isoform X2
+6	Lchi23901	Lchi25188	positive_coexpression	0.98803091	0.98803091	positive	1111	177	438.14130163	B-box zinc finger protein 20-like	villin-1 isoform X1
+7	Lchi23901	Lchi14169	positive_coexpression	0.99647194	0.99647194	positive	1111	174	438.12368053	B-box zinc finger protein 20-like	putative 4-hydroxy-4-methyl-2-oxoglutarate aldolase 2
+8	Lchi23901	Lchi28705	positive_coexpression	0.99290413	0.99290413	positive	1111	174	436.55500409	B-box zinc finger protein 20-like	oleosin S1-2
+9	Lchi23901	Lchi05599	positive_coexpression	0.98627472	0.98627472	positive	1111	176	436.12528363	B-box zinc finger protein 20-like	protein kinase PINOID 2
+10	Lchi23901	Lchi08727	positive_coexpression	0.98342270	0.98342270	positive	1111	177	436.09779559	B-box zinc finger protein 20-like	LAX3-1
+11	Lchi23901	Lchi11642	positive_coexpression	0.97439396	0.97439396	positive	1111	180	435.74043763	B-box zinc finger protein 20-like	arogenate dehydrogenase 2, chloroplastic-like
+12	Lchi23901	Lchi16615	positive_coexpression	0.99374360	0.99374360	positive	1111	173	435.66675982	B-box zinc finger protein 20-like	germin-like protein 5-1
+13	Lchi23901	Lchi25772	positive_coexpression	0.97670203	0.97670203	positive	1111	179	435.55763934	B-box zinc finger protein 20-like	cysteine proteinase inhibitor 5-like
+14	Lchi02953	Lchi16235	positive_coexpression	0.98678702	0.98678702	positive	1070	181	434.26477613	homeobox-leucine zipper protein ATHB-13-like isoform X1	beta-glucosidase 44-like
+15	Lchi23901	Lchi07386	positive_coexpression	0.98201013	0.98201013	positive	1111	176	434.23950527	B-box zinc finger protein 20-like	potassium transporter 2
+16	Lchi23901	Lchi05513	positive_coexpression	0.97863555	0.97863555	positive	1111	177	433.97493880	B-box zinc finger protein 20-like	methyl-CpG-binding domain-containing protein 11-like isoform X1
+17	Lchi23901	Lchi27946	positive_coexpression	0.97539181	0.97539181	positive	1111	178	433.75663921	B-box zinc finger protein 20-like	receptor protein kinase CLAVATA1
+18	Lchi23901	Lchi04752	positive_coexpression	0.99803340	0.99803340	positive	1111	170	433.73709430	B-box zinc finger protein 20-like	ABC transporter-like protein
+19	Lchi07566	Lchi18724	positive_coexpression	0.99893969	0.99893969	positive	1059	178	433.70781733	LOB domain-containing protein 25-like isoform X3	protein DETOXIFICATION 33-like
+20	Lchi07566	Lchi16235	positive_coexpression	0.98985445	0.98985445	positive	1059	181	433.36976381	LOB domain-containing protein 25-like isoform X3	beta-glucosidase 44-like
+21	Lchi02953	Lchi17443	positive_coexpression	0.98473787	0.98473787	positive	1070	181	433.36298714	homeobox-leucine zipper protein ATHB-13-like isoform X1	plant/F18G18-20 protein
+22	Lchi23901	Lchi07558	positive_coexpression	0.99265236	0.99265236	positive	1111	171	432.66549743	B-box zinc finger protein 20-like	leucine-rich repeat receptor-like serine/threonine-protein kinase RGI4
+23	Lchi23901	Lchi11589	positive_coexpression	0.98964739	0.98964739	positive	1111	172	432.61516233	B-box zinc finger protein 20-like	ribonuclease 3-like
+24	Lchi07566	Lchi17443	positive_coexpression	0.98787636	0.98787636	positive	1059	181	432.50373305	LOB domain-containing protein 25-like isoform X3	plant/F18G18-20 protein
+25	Lchi23901	Lchi11374	positive_coexpression	0.98938054	0.98938054	positive	1111	172	432.49851133	B-box zinc finger protein 20-like	dehydrin/lea group 2-like protein
+26	Lchi23901	Lchi26693	positive_coexpression	0.97469544	0.97469544	positive	1111	177	432.22770103	B-box zinc finger protein 20-like	zinc-finger homeodomain protein 1-like
+27	Lchi02953	Lchi18724	positive_coexpression	0.99009097	0.99009097	positive	1070	178	432.09276012	homeobox-leucine zipper protein ATHB-13-like isoform X1	protein DETOXIFICATION 33-like
+28	Lchi23901	Lchi09003	positive_coexpression	0.97658217	0.97658217	positive	1111	176	431.83929106	B-box zinc finger protein 20-like	allene oxide synthase 1, chloroplastic-like
+29	Lchi23901	Lchi00354	positive_coexpression	0.98165691	0.98165691	positive	1111	174	431.60988399	B-box zinc finger protein 20-like	stress-related protein-like
+30	Lchi02953	Lchi17168	positive_coexpression	0.99116802	0.99116802	positive	1070	177	431.34602788	homeobox-leucine zipper protein ATHB-13-like isoform X1	thiamine thiazole synthase 2, chloroplastic-like
+31	Lchi07566	Lchi11642	positive_coexpression	0.98741215	0.98741215	positive	1059	180	431.10464224	LOB domain-containing protein 25-like isoform X3	arogenate dehydrogenase 2, chloroplastic-like
+32	Lchi02953	Lchi11642	positive_coexpression	0.98139256	0.98139256	positive	1070	180	430.69606374	homeobox-leucine zipper protein ATHB-13-like isoform X1	arogenate dehydrogenase 2, chloroplastic-like
+33	Lchi23901	Lchi15600	positive_coexpression	0.99672556	0.99672556	positive	1111	168	430.61312785	B-box zinc finger protein 20-like	actin-101
+34	Lchi09693	Lchi17443	positive_coexpression	0.99577159	0.99577159	positive	1033	181	430.57536619	homeobox-leucine zipper protein ATHB-6-like	plant/F18G18-20 protein
+35	Lchi07566	Lchi25772	positive_coexpression	0.98867476	0.98867476	positive	1059	179	430.45518426	LOB domain-containing protein 25-like isoform X3	cysteine proteinase inhibitor 5-like
+36	Lchi09693	Lchi16235	positive_coexpression	0.99524552	0.99524552	positive	1033	181	430.34789155	homeobox-leucine zipper protein ATHB-6-like	beta-glucosidase 44-like
+37	Lchi23901	Lchi25757	positive_coexpression	0.99873447	0.99873447	positive	1111	167	430.19494636	B-box zinc finger protein 20-like	cytochrome P450 71A1-like
+38	Lchi23901	Lchi27397	positive_coexpression	0.99224991	0.99224991	positive	1111	169	429.95346171	B-box zinc finger protein 20-like	p-coumarate 3-hydroxylase-like
+39	Lchi23901	Lchi17921	positive_coexpression	0.97704470	0.97704470	positive	1111	174	429.58201111	B-box zinc finger protein 20-like	probable polygalacturonase
+40	Lchi07566	Lchi25188	positive_coexpression	0.99216372	0.99216372	positive	1059	177	429.55418599	LOB domain-containing protein 25-like isoform X3	villin-1 isoform X1
+41	Lchi06972	Lchi17443	positive_coexpression	0.98299569	0.98299569	positive	1055	181	429.55337032	transcription factor bHLH149-like	plant/F18G18-20 protein
+42	Lchi23901	Lchi19725	positive_coexpression	0.98465884	0.98465884	positive	1111	171	429.18137706	B-box zinc finger protein 20-like	glucose and ribitol dehydrogenase-like
+43	Lchi07566	Lchi27946	positive_coexpression	0.98807222	0.98807222	positive	1059	178	428.98950777	LOB domain-containing protein 25-like isoform X3	receptor protein kinase CLAVATA1
+44	Lchi06972	Lchi16235	positive_coexpression	0.98161358	0.98161358	positive	1055	181	428.94941038	transcription factor bHLH149-like	beta-glucosidase 44-like
+45	Lchi18250	Lchi17168	positive_coexpression	0.98229134	0.98229134	positive	1077	177	428.87901828	transcription factor bHLH93	thiamine thiazole synthase 2, chloroplastic-like
+46	Lchi07566	Lchi17168	positive_coexpression	0.99055976	0.99055976	positive	1059	177	428.85975651	LOB domain-containing protein 25-like isoform X3	thiamine thiazole synthase 2, chloroplastic-like
+47	Lchi02953	Lchi17615	positive_coexpression	0.98531234	0.98531234	positive	1070	177	428.79769676	homeobox-leucine zipper protein ATHB-13-like isoform X1	zinc finger CCCH domain-containing protein 53-like isoform X2
+48	Lchi23901	Lchi25487	positive_coexpression	0.98346448	0.98346448	positive	1111	171	428.66079364	B-box zinc finger protein 20-like	protein MOTHER of FT and TFL1-like protein
+49	Lchi18250	Lchi16235	positive_coexpression	0.97075933	0.97075933	positive	1077	181	428.60645986	transcription factor bHLH93	beta-glucosidase 44-like
+50	Lchi13937	Lchi16235	negative_coexpression	-0.99264765	0.99264765	negative	1030	181	428.60084068	B3 domain-containing protein Os03g0212300-like	beta-glucosidase 44-like
+51	Lchi07566	Lchi05599	positive_coexpression	0.99244654	0.99244654	positive	1059	176	428.46113700	LOB domain-containing protein 25-like isoform X3	protein kinase PINOID 2
+52	Lchi02953	Lchi28705	positive_coexpression	0.99279469	0.99279469	positive	1070	174	428.37681611	homeobox-leucine zipper protein ATHB-13-like isoform X1	oleosin S1-2
+53	Lchi02953	Lchi16615	positive_coexpression	0.99537206	0.99537206	positive	1070	173	428.25297279	homeobox-leucine zipper protein ATHB-13-like isoform X1	germin-like protein 5-1
+54	Lchi18250	Lchi17443	positive_coexpression	0.96964955	0.96964955	positive	1077	181	428.11647345	transcription factor bHLH93	plant/F18G18-20 protein
+55	Lchi23901	Lchi02750	positive_coexpression	0.96541584	0.96541584	positive	1111	177	428.11267185	B-box zinc finger protein 20-like	LRR receptor-like serine/threonine-protein kinase ERECTA
+56	Lchi07566	Lchi17615	positive_coexpression	0.98880649	0.98880649	positive	1059	177	428.10068374	LOB domain-containing protein 25-like isoform X3	zinc finger CCCH domain-containing protein 53-like isoform X2
+57	Lchi23901	Lchi12998	positive_coexpression	0.98502374	0.98502374	positive	1111	170	428.08320323	B-box zinc finger protein 20-like	putative disease resistance protein At5g47280
+58	Lchi06007	Lchi11642	positive_coexpression	0.99548078	0.99548078	positive	1027	180	428.01043146	homeobox-leucine zipper protein HAT2-like	arogenate dehydrogenase 2, chloroplastic-like
+59	Lchi02953	Lchi05599	positive_coexpression	0.98559922	0.98559922	positive	1070	176	427.70918214	homeobox-leucine zipper protein ATHB-13-like isoform X1	protein kinase PINOID 2
+60	Lchi18250	Lchi18724	positive_coexpression	0.97683448	0.97683448	positive	1077	178	427.69958967	transcription factor bHLH93	protein DETOXIFICATION 33-like
+61	Lchi22877	Lchi17443	positive_coexpression	0.98506606	0.98506606	positive	1041	181	427.59243014	transcription factor AS1	plant/F18G18-20 protein
+62	Lchi07566	Lchi28705	positive_coexpression	0.99608672	0.99608672	positive	1059	174	427.58233464	LOB domain-containing protein 25-like isoform X3	oleosin S1-2
+63	Lchi02953	Lchi25188	positive_coexpression	0.98214942	0.98214942	positive	1070	177	427.42122683	homeobox-leucine zipper protein ATHB-13-like isoform X1	villin-1 isoform X1
+64	Lchi23901	Lchi11647	positive_coexpression	0.98343104	0.98343104	positive	1111	170	427.39102893	B-box zinc finger protein 20-like	ketol-acid reductoisomerase, chloroplastic-like
+65	Lchi13937	Lchi17443	negative_coexpression	-0.98976189	0.98976189	negative	1030	181	427.35484049	B3 domain-containing protein Os03g0212300-like	plant/F18G18-20 protein
+66	Lchi06972	Lchi17168	positive_coexpression	0.98887730	0.98887730	positive	1055	177	427.32201798	transcription factor bHLH149-like	thiamine thiazole synthase 2, chloroplastic-like
+67	Lchi02953	Lchi11374	positive_coexpression	0.99596459	0.99596459	positive	1070	172	427.26764831	homeobox-leucine zipper protein ATHB-13-like isoform X1	dehydrin/lea group 2-like protein
+68	Lchi02953	Lchi05513	positive_coexpression	0.98175651	0.98175651	positive	1070	177	427.25023648	homeobox-leucine zipper protein ATHB-13-like isoform X1	methyl-CpG-binding domain-containing protein 11-like isoform X1
+69	Lchi02953	Lchi14169	positive_coexpression	0.98993075	0.98993075	positive	1070	174	427.14106665	homeobox-leucine zipper protein ATHB-13-like isoform X1	putative 4-hydroxy-4-methyl-2-oxoglutarate aldolase 2
+70	Lchi23901	Lchi28527	positive_coexpression	0.99462277	0.99462277	positive	1111	166	427.13924025	B-box zinc finger protein 20-like	heavy metal-associated isoprenylated plant protein 9 isoform X1
+71	Lchi13937	Lchi11642	negative_coexpression	-0.99169070	0.99169070	negative	1030	180	427.00317611	B3 domain-containing protein Os03g0212300-like	arogenate dehydrogenase 2, chloroplastic-like
+72	Lchi07566	Lchi16615	positive_coexpression	0.99707377	0.99707377	positive	1059	173	426.77436325	LOB domain-containing protein 25-like isoform X3	germin-like protein 5-1
+73	Lchi23901	Lchi22953	positive_coexpression	0.97899079	0.97899079	positive	1111	171	426.71085488	B-box zinc finger protein 20-like	aspartyl protease family protein 2
+74	Lchi23901	Lchi02670	positive_coexpression	0.99351025	0.99351025	positive	1111	166	426.66147023	B-box zinc finger protein 20-like	peroxisomal (S)-2-hydroxyacid oxidase GLO4-like isoform X1
+75	Lchi22877	Lchi16235	positive_coexpression	0.98264712	0.98264712	positive	1041	181	426.54242906	transcription factor AS1	beta-glucosidase 44-like
+76	Lchi13371	Lchi16235	positive_coexpression	0.98297507	0.98297507	positive	1040	181	426.47979482	ethylene-responsive transcription factor 4-like	beta-glucosidase 44-like
+77	Lchi07566	Lchi11589	positive_coexpression	0.99897760	0.99897760	positive	1059	172	426.35165553	LOB domain-containing protein 25-like isoform X3	ribonuclease 3-like
+78	Lchi07566	Lchi05513	positive_coexpression	0.98455298	0.98455298	positive	1059	177	426.25913986	LOB domain-containing protein 25-like isoform X3	methyl-CpG-binding domain-containing protein 11-like isoform X1
+79	Lchi02953	Lchi25772	positive_coexpression	0.97396576	0.97396576	positive	1070	179	426.24774433	homeobox-leucine zipper protein ATHB-13-like isoform X1	cysteine proteinase inhibitor 5-like
+80	Lchi07566	Lchi09003	positive_coexpression	0.98669392	0.98669392	positive	1059	176	425.97760362	LOB domain-containing protein 25-like isoform X3	allene oxide synthase 1, chloroplastic-like
+81	Lchi09693	Lchi11642	positive_coexpression	0.98760873	0.98760873	positive	1033	180	425.86439673	homeobox-leucine zipper protein ATHB-6-like	arogenate dehydrogenase 2, chloroplastic-like
+82	Lchi06972	Lchi18724	positive_coexpression	0.98242581	0.98242581	positive	1055	178	425.73170550	transcription factor bHLH149-like	protein DETOXIFICATION 33-like
+83	Lchi09693	Lchi17615	positive_coexpression	0.99552464	0.99552464	positive	1033	177	425.68545136	homeobox-leucine zipper protein ATHB-6-like	zinc finger CCCH domain-containing protein 53-like isoform X2
+84	Lchi23901	Lchi16999	positive_coexpression	0.99103743	0.99103743	positive	1111	166	425.59952143	B-box zinc finger protein 20-like	probable polygalacturonase
+85	Lchi06007	Lchi02750	positive_coexpression	0.99806654	0.99806654	positive	1027	177	425.53114420	homeobox-leucine zipper protein HAT2-like	LRR receptor-like serine/threonine-protein kinase ERECTA
+86	Lchi18250	Lchi14169	positive_coexpression	0.98289669	0.98289669	positive	1077	174	425.49097063	transcription factor bHLH93	putative 4-hydroxy-4-methyl-2-oxoglutarate aldolase 2
+87	Lchi13937	Lchi25772	negative_coexpression	-0.99090964	0.99090964	negative	1030	179	425.48003009	B3 domain-containing protein Os03g0212300-like	cysteine proteinase inhibitor 5-like
+88	Lchi07566	Lchi26693	positive_coexpression	0.98229939	0.98229939	positive	1059	177	425.28345510	LOB domain-containing protein 25-like isoform X3	zinc-finger homeodomain protein 1-like
+89	Lchi22877	Lchi17168	positive_coexpression	0.99064773	0.99064773	positive	1041	177	425.23719687	transcription factor AS1	thiamine thiazole synthase 2, chloroplastic-like
+90	Lchi08779	Lchi17443	positive_coexpression	0.98715580	0.98715580	positive	1025	181	425.19379851	AP2/ERF and B3 domain-containing transcription repressor RAV2-like	plant/F18G18-20 protein
+91	Lchi02953	Lchi11589	positive_coexpression	0.99098736	0.99098736	positive	1070	172	425.13242244	homeobox-leucine zipper protein ATHB-13-like isoform X1	ribonuclease 3-like
+92	Lchi02953	Lchi27946	positive_coexpression	0.97406340	0.97406340	positive	1070	178	425.09805239	homeobox-leucine zipper protein ATHB-13-like isoform X1	receptor protein kinase CLAVATA1
+93	Lchi13937	Lchi18724	negative_coexpression	-0.99268025	0.99268025	negative	1030	178	425.04801752	B3 domain-containing protein Os03g0212300-like	protein DETOXIFICATION 33-like
+94	Lchi18250	Lchi16615	positive_coexpression	0.98445427	0.98445427	positive	1077	173	424.93886175	transcription factor bHLH93	germin-like protein 5-1
+95	Lchi23901	Lchi02035	positive_coexpression	0.97749227	0.97749227	positive	1111	170	424.81008841	B-box zinc finger protein 20-like	amino acid permease 3-like
+96	Lchi09693	Lchi17168	positive_coexpression	0.99346906	0.99346906	positive	1033	177	424.80648718	homeobox-leucine zipper protein ATHB-6-like	thiamine thiazole synthase 2, chloroplastic-like
+97	Lchi07566	Lchi08727	positive_coexpression	0.98119169	0.98119169	positive	1059	177	424.80387985	LOB domain-containing protein 25-like isoform X3	LAX3-1
+98	Lchi23901	Lchi06352	positive_coexpression	0.98320419	0.98320419	positive	1111	168	424.77152043	B-box zinc finger protein 20-like	polygalacturonase At1g48100
+99	Lchi07566	Lchi11374	positive_coexpression	0.99510467	0.99510467	positive	1059	172	424.69873546	LOB domain-containing protein 25-like isoform X3	dehydrin/lea group 2-like protein
+100	Lchi13937	Lchi27946	negative_coexpression	-0.99169171	0.99169171	negative	1030	178	424.62474228	B3 domain-containing protein Os03g0212300-like	receptor protein kinase CLAVATA1
+101	Lchi06007	Lchi25772	positive_coexpression	0.99013209	0.99013209	positive	1027	179	424.52656673	homeobox-leucine zipper protein HAT2-like	cysteine proteinase inhibitor 5-like
+102	Lchi07566	Lchi14169	positive_coexpression	0.98859531	0.98859531	positive	1059	174	424.36655582	LOB domain-containing protein 25-like isoform X3	putative 4-hydroxy-4-methyl-2-oxoglutarate aldolase 2
+103	Lchi23901	Lchi05990	positive_coexpression	0.96232152	0.96232152	positive	1111	175	424.32268614	B-box zinc finger protein 20-like	oleosin Cor a 13-like
+104	Lchi06972	Lchi14169	positive_coexpression	0.99034029	0.99034029	positive	1055	174	424.31198780	transcription factor bHLH149-like	putative 4-hydroxy-4-methyl-2-oxoglutarate aldolase 2
+105	Lchi02953	Lchi11647	positive_coexpression	0.99485773	0.99485773	positive	1070	170	424.30419765	homeobox-leucine zipper protein ATHB-13-like isoform X1	ketol-acid reductoisomerase, chloroplastic-like
+106	Lchi07566	Lchi19725	positive_coexpression	0.99694341	0.99694341	positive	1059	171	424.24481401	LOB domain-containing protein 25-like isoform X3	glucose and ribitol dehydrogenase-like
+107	Lchi13937	Lchi25188	negative_coexpression	-0.99353462	0.99353462	negative	1030	177	424.21717776	B3 domain-containing protein Os03g0212300-like	villin-1 isoform X1
+108	Lchi09693	Lchi05513	positive_coexpression	0.99185139	0.99185139	positive	1033	177	424.11477292	homeobox-leucine zipper protein ATHB-6-like	methyl-CpG-binding domain-containing protein 11-like isoform X1
+109	Lchi18250	Lchi28705	positive_coexpression	0.97960901	0.97960901	positive	1077	174	424.06775071	transcription factor bHLH93	oleosin S1-2
+110	Lchi13937	Lchi05513	negative_coexpression	-0.99274290	0.99274290	negative	1030	177	423.87913094	B3 domain-containing protein Os03g0212300-like	methyl-CpG-binding domain-containing protein 11-like isoform X1
+111	Lchi06007	Lchi16235	positive_coexpression	0.98313981	0.98313981	positive	1027	181	423.87694096	homeobox-leucine zipper protein HAT2-like	beta-glucosidase 44-like
+112	Lchi13371	Lchi11642	positive_coexpression	0.97966707	0.97966707	positive	1040	180	423.86878245	ethylene-responsive transcription factor 4-like	arogenate dehydrogenase 2, chloroplastic-like
+113	Lchi23901	Lchi31555	negative_coexpression	-0.96678656	0.96678656	negative	1111	173	423.84853400	B-box zinc finger protein 20-like	protein CHUP1, chloroplastic-like isoform X1
+114	Lchi07566	Lchi02750	positive_coexpression	0.97894776	0.97894776	positive	1059	177	423.83237736	LOB domain-containing protein 25-like isoform X3	LRR receptor-like serine/threonine-protein kinase ERECTA
+115	Lchi02953	Lchi00354	positive_coexpression	0.98204261	0.98204261	positive	1070	174	423.73744622	homeobox-leucine zipper protein ATHB-13-like isoform X1	stress-related protein-like
+116	Lchi08779	Lchi16235	positive_coexpression	0.98369676	0.98369676	positive	1025	181	423.70389960	AP2/ERF and B3 domain-containing transcription repressor RAV2-like	beta-glucosidase 44-like
+117	Lchi23901	Lchi27919	positive_coexpression	0.98661989	0.98661989	positive	1111	166	423.70241557	B-box zinc finger protein 20-like	non-functional NADPH-dependent codeinone reductase 2-like isoform X1
+118	Lchi07566	Lchi07386	positive_coexpression	0.98137397	0.98137397	positive	1059	176	423.68086346	LOB domain-containing protein 25-like isoform X3	potassium transporter 2
+119	Lchi18250	Lchi11374	positive_coexpression	0.98436517	0.98436517	positive	1077	172	423.67058620	transcription factor bHLH93	dehydrin/lea group 2-like protein
+120	Lchi06972	Lchi17615	positive_coexpression	0.98020470	0.98020470	positive	1055	177	423.57434076	transcription factor bHLH149-like	zinc finger CCCH domain-containing protein 53-like isoform X2
+121	Lchi13371	Lchi17443	positive_coexpression	0.97624701	0.97624701	positive	1040	181	423.56071606	ethylene-responsive transcription factor 4-like	plant/F18G18-20 protein
+122	Lchi06007	Lchi27946	positive_coexpression	0.99062067	0.99062067	positive	1027	178	423.54797388	homeobox-leucine zipper protein HAT2-like	receptor protein kinase CLAVATA1
+123	Lchi08779	Lchi18724	positive_coexpression	0.99138165	0.99138165	positive	1025	178	423.46040633	AP2/ERF and B3 domain-containing transcription repressor RAV2-like	protein DETOXIFICATION 33-like
+124	Lchi23901	Lchi28090	positive_coexpression	0.97723573	0.97723573	positive	1111	169	423.44764236	B-box zinc finger protein 20-like	protein P21-like protein
+125	Lchi13937	Lchi26693	negative_coexpression	-0.99170601	0.99170601	negative	1030	177	423.43640198	B3 domain-containing protein Os03g0212300-like	zinc-finger homeodomain protein 1-like
+126	Lchi15176	Lchi17443	positive_coexpression	0.99462724	0.99462724	positive	1001	181	423.36668033	transcription factor EGL1-like isoform X1	plant/F18G18-20 protein
+127	Lchi02953	Lchi02035	positive_coexpression	0.99209535	0.99209535	positive	1070	170	423.12604987	homeobox-leucine zipper protein ATHB-13-like isoform X1	amino acid permease 3-like
+128	Lchi02953	Lchi27397	positive_coexpression	0.99481320	0.99481320	positive	1070	169	423.03546750	homeobox-leucine zipper protein ATHB-13-like isoform X1	p-coumarate 3-hydroxylase-like
+129	Lchi06007	Lchi26693	positive_coexpression	0.99218792	0.99218792	positive	1027	177	423.02476232	homeobox-leucine zipper protein HAT2-like	zinc-finger homeodomain protein 1-like
+130	Lchi09693	Lchi25772	positive_coexpression	0.98369437	0.98369437	positive	1033	179	422.99658584	homeobox-leucine zipper protein ATHB-6-like	cysteine proteinase inhibitor 5-like
+131	Lchi06007	Lchi05513	positive_coexpression	0.99207610	0.99207610	positive	1027	177	422.97708725	homeobox-leucine zipper protein HAT2-like	methyl-CpG-binding domain-containing protein 11-like isoform X1
+132	Lchi13937	Lchi09003	negative_coexpression	-0.99332815	0.99332815	negative	1030	176	422.92921806	B3 domain-containing protein Os03g0212300-like	allene oxide synthase 1, chloroplastic-like
+133	Lchi13937	Lchi17615	negative_coexpression	-0.99041241	0.99041241	negative	1030	177	422.88406356	B3 domain-containing protein Os03g0212300-like	zinc finger CCCH domain-containing protein 53-like isoform X2
+134	Lchi07566	Lchi00354	positive_coexpression	0.98508728	0.98508728	positive	1059	174	422.86069130	LOB domain-containing protein 25-like isoform X3	stress-related protein-like
+135	Lchi23901	Lchi09565	positive_coexpression	0.99057937	0.99057937	positive	1111	164	422.83237501	B-box zinc finger protein 20-like	CBL-interacting serine/threonine-protein kinase 6
+136	Lchi15589	Lchi17168	positive_coexpression	0.97281331	0.97281331	positive	1067	177	422.76433927	trihelix transcription factor GTL1 isoform X1	thiamine thiazole synthase 2, chloroplastic-like
+137	Lchi02953	Lchi02750	positive_coexpression	0.97120690	0.97120690	positive	1070	177	422.65915578	homeobox-leucine zipper protein ATHB-13-like isoform X1	LRR receptor-like serine/threonine-protein kinase ERECTA
+138	Lchi22877	Lchi17615	positive_coexpression	0.98463756	0.98463756	positive	1041	177	422.65732134	transcription factor AS1	zinc finger CCCH domain-containing protein 53-like isoform X2
+139	Lchi02953	Lchi04752	positive_coexpression	0.99090993	0.99090993	positive	1070	170	422.62047137	homeobox-leucine zipper protein ATHB-13-like isoform X1	ABC transporter-like protein
+140	Lchi02953	Lchi17921	positive_coexpression	0.97930545	0.97930545	positive	1070	174	422.55640053	homeobox-leucine zipper protein ATHB-13-like isoform X1	probable polygalacturonase
+141	Lchi08487	Lchi16235	negative_coexpression	-0.98276383	0.98276383	negative	1021	181	422.47529964	WUSCHEL-related homeobox 9	beta-glucosidase 44-like
+142	Lchi07566	Lchi07558	positive_coexpression	0.99274361	0.99274361	positive	1059	171	422.45760788	LOB domain-containing protein 25-like isoform X3	leucine-rich repeat receptor-like serine/threonine-protein kinase RGI4
+143	Lchi02953	Lchi19725	positive_coexpression	0.98761278	0.98761278	positive	1070	171	422.45129449	homeobox-leucine zipper protein ATHB-13-like isoform X1	glucose and ribitol dehydrogenase-like
+144	Lchi23901	Lchi04815	positive_coexpression	0.98666066	0.98666066	positive	1111	165	422.44173146	B-box zinc finger protein 20-like	protein UNUSUAL FLORAL ORGANS-like
+145	Lchi02953	Lchi07386	positive_coexpression	0.97342545	0.97342545	positive	1070	176	422.42627089	homeobox-leucine zipper protein ATHB-13-like isoform X1	potassium transporter 2
+146	Lchi06972	Lchi25188	positive_coexpression	0.97754413	0.97754413	positive	1055	177	422.42463276	transcription factor bHLH149-like	villin-1 isoform X1
+147	Lchi02953	Lchi12998	positive_coexpression	0.99044394	0.99044394	positive	1070	170	422.42172786	homeobox-leucine zipper protein ATHB-13-like isoform X1	putative disease resistance protein At5g47280
+148	Lchi15589	Lchi17443	positive_coexpression	0.96117705	0.96117705	positive	1067	181	422.40095339	trihelix transcription factor GTL1 isoform X1	plant/F18G18-20 protein
+149	Lchi18250	Lchi17615	positive_coexpression	0.96742618	0.96742618	positive	1077	177	422.38872872	transcription factor bHLH93	zinc finger CCCH domain-containing protein 53-like isoform X2
+150	Lchi13937	Lchi17168	negative_coexpression	-0.98921591	0.98921591	negative	1030	177	422.37318468	B3 domain-containing protein Os03g0212300-like	thiamine thiazole synthase 2, chloroplastic-like
+151	Lchi07566	Lchi05990	positive_coexpression	0.98110151	0.98110151	positive	1059	175	422.35821769	LOB domain-containing protein 25-like isoform X3	oleosin Cor a 13-like
+152	Lchi23901	Lchi12819	positive_coexpression	0.98946714	0.98946714	positive	1111	164	422.35761562	B-box zinc finger protein 20-like	E3 ubiquitin-protein ligase RDUF1-like
+153	Lchi13937	Lchi08727	negative_coexpression	-0.98916662	0.98916662	negative	1030	177	422.35213895	B3 domain-containing protein Os03g0212300-like	LAX3-1
+154	Lchi23901	Lchi01385	positive_coexpression	0.97456390	0.97456390	positive	1111	169	422.28990725	B-box zinc finger protein 20-like	abscisic acid receptor PYR1-like
+155	Lchi06972	Lchi16615	positive_coexpression	0.98822665	0.98822665	positive	1055	173	422.18795906	transcription factor bHLH149-like	germin-like protein 5-1
+156	Lchi02953	Lchi26693	positive_coexpression	0.96998465	0.96998465	positive	1070	177	422.12724527	homeobox-leucine zipper protein ATHB-13-like isoform X1	zinc-finger homeodomain protein 1-like
+157	Lchi18250	Lchi04752	positive_coexpression	0.98646331	0.98646331	positive	1077	170	422.09795620	transcription factor bHLH93	ABC transporter-like protein
+158	Lchi09693	Lchi08727	positive_coexpression	0.98701280	0.98701280	positive	1033	177	422.04579614	homeobox-leucine zipper protein ATHB-6-like	LAX3-1
+159	Lchi23901	Lchi01000	positive_coexpression	0.97107935	0.97107935	positive	1111	170	422.02308621	B-box zinc finger protein 20-like	V-type proton ATPase subunit B 2 isoform X1
+160	Lchi09693	Lchi07386	positive_coexpression	0.98971772	0.98971772	positive	1033	176	422.00523714	homeobox-leucine zipper protein ATHB-6-like	potassium transporter 2
+161	Lchi02953	Lchi07558	positive_coexpression	0.98622221	0.98622221	positive	1070	171	421.85647828	homeobox-leucine zipper protein ATHB-13-like isoform X1	leucine-rich repeat receptor-like serine/threonine-protein kinase RGI4
+162	Lchi06007	Lchi05990	positive_coexpression	0.99502534	0.99502534	positive	1027	175	421.83089759	homeobox-leucine zipper protein HAT2-like	oleosin Cor a 13-like
+163	Lchi13937	Lchi02750	negative_coexpression	-0.98792249	0.98792249	negative	1030	177	421.82092312	B3 domain-containing protein Os03g0212300-like	LRR receptor-like serine/threonine-protein kinase ERECTA
+164	Lchi23901	Lchi02104	negative_coexpression	-0.96494198	0.96494198	negative	1111	172	421.81542187	B-box zinc finger protein 20-like	bidirectional sugar transporter SWEET1
+165	Lchi08487	Lchi17443	negative_coexpression	-0.98121554	0.98121554	negative	1021	181	421.80971319	WUSCHEL-related homeobox 9	plant/F18G18-20 protein
+166	Lchi07566	Lchi28090	positive_coexpression	0.99701053	0.99701053	positive	1059	169	421.78494826	LOB domain-containing protein 25-like isoform X3	protein P21-like protein
+167	Lchi09693	Lchi26693	positive_coexpression	0.98626500	0.98626500	positive	1033	177	421.72603752	homeobox-leucine zipper protein ATHB-6-like	zinc-finger homeodomain protein 1-like
+168	Lchi06007	Lchi17443	positive_coexpression	0.97799206	0.97799206	positive	1027	181	421.65750838	homeobox-leucine zipper protein HAT2-like	plant/F18G18-20 protein
+169	Lchi23901	Lchi13511	positive_coexpression	0.97023135	0.97023135	positive	1111	170	421.65455239	B-box zinc finger protein 20-like	auxin-induced protein 22B-like
+170	Lchi07566	Lchi31555	negative_coexpression	-0.98509836	0.98509836	negative	1059	173	421.64856601	LOB domain-containing protein 25-like isoform X3	protein CHUP1, chloroplastic-like isoform X1
+171	Lchi06007	Lchi16452	positive_coexpression	0.99176300	0.99176300	positive	1027	176	421.64743002	homeobox-leucine zipper protein HAT2-like	protein AUXIN SIGNALING F-BOX 2-like
+172	Lchi23901	Lchi03719	positive_coexpression	0.97305340	0.97305340	positive	1111	169	421.63538998	B-box zinc finger protein 20-like	serine carboxypeptidase II-2-like
+173	Lchi02953	Lchi09003	positive_coexpression	0.97158855	0.97158855	positive	1070	176	421.62913248	homeobox-leucine zipper protein ATHB-13-like isoform X1	allene oxide synthase 1, chloroplastic-like
+174	Lchi00158	Lchi17443	positive_coexpression	0.98214835	0.98214835	positive	1018	181	421.58996780	transcription factor bHLH147	plant/F18G18-20 protein
+175	Lchi07566	Lchi04752	positive_coexpression	0.99355233	0.99355233	positive	1059	170	421.56367992	LOB domain-containing protein 25-like isoform X3	ABC transporter-like protein
+176	Lchi09693	Lchi00354	positive_coexpression	0.99427092	0.99427092	positive	1033	174	421.53100356	homeobox-leucine zipper protein ATHB-6-like	stress-related protein-like
+177	Lchi15176	Lchi16235	positive_coexpression	0.99026966	0.99026966	positive	1001	181	421.51186065	transcription factor EGL1-like isoform X1	beta-glucosidase 44-like
+178	Lchi06007	Lchi09003	positive_coexpression	0.99130225	0.99130225	positive	1027	176	421.45154244	homeobox-leucine zipper protein HAT2-like	allene oxide synthase 1, chloroplastic-like
+179	Lchi13371	Lchi05513	positive_coexpression	0.98220444	0.98220444	positive	1040	177	421.41034805	ethylene-responsive transcription factor 4-like	methyl-CpG-binding domain-containing protein 11-like isoform X1
+180	Lchi23901	Lchi11837	positive_coexpression	0.97539347	0.97539347	positive	1111	168	421.39707243	B-box zinc finger protein 20-like	alpha-mannosidase At3g26720-like
+181	Lchi23901	Lchi16452	positive_coexpression	0.95294404	0.95294404	positive	1111	176	421.38663934	B-box zinc finger protein 20-like	protein AUXIN SIGNALING F-BOX 2-like
+182	Lchi18250	Lchi11589	positive_coexpression	0.97891307	0.97891307	positive	1077	172	421.32400337	transcription factor bHLH93	ribonuclease 3-like
+183	Lchi09693	Lchi02750	positive_coexpression	0.98529148	0.98529148	positive	1033	177	421.30976124	homeobox-leucine zipper protein ATHB-6-like	LRR receptor-like serine/threonine-protein kinase ERECTA
+184	Lchi22877	Lchi14169	positive_coexpression	0.98978800	0.98978800	positive	1041	174	421.25219137	transcription factor AS1	putative 4-hydroxy-4-methyl-2-oxoglutarate aldolase 2
+185	Lchi15589	Lchi16235	positive_coexpression	0.95850724	0.95850724	positive	1067	181	421.22767289	trihelix transcription factor GTL1 isoform X1	beta-glucosidase 44-like
+186	Lchi18250	Lchi07558	positive_coexpression	0.98136199	0.98136199	positive	1077	171	421.14838515	transcription factor bHLH93	leucine-rich repeat receptor-like serine/threonine-protein kinase RGI4
+187	Lchi07566	Lchi03719	positive_coexpression	0.99545729	0.99545729	positive	1059	169	421.12785064	LOB domain-containing protein 25-like isoform X3	serine carboxypeptidase II-2-like
+188	Lchi08779	Lchi17168	positive_coexpression	0.98866946	0.98866946	positive	1025	177	421.11400488	AP2/ERF and B3 domain-containing transcription repressor RAV2-like	thiamine thiazole synthase 2, chloroplastic-like
+189	Lchi13371	Lchi17168	positive_coexpression	0.98146594	0.98146594	positive	1040	177	421.09349799	ethylene-responsive transcription factor 4-like	thiamine thiazole synthase 2, chloroplastic-like
+190	Lchi13937	Lchi07386	negative_coexpression	-0.98896724	0.98896724	negative	1030	176	421.07247388	B3 domain-containing protein Os03g0212300-like	potassium transporter 2
+191	Lchi00158	Lchi16235	positive_coexpression	0.98076570	0.98076570	positive	1018	181	420.99646136	transcription factor bHLH147	beta-glucosidase 44-like
+192	Lchi09693	Lchi27946	positive_coexpression	0.98164779	0.98164779	positive	1033	178	420.93579190	homeobox-leucine zipper protein ATHB-6-like	receptor protein kinase CLAVATA1
+193	Lchi09693	Lchi25188	positive_coexpression	0.98434508	0.98434508	positive	1033	177	420.90508144	homeobox-leucine zipper protein ATHB-6-like	villin-1 isoform X1
+194	Lchi18250	Lchi27397	positive_coexpression	0.98640805	0.98640805	positive	1077	169	420.83108499	transcription factor bHLH93	p-coumarate 3-hydroxylase-like
+195	Lchi08487	Lchi11642	negative_coexpression	-0.98164594	0.98164594	negative	1021	180	420.82738974	WUSCHEL-related homeobox 9	arogenate dehydrogenase 2, chloroplastic-like
+196	Lchi09693	Lchi17921	positive_coexpression	0.99237221	0.99237221	positive	1033	174	420.72602665	homeobox-leucine zipper protein ATHB-6-like	probable polygalacturonase
+197	Lchi23901	Lchi17197	positive_coexpression	0.99164945	0.99164945	positive	1111	162	420.70019381	B-box zinc finger protein 20-like	oil body-associated protein 1A-like
+198	Lchi08779	Lchi08727	positive_coexpression	0.98769784	0.98769784	positive	1025	177	420.70015293	AP2/ERF and B3 domain-containing transcription repressor RAV2-like	LAX3-1
+199	Lchi07566	Lchi01554	positive_coexpression	0.98276275	0.98276275	positive	1059	173	420.64886218	LOB domain-containing protein 25-like isoform X3	aquaporin TIP3-1-like
+200	Lchi02953	Lchi06352	positive_coexpression	0.99212766	0.99212766	positive	1070	168	420.64340803	homeobox-leucine zipper protein ATHB-13-like isoform X1	polygalacturonase At1g48100
+201	Lchi06972	Lchi28705	positive_coexpression	0.98161179	0.98161179	positive	1055	174	420.57225588	transcription factor bHLH149-like	oleosin S1-2
+202	Lchi05992	Lchi16235	positive_coexpression	0.97829783	0.97829783	positive	1021	181	420.55543382	ethylene-responsive transcription factor 2-like	beta-glucosidase 44-like
+203	Lchi18250	Lchi05599	positive_coexpression	0.96595252	0.96595252	positive	1077	176	420.55225439	transcription factor bHLH93	protein kinase PINOID 2
+204	Lchi02953	Lchi22953	positive_coexpression	0.98302585	0.98302585	positive	1070	171	420.48923552	homeobox-leucine zipper protein ATHB-13-like isoform X1	aspartyl protease family protein 2
+205	Lchi08779	Lchi25188	positive_coexpression	0.98715752	0.98715752	positive	1025	177	420.47000895	AP2/ERF and B3 domain-containing transcription repressor RAV2-like	villin-1 isoform X1
+206	Lchi07566	Lchi03143	positive_coexpression	0.98221207	0.98221207	positive	1059	173	420.41315634	LOB domain-containing protein 25-like isoform X3	scopoletin glucosyltransferase-like
+207	Lchi23901	Lchi17317	positive_coexpression	0.97020137	0.97020137	positive	1111	169	420.39957211	B-box zinc finger protein 20-like	probable protein phosphatase 2C 52 isoform X1
+208	Lchi23901	Lchi24864	positive_coexpression	0.97003454	0.97003454	positive	1111	169	420.32728273	B-box zinc finger protein 20-like	(S)-coclaurine N-methyltransferase-like isoform X1
+209	Lchi09693	Lchi18724	positive_coexpression	0.98013937	0.98013937	positive	1033	178	420.28897339	homeobox-leucine zipper protein ATHB-6-like	protein DETOXIFICATION 33-like
+210	Lchi23901	Lchi23975	positive_coexpression	0.98155838	0.98155838	positive	1111	165	420.25717492	B-box zinc finger protein 20-like	Anthocyanidin reductase ((2S)-flavan-3-ol-forming)
+211	Lchi02953	Lchi31555	negative_coexpression	-0.97677475	0.97677475	negative	1070	173	420.25158958	homeobox-leucine zipper protein ATHB-13-like isoform X1	protein CHUP1, chloroplastic-like isoform X1
+212	Lchi23901	Lchi12025	positive_coexpression	0.95300812	0.95300812	positive	1111	175	420.21606811	B-box zinc finger protein 20-like	protein neprosin-like
+213	Lchi02953	Lchi08727	positive_coexpression	0.96557373	0.96557373	positive	1070	177	420.20765870	homeobox-leucine zipper protein ATHB-13-like isoform X1	LAX3-1
+214	Lchi18250	Lchi25188	positive_coexpression	0.96237069	0.96237069	positive	1077	177	420.18144713	transcription factor bHLH93	villin-1 isoform X1
+215	Lchi09693	Lchi14169	positive_coexpression	0.99107414	0.99107414	positive	1033	174	420.17569702	homeobox-leucine zipper protein ATHB-6-like	putative 4-hydroxy-4-methyl-2-oxoglutarate aldolase 2
+216	Lchi07566	Lchi11647	positive_coexpression	0.99027503	0.99027503	positive	1059	170	420.17312342	LOB domain-containing protein 25-like isoform X3	ketol-acid reductoisomerase, chloroplastic-like
+217	Lchi05992	Lchi17443	positive_coexpression	0.97729188	0.97729188	positive	1021	181	420.12299113	ethylene-responsive transcription factor 2-like	plant/F18G18-20 protein
+218	Lchi13937	Lchi05599	negative_coexpression	-0.98671269	0.98671269	negative	1030	176	420.11255437	B3 domain-containing protein Os03g0212300-like	protein kinase PINOID 2
+219	Lchi15589	Lchi14169	positive_coexpression	0.97493780	0.97493780	positive	1067	174	420.08168076	trihelix transcription factor GTL1 isoform X1	putative 4-hydroxy-4-methyl-2-oxoglutarate aldolase 2
+220	Lchi22877	Lchi18724	positive_coexpression	0.97584724	0.97584724	positive	1041	178	420.06568346	transcription factor AS1	protein DETOXIFICATION 33-like
+221	Lchi07566	Lchi17921	positive_coexpression	0.97847104	0.97847104	positive	1059	174	420.02058984	LOB domain-containing protein 25-like isoform X3	probable polygalacturonase
+222	Lchi09693	Lchi09003	positive_coexpression	0.98503673	0.98503673	positive	1033	176	420.00931219	homeobox-leucine zipper protein ATHB-6-like	allene oxide synthase 1, chloroplastic-like
+223	Lchi06972	Lchi05599	positive_coexpression	0.97462147	0.97462147	positive	1055	176	419.97026082	transcription factor bHLH149-like	protein kinase PINOID 2
+224	Lchi15176	Lchi11642	positive_coexpression	0.98919266	0.98919266	positive	1001	180	419.88868969	transcription factor EGL1-like isoform X1	arogenate dehydrogenase 2, chloroplastic-like
+225	Lchi18250	Lchi15600	positive_coexpression	0.98707563	0.98707563	positive	1077	168	419.86814098	transcription factor bHLH93	actin-101
+226	Lchi06007	Lchi01554	positive_coexpression	0.99608958	0.99608958	positive	1027	173	419.86209685	homeobox-leucine zipper protein HAT2-like	aquaporin TIP3-1-like
+227	Lchi18004	Lchi18724	positive_coexpression	0.99458271	0.99458271	positive	1001	178	419.82466007	transcription factor bHLH13-like isoform X2	protein DETOXIFICATION 33-like
+228	Lchi18250	Lchi11647	positive_coexpression	0.98086256	0.98086256	positive	1077	170	419.70145032	transcription factor bHLH93	ketol-acid reductoisomerase, chloroplastic-like
+229	Lchi06972	Lchi08727	positive_coexpression	0.97112042	0.97112042	positive	1055	177	419.64876489	transcription factor bHLH149-like	LAX3-1
+230	Lchi23901	Lchi11397	positive_coexpression	0.99529159	0.99529159	positive	1111	160	419.63079827	B-box zinc finger protein 20-like	lysM domain receptor-like kinase 3
+231	Lchi08779	Lchi25772	positive_coexpression	0.97953457	0.97953457	positive	1025	179	419.57365980	AP2/ERF and B3 domain-containing transcription repressor RAV2-like	cysteine proteinase inhibitor 5-like
+232	Lchi23901	Lchi06116	positive_coexpression	0.95974743	0.95974743	positive	1111	172	419.54467260	B-box zinc finger protein 20-like	probable galactinol--sucrose galactosyltransferase 2 isoform X1
+233	Lchi06972	Lchi04752	positive_coexpression	0.99066484	0.99066484	positive	1055	170	419.54392810	transcription factor bHLH149-like	ABC transporter-like protein
+234	Lchi08779	Lchi05599	positive_coexpression	0.98774350	0.98774350	positive	1025	176	419.52944451	AP2/ERF and B3 domain-containing transcription repressor RAV2-like	protein kinase PINOID 2
+235	Lchi08779	Lchi17615	positive_coexpression	0.98492813	0.98492813	positive	1025	177	419.52042227	AP2/ERF and B3 domain-containing transcription repressor RAV2-like	zinc finger CCCH domain-containing protein 53-like isoform X2
+236	Lchi06972	Lchi25772	positive_coexpression	0.96536314	0.96536314	positive	1055	179	419.51110113	transcription factor bHLH149-like	cysteine proteinase inhibitor 5-like
+237	Lchi15176	Lchi27946	positive_coexpression	0.99383140	0.99383140	positive	1001	178	419.50752358	transcription factor EGL1-like isoform X1	receptor protein kinase CLAVATA1
+238	Lchi06972	Lchi07558	positive_coexpression	0.98765481	0.98765481	positive	1055	171	419.49758806	transcription factor bHLH149-like	leucine-rich repeat receptor-like serine/threonine-protein kinase RGI4
+239	Lchi06007	Lchi16689	positive_coexpression	0.99222088	0.99222088	positive	1027	174	419.43841918	homeobox-leucine zipper protein HAT2-like	xyloglucan endotransglucosylase protein 2-like
+240	Lchi23901	Lchi01554	positive_coexpression	0.95654380	0.95654380	positive	1111	173	419.35800943	B-box zinc finger protein 20-like	aquaporin TIP3-1-like
+241	Lchi13371	Lchi17615	positive_coexpression	0.97739679	0.97739679	positive	1040	177	419.34764768	ethylene-responsive transcription factor 4-like	zinc finger CCCH domain-containing protein 53-like isoform X2
+242	Lchi06007	Lchi17615	positive_coexpression	0.98352563	0.98352563	positive	1027	177	419.33154746	homeobox-leucine zipper protein HAT2-like	zinc finger CCCH domain-containing protein 53-like isoform X2
+243	Lchi13937	Lchi00354	negative_coexpression	-0.99047667	0.99047667	negative	1030	174	419.31218888	B3 domain-containing protein Os03g0212300-like	stress-related protein-like
+244	Lchi05992	Lchi17168	positive_coexpression	0.98634225	0.98634225	positive	1021	177	419.30219970	ethylene-responsive transcription factor 2-like	thiamine thiazole synthase 2, chloroplastic-like
+245	Lchi23901	Lchi06311	positive_coexpression	0.99448538	0.99448538	positive	1111	160	419.29088729	B-box zinc finger protein 20-like	S-adenosylmethionine synthase 5
+246	Lchi15176	Lchi25772	positive_coexpression	0.99045140	0.99045140	positive	1001	179	419.25352662	transcription factor EGL1-like isoform X1	cysteine proteinase inhibitor 5-like
+247	Lchi07566	Lchi01000	positive_coexpression	0.98802996	0.98802996	positive	1059	170	419.22054152	LOB domain-containing protein 25-like isoform X3	V-type proton ATPase subunit B 2 isoform X1
+248	Lchi06007	Lchi03143	positive_coexpression	0.99450839	0.99450839	positive	1027	173	419.19560885	homeobox-leucine zipper protein HAT2-like	scopoletin glucosyltransferase-like
+249	Lchi23901	Lchi02405	positive_coexpression	0.99418515	0.99418515	positive	1111	160	419.16430553	B-box zinc finger protein 20-like	serine carboxypeptidase-like 45
+250	Lchi23901	Lchi03143	positive_coexpression	0.95603228	0.95603228	positive	1111	173	419.13375413	B-box zinc finger protein 20-like	scopoletin glucosyltransferase-like
+251	Lchi06972	Lchi07386	positive_coexpression	0.97263348	0.97263348	positive	1055	176	419.11362396	transcription factor bHLH149-like	potassium transporter 2
+252	Lchi06007	Lchi12025	positive_coexpression	0.98857939	0.98857939	positive	1027	175	419.09820249	homeobox-leucine zipper protein HAT2-like	protein neprosin-like
+253	Lchi06972	Lchi11642	positive_coexpression	0.96170962	0.96170962	positive	1055	180	419.08917448	transcription factor bHLH149-like	arogenate dehydrogenase 2, chloroplastic-like
+254	Lchi18250	Lchi12998	positive_coexpression	0.97937185	0.97937185	positive	1077	170	419.06359016	transcription factor bHLH93	putative disease resistance protein At5g47280
+255	Lchi07566	Lchi12998	positive_coexpression	0.98762691	0.98762691	positive	1059	170	419.04952764	LOB domain-containing protein 25-like isoform X3	putative disease resistance protein At5g47280
+256	Lchi13937	Lchi05990	negative_coexpression	-0.98695666	0.98695666	negative	1030	175	419.02093221	B3 domain-containing protein Os03g0212300-like	oleosin Cor a 13-like
+257	Lchi15176	Lchi17615	positive_coexpression	0.99537915	0.99537915	positive	1001	177	418.97895705	transcription factor EGL1-like isoform X1	zinc finger CCCH domain-containing protein 53-like isoform X2
+258	Lchi02953	Lchi28090	positive_coexpression	0.98519433	0.98519433	positive	1070	169	418.94512856	homeobox-leucine zipper protein ATHB-13-like isoform X1	protein P21-like protein
+259	Lchi15589	Lchi18724	positive_coexpression	0.96116471	0.96116471	positive	1067	178	418.88038862	trihelix transcription factor GTL1 isoform X1	protein DETOXIFICATION 33-like
+260	Lchi00158	Lchi17168	positive_coexpression	0.98675221	0.98675221	positive	1018	177	418.85975072	transcription factor bHLH147	thiamine thiazole synthase 2, chloroplastic-like
+261	Lchi13937	Lchi28705	negative_coexpression	-0.98934609	0.98934609	negative	1030	174	418.83356481	B3 domain-containing protein Os03g0212300-like	oleosin S1-2
+262	Lchi13371	Lchi17921	positive_coexpression	0.98435867	0.98435867	positive	1040	174	418.74020816	ethylene-responsive transcription factor 4-like	probable polygalacturonase
+263	Lchi07566	Lchi02035	positive_coexpression	0.98683250	0.98683250	positive	1059	170	418.71245993	LOB domain-containing protein 25-like isoform X3	amino acid permease 3-like
+264	Lchi07566	Lchi06116	positive_coexpression	0.98090112	0.98090112	positive	1059	172	418.63683071	LOB domain-containing protein 25-like isoform X3	probable galactinol--sucrose galactosyltransferase 2 isoform X1
+265	Lchi08779	Lchi27946	positive_coexpression	0.97994304	0.97994304	positive	1025	178	418.57449944	AP2/ERF and B3 domain-containing transcription repressor RAV2-like	receptor protein kinase CLAVATA1
+266	Lchi22877	Lchi11642	positive_coexpression	0.96686798	0.96686798	positive	1041	180	418.53212179	transcription factor AS1	arogenate dehydrogenase 2, chloroplastic-like
+267	Lchi13371	Lchi00354	positive_coexpression	0.98385710	0.98385710	positive	1040	174	418.52684332	ethylene-responsive transcription factor 4-like	stress-related protein-like
+268	Lchi06007	Lchi31555	negative_coexpression	-0.99289572	0.99289572	negative	1027	173	418.51585171	homeobox-leucine zipper protein HAT2-like	protein CHUP1, chloroplastic-like isoform X1
+269	Lchi06972	Lchi11589	positive_coexpression	0.98243642	0.98243642	positive	1055	172	418.49946500	transcription factor bHLH149-like	ribonuclease 3-like
+270	Lchi06972	Lchi11374	positive_coexpression	0.98239350	0.98239350	positive	1055	172	418.48118189	transcription factor bHLH149-like	dehydrin/lea group 2-like protein
+271	Lchi02953	Lchi15600	positive_coexpression	0.98696816	0.98696816	positive	1070	168	418.45587738	homeobox-leucine zipper protein ATHB-13-like isoform X1	actin-101
+272	Lchi02953	Lchi17317	positive_coexpression	0.98397774	0.98397774	positive	1070	169	418.42778448	homeobox-leucine zipper protein ATHB-13-like isoform X1	probable protein phosphatase 2C 52 isoform X1
+273	Lchi09693	Lchi12025	positive_coexpression	0.98393536	0.98393536	positive	1033	175	418.34612762	homeobox-leucine zipper protein ATHB-6-like	protein neprosin-like
+274	Lchi22877	Lchi05599	positive_coexpression	0.97734159	0.97734159	positive	1041	176	418.33873506	transcription factor AS1	protein kinase PINOID 2
+275	Lchi09693	Lchi16452	positive_coexpression	0.98111385	0.98111385	positive	1033	176	418.33663737	homeobox-leucine zipper protein ATHB-6-like	protein AUXIN SIGNALING F-BOX 2-like
+276	Lchi25021	Lchi11642	positive_coexpression	0.99091464	0.99091464	positive	990	180	418.30214797	heat stress transcription factor A-2b-like	arogenate dehydrogenase 2, chloroplastic-like
+277	Lchi07566	Lchi27919	positive_coexpression	0.99757636	0.99757636	positive	1059	166	418.26177196	LOB domain-containing protein 25-like isoform X3	non-functional NADPH-dependent codeinone reductase 2-like isoform X1
+278	Lchi13371	Lchi18724	positive_coexpression	0.97212040	0.97212040	positive	1040	178	418.26038003	ethylene-responsive transcription factor 4-like	protein DETOXIFICATION 33-like
+279	Lchi06007	Lchi25188	positive_coexpression	0.98092765	0.98092765	positive	1027	177	418.22388444	homeobox-leucine zipper protein HAT2-like	villin-1 isoform X1
+280	Lchi22877	Lchi25188	positive_coexpression	0.97430456	0.97430456	positive	1041	177	418.22186378	transcription factor AS1	villin-1 isoform X1
+281	Lchi13371	Lchi02750	positive_coexpression	0.97477221	0.97477221	positive	1040	177	418.22158357	ethylene-responsive transcription factor 4-like	LRR receptor-like serine/threonine-protein kinase ERECTA
+282	Lchi18004	Lchi16235	positive_coexpression	0.98253393	0.98253393	positive	1001	181	418.21911921	transcription factor bHLH13-like isoform X2	beta-glucosidase 44-like
+283	Lchi18004	Lchi17443	positive_coexpression	0.98224580	0.98224580	positive	1001	181	418.09647563	transcription factor bHLH13-like isoform X2	plant/F18G18-20 protein
+284	Lchi06007	Lchi00354	positive_coexpression	0.98902875	0.98902875	positive	1027	174	418.08902008	homeobox-leucine zipper protein HAT2-like	stress-related protein-like
+285	Lchi07566	Lchi06352	positive_coexpression	0.99117076	0.99117076	positive	1059	168	418.07201978	LOB domain-containing protein 25-like isoform X3	polygalacturonase At1g48100
+286	Lchi07566	Lchi25487	positive_coexpression	0.98215765	0.98215765	positive	1059	171	417.95279990	LOB domain-containing protein 25-like isoform X3	protein MOTHER of FT and TFL1-like protein
+287	Lchi15589	Lchi16615	positive_coexpression	0.97271192	0.97271192	positive	1067	173	417.91648181	trihelix transcription factor GTL1 isoform X1	germin-like protein 5-1
+288	Lchi23901	Lchi18761	positive_coexpression	0.96431273	0.96431273	positive	1111	169	417.84795570	B-box zinc finger protein 20-like	deSI-like protein At4g17486
+289	Lchi08487	Lchi05513	negative_coexpression	-0.98291743	0.98291743	negative	1021	177	417.84628056	WUSCHEL-related homeobox 9	methyl-CpG-binding domain-containing protein 11-like isoform X1
+290	Lchi07566	Lchi15600	positive_coexpression	0.99062485	0.99062485	positive	1059	168	417.84175704	LOB domain-containing protein 25-like isoform X3	actin-101
+291	Lchi07566	Lchi27397	positive_coexpression	0.98768854	0.98768854	positive	1059	169	417.84128373	LOB domain-containing protein 25-like isoform X3	p-coumarate 3-hydroxylase-like
+292	Lchi02953	Lchi02670	positive_coexpression	0.99136072	0.99136072	positive	1070	166	417.80885489	homeobox-leucine zipper protein ATHB-13-like isoform X1	peroxisomal (S)-2-hydroxyacid oxidase GLO4-like isoform X1
+293	Lchi15176	Lchi25188	positive_coexpression	0.99259859	0.99259859	positive	1001	177	417.80855265	transcription factor EGL1-like isoform X1	villin-1 isoform X1
+294	Lchi23901	Lchi02176	positive_coexpression	0.99092442	0.99092442	positive	1111	160	417.78952979	B-box zinc finger protein 20-like	beta-1,3-galactosyltransferase 7-like
+295	Lchi15176	Lchi08727	positive_coexpression	0.99244905	0.99244905	positive	1001	177	417.74560768	transcription factor EGL1-like isoform X1	LAX3-1
+296	Lchi00158	Lchi17615	positive_coexpression	0.98397970	0.98397970	positive	1018	177	417.68286676	transcription factor bHLH147	zinc finger CCCH domain-containing protein 53-like isoform X2
+297	Lchi02953	Lchi19388	positive_coexpression	0.99403942	0.99403942	positive	1070	165	417.67402572	homeobox-leucine zipper protein ATHB-13-like isoform X1	L-type lectin-domain containing receptor kinase VIII.1
+298	Lchi13937	Lchi16615	negative_coexpression	-0.98940909	0.98940909	negative	1030	173	417.65487977	B3 domain-containing protein Os03g0212300-like	germin-like protein 5-1
+299	Lchi06007	Lchi06116	positive_coexpression	0.99362779	0.99362779	positive	1027	172	417.61219728	homeobox-leucine zipper protein HAT2-like	probable galactinol--sucrose galactosyltransferase 2 isoform X1
+300	Lchi06007	Lchi07386	positive_coexpression	0.98211825	0.98211825	positive	1027	176	417.54697049	homeobox-leucine zipper protein HAT2-like	potassium transporter 2
+301	Lchi23901	Lchi19388	positive_coexpression	0.97516900	0.97516900	positive	1111	165	417.52154264	B-box zinc finger protein 20-like	L-type lectin-domain containing receptor kinase VIII.1
+302	Lchi13937	Lchi17921	negative_coexpression	-0.98624194	0.98624194	negative	1030	174	417.51944205	B3 domain-containing protein Os03g0212300-like	probable polygalacturonase
+303	Lchi22877	Lchi28705	positive_coexpression	0.98097116	0.98097116	positive	1041	174	417.49975835	transcription factor AS1	oleosin S1-2
+304	Lchi22877	Lchi05513	positive_coexpression	0.97261620	0.97261620	positive	1041	177	417.49713243	transcription factor AS1	methyl-CpG-binding domain-containing protein 11-like isoform X1
+305	Lchi23901	Lchi03659	positive_coexpression	0.97793847	0.97793847	positive	1111	164	417.43656127	B-box zinc finger protein 20-like	probable xyloglucan glycosyltransferase 5
+306	Lchi18250	Lchi19725	positive_coexpression	0.97269142	0.97269142	positive	1077	171	417.42743754	transcription factor bHLH93	glucose and ribitol dehydrogenase-like
+307	Lchi00158	Lchi11642	positive_coexpression	0.97513044	0.97513044	positive	1018	180	417.41961703	transcription factor bHLH147	arogenate dehydrogenase 2, chloroplastic-like
+308	Lchi02551	Lchi18724	positive_coexpression	0.97234172	0.97234172	positive	1035	178	417.34873008	transcription factor bHLH62-like isoform X1	protein DETOXIFICATION 33-like
+309	Lchi22877	Lchi07386	positive_coexpression	0.97501206	0.97501206	positive	1041	176	417.34160914	transcription factor AS1	potassium transporter 2
+310	Lchi22877	Lchi16615	positive_coexpression	0.98334712	0.98334712	positive	1041	173	417.30661254	transcription factor AS1	germin-like protein 5-1
+311	Lchi09693	Lchi22953	positive_coexpression	0.99287993	0.99287993	positive	1033	171	417.29669773	homeobox-leucine zipper protein ATHB-6-like	aspartyl protease family protein 2
+312	Lchi13371	Lchi14169	positive_coexpression	0.98086387	0.98086387	positive	1040	174	417.25354143	ethylene-responsive transcription factor 4-like	putative 4-hydroxy-4-methyl-2-oxoglutarate aldolase 2
+313	Lchi18250	Lchi25757	positive_coexpression	0.98384255	0.98384255	positive	1077	167	417.24552600	transcription factor bHLH93	cytochrome P450 71A1-like
+314	Lchi08779	Lchi28705	positive_coexpression	0.98797542	0.98797542	positive	1025	174	417.23688719	AP2/ERF and B3 domain-containing transcription repressor RAV2-like	oleosin S1-2
+315	Lchi13937	Lchi14169	negative_coexpression	-0.98554677	0.98554677	negative	1030	174	417.22514612	B3 domain-containing protein Os03g0212300-like	putative 4-hydroxy-4-methyl-2-oxoglutarate aldolase 2
+316	Lchi23901	Lchi22140	positive_coexpression	0.97148502	0.97148502	positive	1111	166	417.20276860	B-box zinc finger protein 20-like	ABC transporter G family member 8-like
+317	Lchi23901	Lchi01501	negative_coexpression	-0.98036134	0.98036134	negative	1111	163	417.19299573	B-box zinc finger protein 20-like	proteasome subunit beta type-7-B
+318	Lchi08779	Lchi11642	positive_coexpression	0.97126627	0.97126627	positive	1025	180	417.19249976	AP2/ERF and B3 domain-containing transcription repressor RAV2-like	arogenate dehydrogenase 2, chloroplastic-like
+319	Lchi02551	Lchi17168	positive_coexpression	0.97470921	0.97470921	positive	1035	177	417.18806716	transcription factor bHLH62-like isoform X1	thiamine thiazole synthase 2, chloroplastic-like
+320	Lchi05992	Lchi17615	positive_coexpression	0.98135209	0.98135209	positive	1021	177	417.18084166	ethylene-responsive transcription factor 2-like	zinc finger CCCH domain-containing protein 53-like isoform X2
+321	Lchi05992	Lchi18724	positive_coexpression	0.97848964	0.97848964	positive	1021	178	417.13737516	ethylene-responsive transcription factor 2-like	protein DETOXIFICATION 33-like
+322	Lchi01491	Lchi11642	positive_coexpression	0.99164009	0.99164009	positive	983	180	417.12583359	scarecrow-like protein 27	arogenate dehydrogenase 2, chloroplastic-like
+323	Lchi06007	Lchi18724	positive_coexpression	0.97550106	0.97550106	positive	1027	178	417.08346090	homeobox-leucine zipper protein HAT2-like	protein DETOXIFICATION 33-like
+324	Lchi18250	Lchi11642	positive_coexpression	0.94722027	0.94722027	positive	1077	180	417.05668544	transcription factor bHLH93	arogenate dehydrogenase 2, chloroplastic-like
+325	Lchi15176	Lchi26693	positive_coexpression	0.99079895	0.99079895	positive	1001	177	417.05104102	transcription factor EGL1-like isoform X1	zinc-finger homeodomain protein 1-like
+326	Lchi06972	Lchi05513	positive_coexpression	0.96496111	0.96496111	positive	1055	177	416.98715179	transcription factor bHLH149-like	methyl-CpG-binding domain-containing protein 11-like isoform X1
+327	Lchi08487	Lchi17168	negative_coexpression	-0.98088604	0.98088604	negative	1021	177	416.98271997	WUSCHEL-related homeobox 9	thiamine thiazole synthase 2, chloroplastic-like
+328	Lchi23901	Lchi14598	negative_coexpression	-0.96230698	0.96230698	negative	1111	169	416.97884083	B-box zinc finger protein 20-like	pentatricopeptide repeat-containing protein At3g02490, mitochondrial-like isoform X2
+329	Lchi00158	Lchi18724	positive_coexpression	0.97953194	0.97953194	positive	1018	178	416.96777475	transcription factor bHLH147	protein DETOXIFICATION 33-like
+330	Lchi15176	Lchi18724	positive_coexpression	0.98754323	0.98754323	positive	1001	178	416.85321559	transcription factor EGL1-like isoform X1	protein DETOXIFICATION 33-like
+331	Lchi07566	Lchi22953	positive_coexpression	0.97956812	0.97956812	positive	1059	171	416.85083698	LOB domain-containing protein 25-like isoform X3	aspartyl protease family protein 2
+332	Lchi02953	Lchi03719	positive_coexpression	0.98020649	0.98020649	positive	1070	169	416.82409395	homeobox-leucine zipper protein ATHB-13-like isoform X1	serine carboxypeptidase II-2-like
+333	Lchi23901	Lchi02233	positive_coexpression	0.98856473	0.98856473	positive	1111	160	416.79464688	B-box zinc finger protein 20-like	cyclin-dependent kinase inhibitor 5-like
+334	Lchi06007	Lchi17921	positive_coexpression	0.98594475	0.98594475	positive	1027	174	416.78533044	homeobox-leucine zipper protein HAT2-like	probable polygalacturonase
+335	Lchi08779	Lchi14169	positive_coexpression	0.98687685	0.98687685	positive	1025	174	416.77294455	AP2/ERF and B3 domain-containing transcription repressor RAV2-like	putative 4-hydroxy-4-methyl-2-oxoglutarate aldolase 2
+336	Lchi15589	Lchi11374	positive_coexpression	0.97281516	0.97281516	positive	1067	172	416.75110790	trihelix transcription factor GTL1 isoform X1	dehydrin/lea group 2-like protein
+337	Lchi09693	Lchi05599	positive_coexpression	0.97734487	0.97734487	positive	1033	176	416.72958390	homeobox-leucine zipper protein ATHB-6-like	protein kinase PINOID 2
+338	Lchi02953	Lchi25487	positive_coexpression	0.97421420	0.97421420	positive	1070	171	416.72005288	homeobox-leucine zipper protein ATHB-13-like isoform X1	protein MOTHER of FT and TFL1-like protein
+339	Lchi23901	Lchi20971	positive_coexpression	0.98222309	0.98222309	positive	1111	162	416.70112793	B-box zinc finger protein 20-like	UDP-glycosyltransferase 89B2-like
+340	Lchi13937	Lchi31555	positive_coexpression	0.98711360	0.98711360	positive	1030	173	416.68589474	B3 domain-containing protein Os03g0212300-like	protein CHUP1, chloroplastic-like isoform X1
+341	Lchi15176	Lchi17168	positive_coexpression	0.98992985	0.98992985	positive	1001	177	416.68521598	transcription factor EGL1-like isoform X1	thiamine thiazole synthase 2, chloroplastic-like
+342	Lchi18004	Lchi11642	positive_coexpression	0.98150158	0.98150158	positive	1001	180	416.62400968	transcription factor bHLH13-like isoform X2	arogenate dehydrogenase 2, chloroplastic-like
+343	Lchi02953	Lchi05990	positive_coexpression	0.96278739	0.96278739	positive	1070	175	416.62114361	homeobox-leucine zipper protein ATHB-13-like isoform X1	oleosin Cor a 13-like
+344	Lchi08487	Lchi17615	negative_coexpression	-0.97997916	0.97997916	negative	1021	177	416.59719783	WUSCHEL-related homeobox 9	zinc finger CCCH domain-containing protein 53-like isoform X2
+345	Lchi02551	Lchi16235	positive_coexpression	0.96247685	0.96247685	positive	1035	181	416.58128450	transcription factor bHLH62-like isoform X1	beta-glucosidase 44-like
+346	Lchi13937	Lchi06116	negative_coexpression	-0.98964787	0.98964787	negative	1030	172	416.54653874	B3 domain-containing protein Os03g0212300-like	probable galactinol--sucrose galactosyltransferase 2 isoform X1
+347	Lchi15176	Lchi05513	positive_coexpression	0.98959988	0.98959988	positive	1001	177	416.54632370	transcription factor EGL1-like isoform X1	methyl-CpG-binding domain-containing protein 11-like isoform X1
+348	Lchi13371	Lchi02035	positive_coexpression	0.99063325	0.99063325	positive	1040	170	416.53742800	ethylene-responsive transcription factor 4-like	amino acid permease 3-like
+349	Lchi08779	Lchi07558	positive_coexpression	0.99480641	0.99480641	positive	1025	171	416.48423114	AP2/ERF and B3 domain-containing transcription repressor RAV2-like	leucine-rich repeat receptor-like serine/threonine-protein kinase RGI4
+350	Lchi02953	Lchi27919	positive_coexpression	0.98813105	0.98813105	positive	1070	166	416.44771086	homeobox-leucine zipper protein ATHB-13-like isoform X1	non-functional NADPH-dependent codeinone reductase 2-like isoform X1
+351	Lchi13937	Lchi16452	negative_coexpression	-0.97805798	0.97805798	negative	1030	176	416.42763944	B3 domain-containing protein Os03g0212300-like	protein AUXIN SIGNALING F-BOX 2-like
+352	Lchi18250	Lchi08727	positive_coexpression	0.95376158	0.95376158	positive	1077	177	416.42261664	transcription factor bHLH93	LAX3-1
+353	Lchi06007	Lchi07109	positive_coexpression	0.99365973	0.99365973	positive	1027	171	416.40982366	homeobox-leucine zipper protein HAT2-like	65-kDa microtubule-associated protein 1-like
+354	Lchi06972	Lchi27397	positive_coexpression	0.98614460	0.98614460	positive	1055	169	416.39948437	transcription factor bHLH149-like	p-coumarate 3-hydroxylase-like
+355	Lchi06972	Lchi25757	positive_coexpression	0.99198681	0.99198681	positive	1055	167	416.38048140	transcription factor bHLH149-like	cytochrome P450 71A1-like
+356	Lchi13371	Lchi25772	positive_coexpression	0.96495450	0.96495450	positive	1040	179	416.34180519	ethylene-responsive transcription factor 4-like	cysteine proteinase inhibitor 5-like
+357	Lchi31297	Lchi18724	positive_coexpression	0.98581737	0.98581737	positive	1002	178	416.33251310	trihelix transcription factor ASIL2	protein DETOXIFICATION 33-like
+358	Lchi22877	Lchi08727	positive_coexpression	0.96989578	0.96989578	positive	1041	177	416.32938759	transcription factor AS1	LAX3-1
+359	Lchi02551	Lchi11374	positive_coexpression	0.98673081	0.98673081	positive	1035	172	416.32557191	transcription factor bHLH62-like isoform X1	dehydrin/lea group 2-like protein
+360	Lchi08779	Lchi16615	positive_coexpression	0.98865360	0.98865360	positive	1025	173	416.32178444	AP2/ERF and B3 domain-containing transcription repressor RAV2-like	germin-like protein 5-1
+361	Lchi07566	Lchi11837	positive_coexpression	0.98701817	0.98701817	positive	1059	168	416.32047327	LOB domain-containing protein 25-like isoform X3	alpha-mannosidase At3g26720-like
+362	Lchi15176	Lchi09003	positive_coexpression	0.99185568	0.99185568	positive	1001	176	416.31480673	transcription factor EGL1-like isoform X1	allene oxide synthase 1, chloroplastic-like
+363	Lchi23901	Lchi13821	negative_coexpression	-0.97824037	0.97824037	negative	1111	163	416.29041646	B-box zinc finger protein 20-like	protein FLX-like 2
+364	Lchi06972	Lchi15600	positive_coexpression	0.98872602	0.98872602	positive	1055	168	416.25248016	transcription factor bHLH149-like	actin-101
+365	Lchi18250	Lchi25772	positive_coexpression	0.94801682	0.94801682	positive	1077	179	416.24632284	transcription factor bHLH93	cysteine proteinase inhibitor 5-like
+366	Lchi06007	Lchi06686	positive_coexpression	0.99610084	0.99610084	positive	1027	170	416.21045840	homeobox-leucine zipper protein HAT2-like	desmethyl-yatein O-methyltransferase-like
+367	Lchi13937	Lchi01554	negative_coexpression	-0.98597229	0.98597229	negative	1030	173	416.20411860	B3 domain-containing protein Os03g0212300-like	aquaporin TIP3-1-like
+368	Lchi13937	Lchi03143	negative_coexpression	-0.98589164	0.98589164	negative	1030	173	416.17007417	B3 domain-containing protein Os03g0212300-like	scopoletin glucosyltransferase-like
+369	Lchi13937	Lchi11589	negative_coexpression	-0.98872387	0.98872387	negative	1030	172	416.15762363	B3 domain-containing protein Os03g0212300-like	ribonuclease 3-like
+370	Lchi22877	Lchi25772	positive_coexpression	0.96405762	0.96405762	positive	1041	179	416.15476522	transcription factor AS1	cysteine proteinase inhibitor 5-like
+371	Lchi23901	Lchi06665	positive_coexpression	0.99641901	0.99641901	positive	1111	157	416.14900466	B-box zinc finger protein 20-like	receptor-like protein 6
+372	Lchi07566	Lchi18761	positive_coexpression	0.98357832	0.98357832	positive	1059	169	416.10245662	LOB domain-containing protein 25-like isoform X3	deSI-like protein At4g17486
+373	Lchi13371	Lchi25188	positive_coexpression	0.96976554	0.96976554	positive	1040	177	416.07349458	ethylene-responsive transcription factor 4-like	villin-1 isoform X1
+374	Lchi02953	Lchi01385	positive_coexpression	0.97842091	0.97842091	positive	1070	169	416.06479194	homeobox-leucine zipper protein ATHB-13-like isoform X1	abscisic acid receptor PYR1-like
+375	Lchi07566	Lchi02670	positive_coexpression	0.99232167	0.99232167	positive	1059	166	416.05859630	LOB domain-containing protein 25-like isoform X3	peroxisomal (S)-2-hydroxyacid oxidase GLO4-like isoform X1
+376	Lchi08779	Lchi09003	positive_coexpression	0.97952592	0.97952592	positive	1025	176	416.03914893	AP2/ERF and B3 domain-containing transcription repressor RAV2-like	allene oxide synthase 1, chloroplastic-like
+377	Lchi06972	Lchi27946	positive_coexpression	0.96005344	0.96005344	positive	1055	178	416.03669633	transcription factor bHLH149-like	receptor protein kinase CLAVATA1
+378	Lchi15589	Lchi28705	positive_coexpression	0.96542454	0.96542454	positive	1067	174	415.98260259	trihelix transcription factor GTL1 isoform X1	oleosin S1-2
+379	Lchi07566	Lchi13511	positive_coexpression	0.98033035	0.98033035	positive	1059	170	415.95360144	LOB domain-containing protein 25-like isoform X3	auxin-induced protein 22B-like
+380	Lchi06972	Lchi09003	positive_coexpression	0.96529937	0.96529937	positive	1055	176	415.95331179	transcription factor bHLH149-like	allene oxide synthase 1, chloroplastic-like
+381	Lchi23901	Lchi25294	positive_coexpression	0.96557409	0.96557409	positive	1111	167	415.91144226	B-box zinc finger protein 20-like	subtilisin-like protease SBT1.8
+382	Lchi09693	Lchi16615	positive_coexpression	0.98384577	0.98384577	positive	1033	173	415.91083560	homeobox-leucine zipper protein ATHB-6-like	germin-like protein 5-1
+383	Lchi09693	Lchi25487	positive_coexpression	0.98955750	0.98955750	positive	1033	171	415.90031633	homeobox-leucine zipper protein ATHB-6-like	protein MOTHER of FT and TFL1-like protein
+384	Lchi06007	Lchi11825	positive_coexpression	0.99535042	0.99535042	positive	1027	170	415.89690315	homeobox-leucine zipper protein HAT2-like	nudix hydrolase 12, mitochondrial-like
+385	Lchi18250	Lchi05513	positive_coexpression	0.95248652	0.95248652	positive	1077	177	415.86591166	transcription factor bHLH93	methyl-CpG-binding domain-containing protein 11-like isoform X1
+386	Lchi23901	Lchi10644	positive_coexpression	0.98328543	0.98328543	positive	1111	161	415.86231942	B-box zinc finger protein 20-like	GDSL esterase/lipase At3g26430-like
+387	Lchi23901	Lchi13532	positive_coexpression	0.99573195	0.99573195	positive	1111	157	415.86205777	B-box zinc finger protein 20-like	DJ-1 protein homolog E-like
+388	Lchi08487	Lchi17921	negative_coexpression	-0.98661911	0.98661911	negative	1021	174	415.85029923	WUSCHEL-related homeobox 9	probable polygalacturonase
+389	Lchi15176	Lchi07386	positive_coexpression	0.99074894	0.99074894	positive	1001	176	415.85027116	transcription factor EGL1-like isoform X1	potassium transporter 2
+390	Lchi08779	Lchi07386	positive_coexpression	0.97904450	0.97904450	positive	1025	176	415.83467290	AP2/ERF and B3 domain-containing transcription repressor RAV2-like	potassium transporter 2
+391	Lchi23901	Lchi13510	positive_coexpression	0.99565428	0.99565428	positive	1111	157	415.82961931	B-box zinc finger protein 20-like	auxin-responsive protein IAA16-like
+392	Lchi06972	Lchi25487	positive_coexpression	0.97896904	0.97896904	positive	1055	171	415.80838458	transcription factor bHLH149-like	protein MOTHER of FT and TFL1-like protein
+393	Lchi23901	Lchi11229	positive_coexpression	0.97411913	0.97411913	positive	1111	164	415.80626222	B-box zinc finger protein 20-like	24-methylenesterol C-methyltransferase 2-like
+394	Lchi15589	Lchi27397	positive_coexpression	0.97908336	0.97908336	positive	1067	169	415.76241992	trihelix transcription factor GTL1 isoform X1	p-coumarate 3-hydroxylase-like
+395	Lchi13371	Lchi16615	positive_coexpression	0.98004395	0.98004395	positive	1040	173	415.70502404	ethylene-responsive transcription factor 4-like	germin-like protein 5-1
+396	Lchi06972	Lchi00354	positive_coexpression	0.97024137	0.97024137	positive	1055	174	415.70059151	transcription factor bHLH149-like	stress-related protein-like
+397	Lchi08779	Lchi11589	positive_coexpression	0.99000555	0.99000555	positive	1025	172	415.68445649	AP2/ERF and B3 domain-containing transcription repressor RAV2-like	ribonuclease 3-like
+398	Lchi02953	Lchi01000	positive_coexpression	0.97462124	0.97462124	positive	1070	170	415.67338805	homeobox-leucine zipper protein ATHB-13-like isoform X1	V-type proton ATPase subunit B 2 isoform X1
+399	Lchi15589	Lchi04752	positive_coexpression	0.97593307	0.97593307	positive	1067	170	415.64896647	trihelix transcription factor GTL1 isoform X1	ABC transporter-like protein
+400	Lchi09693	Lchi05990	positive_coexpression	0.97748190	0.97748190	positive	1033	175	415.60226851	homeobox-leucine zipper protein ATHB-6-like	oleosin Cor a 13-like
+401	Lchi07566	Lchi16452	positive_coexpression	0.96260554	0.96260554	positive	1059	176	415.57811683	LOB domain-containing protein 25-like isoform X3	protein AUXIN SIGNALING F-BOX 2-like
+402	Lchi06007	Lchi01370	positive_coexpression	0.99453211	0.99453211	positive	1027	170	415.55498076	homeobox-leucine zipper protein HAT2-like	late embryogenesis abundant protein 6
+403	Lchi05992	Lchi14169	positive_coexpression	0.98585290	0.98585290	positive	1021	174	415.52734921	ethylene-responsive transcription factor 2-like	putative 4-hydroxy-4-methyl-2-oxoglutarate aldolase 2
+404	Lchi06007	Lchi08727	positive_coexpression	0.97459888	0.97459888	positive	1027	177	415.52557863	homeobox-leucine zipper protein HAT2-like	LAX3-1
+405	Lchi23901	Lchi23745	positive_coexpression	0.96175563	0.96175563	positive	1111	168	415.50514674	B-box zinc finger protein 20-like	allene oxide cyclase, chloroplastic-like
+406	Lchi02551	Lchi28705	positive_coexpression	0.97900790	0.97900790	positive	1035	174	415.46170145	transcription factor bHLH62-like isoform X1	oleosin S1-2
+407	Lchi22877	Lchi27397	positive_coexpression	0.99032414	0.99032414	positive	1041	169	415.38047875	transcription factor AS1	p-coumarate 3-hydroxylase-like
+408	Lchi07566	Lchi06686	positive_coexpression	0.97893858	0.97893858	positive	1059	170	415.36307423	LOB domain-containing protein 25-like isoform X3	desmethyl-yatein O-methyltransferase-like
+409	Lchi02953	Lchi12025	positive_coexpression	0.95984679	0.95984679	positive	1070	175	415.34867562	homeobox-leucine zipper protein ATHB-13-like isoform X1	protein neprosin-like
+410	Lchi15589	Lchi17615	positive_coexpression	0.95567548	0.95567548	positive	1067	177	415.31659642	trihelix transcription factor GTL1 isoform X1	zinc finger CCCH domain-containing protein 53-like isoform X2
+411	Lchi06007	Lchi02104	negative_coexpression	-0.98816538	0.98816538	negative	1027	172	415.31639892	homeobox-leucine zipper protein HAT2-like	bidirectional sugar transporter SWEET1
+412	Lchi15589	Lchi07558	positive_coexpression	0.97219718	0.97219718	positive	1067	171	415.27388603	trihelix transcription factor GTL1 isoform X1	leucine-rich repeat receptor-like serine/threonine-protein kinase RGI4
+413	Lchi23901	Lchi13019	positive_coexpression	0.99429208	0.99429208	positive	1111	157	415.26070386	B-box zinc finger protein 20-like	O-fucosyltransferase 31-like
+414	Lchi23901	Lchi04059	positive_coexpression	0.97278327	0.97278327	positive	1111	164	415.23604557	B-box zinc finger protein 20-like	protein DETOXIFICATION 49-like
+415	Lchi15176	Lchi02750	positive_coexpression	0.98648429	0.98648429	positive	1001	177	415.23489714	transcription factor EGL1-like isoform X1	LRR receptor-like serine/threonine-protein kinase ERECTA
+416	Lchi13371	Lchi11647	positive_coexpression	0.98752075	0.98752075	positive	1040	170	415.22869670	ethylene-responsive transcription factor 4-like	ketol-acid reductoisomerase, chloroplastic-like
+417	Lchi00158	Lchi05513	positive_coexpression	0.97815853	0.97815853	positive	1018	177	415.21187781	transcription factor bHLH147	methyl-CpG-binding domain-containing protein 11-like isoform X1
+418	Lchi02551	Lchi16615	positive_coexpression	0.98119420	0.98119420	positive	1035	173	415.19125619	transcription factor bHLH62-like isoform X1	germin-like protein 5-1
+419	Lchi22877	Lchi04752	positive_coexpression	0.98694342	0.98694342	positive	1041	170	415.18540787	transcription factor AS1	ABC transporter-like protein
+420	Lchi02953	Lchi02104	negative_coexpression	-0.96773136	0.96773136	negative	1070	172	415.15562555	homeobox-leucine zipper protein ATHB-13-like isoform X1	bidirectional sugar transporter SWEET1
+421	Lchi02953	Lchi01554	positive_coexpression	0.96492779	0.96492779	positive	1070	173	415.15450474	homeobox-leucine zipper protein ATHB-13-like isoform X1	aquaporin TIP3-1-like
+422	Lchi18004	Lchi25188	positive_coexpression	0.98627424	0.98627424	positive	1001	177	415.14648206	transcription factor bHLH13-like isoform X2	villin-1 isoform X1
+423	Lchi23901	Lchi17239	positive_coexpression	0.99078435	0.99078435	positive	1111	158	415.11144839	B-box zinc finger protein 20-like	non-symbiotic hemoglobin 2
+424	Lchi23901	Lchi13097	positive_coexpression	0.96075499	0.96075499	positive	1111	168	415.07284246	B-box zinc finger protein 20-like	glycosylinositol phosphorylceramide mannosyl transferase 1-like
+425	Lchi08487	Lchi02750	negative_coexpression	-0.97638243	0.97638243	negative	1021	177	415.06819834	WUSCHEL-related homeobox 9	LRR receptor-like serine/threonine-protein kinase ERECTA
+426	Lchi02953	Lchi06116	positive_coexpression	0.96750212	0.96750212	positive	1070	172	415.05728185	homeobox-leucine zipper protein ATHB-13-like isoform X1	probable galactinol--sucrose galactosyltransferase 2 isoform X1
+427	Lchi07566	Lchi24864	positive_coexpression	0.98104399	0.98104399	positive	1059	169	415.03030922	LOB domain-containing protein 25-like isoform X3	(S)-coclaurine N-methyltransferase-like isoform X1
+428	Lchi08779	Lchi26693	positive_coexpression	0.97436070	0.97436070	positive	1025	177	415.01932969	AP2/ERF and B3 domain-containing transcription repressor RAV2-like	zinc-finger homeodomain protein 1-like
+429	Lchi22877	Lchi27946	positive_coexpression	0.96407372	0.96407372	positive	1041	178	414.99762411	transcription factor AS1	receptor protein kinase CLAVATA1
+430	Lchi13937	Lchi25487	negative_coexpression	-0.98882192	0.98882192	negative	1030	171	414.98724907	B3 domain-containing protein Os03g0212300-like	protein MOTHER of FT and TFL1-like protein
+431	Lchi02953	Lchi18761	positive_coexpression	0.97579151	0.97579151	positive	1070	169	414.94666297	homeobox-leucine zipper protein ATHB-13-like isoform X1	deSI-like protein At4g17486
+432	Lchi23901	Lchi07737	positive_coexpression	0.99340832	0.99340832	positive	1111	157	414.89160628	B-box zinc finger protein 20-like	phenylalanine N-monooxygenase-like
+433	Lchi24981	Lchi18724	positive_coexpression	0.99032891	0.99032891	positive	986	178	414.88517439	protein TIFY 6B isoform X2	protein DETOXIFICATION 33-like
+434	Lchi13371	Lchi11374	positive_coexpression	0.98091125	0.98091125	positive	1040	172	414.86864085	ethylene-responsive transcription factor 4-like	dehydrin/lea group 2-like protein
+435	Lchi25021	Lchi27946	positive_coexpression	0.98826027	0.98826027	positive	990	178	414.85748929	heat stress transcription factor A-2b-like	receptor protein kinase CLAVATA1
+436	Lchi09693	Lchi02104	negative_coexpression	-0.98419559	0.98419559	negative	1033	172	414.85449389	homeobox-leucine zipper protein ATHB-6-like	bidirectional sugar transporter SWEET1
+437	Lchi13371	Lchi31555	negative_coexpression	-0.97791386	0.97791386	negative	1040	173	414.80150424	ethylene-responsive transcription factor 4-like	protein CHUP1, chloroplastic-like isoform X1
+438	Lchi24373	Lchi11642	positive_coexpression	0.98857337	0.98857337	positive	978	180	414.77692472	protein YABBY 4-like	arogenate dehydrogenase 2, chloroplastic-like
+439	Lchi09693	Lchi01385	positive_coexpression	0.99267340	0.99267340	positive	1033	169	414.76289544	homeobox-leucine zipper protein ATHB-6-like	abscisic acid receptor PYR1-like
+440	Lchi22877	Lchi00354	positive_coexpression	0.97453249	0.97453249	positive	1041	174	414.75947069	transcription factor AS1	stress-related protein-like
+441	Lchi23901	Lchi27672	positive_coexpression	0.99624449	0.99624449	positive	1111	156	414.74891740	B-box zinc finger protein 20-like	acyltransferase GLAUCE
+442	Lchi02198	Lchi17168	positive_coexpression	0.96941108	0.96941108	positive	1034	177	414.71990636	transcription factor HEC1-like	thiamine thiazole synthase 2, chloroplastic-like
+443	Lchi02551	Lchi17443	positive_coexpression	0.95815903	0.95815903	positive	1035	181	414.71243643	transcription factor bHLH62-like isoform X1	plant/F18G18-20 protein
+444	Lchi23901	Lchi29887	positive_coexpression	0.98358017	0.98358017	positive	1111	160	414.69307693	B-box zinc finger protein 20-like	geraniol 8-hydroxylase-like
+445	Lchi08487	Lchi00354	negative_coexpression	-0.98383808	0.98383808	negative	1021	174	414.67812230	WUSCHEL-related homeobox 9	stress-related protein-like
+446	Lchi13371	Lchi26693	positive_coexpression	0.96648407	0.96648407	positive	1040	177	414.66559480	ethylene-responsive transcription factor 4-like	zinc-finger homeodomain protein 1-like
+447	Lchi18250	Lchi00354	positive_coexpression	0.95778424	0.95778424	positive	1077	174	414.61991894	transcription factor bHLH93	stress-related protein-like
+448	Lchi23901	Lchi25245	positive_coexpression	0.95124668	0.95124668	positive	1111	171	414.61808239	B-box zinc finger protein 20-like	myosin-binding protein 7-like
+449	Lchi18004	Lchi25772	positive_coexpression	0.97943830	0.97943830	positive	1001	179	414.59173199	transcription factor bHLH13-like isoform X2	cysteine proteinase inhibitor 5-like
+450	Lchi13371	Lchi28705	positive_coexpression	0.97460049	0.97460049	positive	1040	174	414.58913757	ethylene-responsive transcription factor 4-like	oleosin S1-2
+451	Lchi15176	Lchi05599	positive_coexpression	0.98765546	0.98765546	positive	1001	176	414.55183475	transcription factor EGL1-like isoform X1	protein kinase PINOID 2
+452	Lchi02953	Lchi25757	positive_coexpression	0.98067087	0.98067087	positive	1070	167	414.54664012	homeobox-leucine zipper protein ATHB-13-like isoform X1	cytochrome P450 71A1-like
+453	Lchi13937	Lchi19725	negative_coexpression	-0.98769736	0.98769736	negative	1030	171	414.51529547	B3 domain-containing protein Os03g0212300-like	glucose and ribitol dehydrogenase-like
+454	Lchi13371	Lchi12025	positive_coexpression	0.97156090	0.97156090	positive	1040	175	414.48204545	ethylene-responsive transcription factor 4-like	protein neprosin-like
+455	Lchi18250	Lchi02670	positive_coexpression	0.98023915	0.98023915	positive	1077	166	414.47080021	transcription factor bHLH93	peroxisomal (S)-2-hydroxyacid oxidase GLO4-like isoform X1
+456	Lchi22877	Lchi17921	positive_coexpression	0.97383982	0.97383982	positive	1041	174	414.46467144	transcription factor AS1	probable polygalacturonase
+457	Lchi18004	Lchi17168	positive_coexpression	0.98465222	0.98465222	positive	1001	177	414.46373494	transcription factor bHLH13-like isoform X2	thiamine thiazole synthase 2, chloroplastic-like
+458	Lchi07566	Lchi17317	positive_coexpression	0.97968465	0.97968465	positive	1059	169	414.45524092	LOB domain-containing protein 25-like isoform X3	probable protein phosphatase 2C 52 isoform X1
+459	Lchi08779	Lchi04752	positive_coexpression	0.99282968	0.99282968	positive	1025	170	414.43950376	AP2/ERF and B3 domain-containing transcription repressor RAV2-like	ABC transporter-like protein
+460	Lchi09693	Lchi28705	positive_coexpression	0.97752613	0.97752613	positive	1033	174	414.43188400	homeobox-leucine zipper protein ATHB-6-like	oleosin S1-2
+461	Lchi06007	Lchi17168	positive_coexpression	0.97195864	0.97195864	positive	1027	177	414.39989782	homeobox-leucine zipper protein HAT2-like	thiamine thiazole synthase 2, chloroplastic-like
+462	Lchi22877	Lchi22953	positive_coexpression	0.98214680	0.98214680	positive	1041	171	414.38099218	transcription factor AS1	aspartyl protease family protein 2
+463	Lchi23901	Lchi06775	positive_coexpression	0.99526531	0.99526531	positive	1111	156	414.34127264	B-box zinc finger protein 20-like	18 kDa seed maturation protein-like
+464	Lchi00158	Lchi16615	positive_coexpression	0.98732716	0.98732716	positive	1018	173	414.34110944	transcription factor bHLH147	germin-like protein 5-1
+465	Lchi07566	Lchi25757	positive_coexpression	0.98523444	0.98523444	positive	1059	167	414.32944698	LOB domain-containing protein 25-like isoform X3	cytochrome P450 71A1-like
+466	Lchi22877	Lchi07558	positive_coexpression	0.98199546	0.98199546	positive	1041	171	414.31713979	transcription factor AS1	leucine-rich repeat receptor-like serine/threonine-protein kinase RGI4
+467	Lchi25021	Lchi25772	positive_coexpression	0.98418081	0.98418081	positive	990	179	414.30388474	heat stress transcription factor A-2b-like	cysteine proteinase inhibitor 5-like
+468	Lchi06972	Lchi26693	positive_coexpression	0.95864141	0.95864141	positive	1055	177	414.25622960	transcription factor bHLH149-like	zinc-finger homeodomain protein 1-like
+469	Lchi02953	Lchi03143	positive_coexpression	0.96282667	0.96282667	positive	1070	173	414.25051022	homeobox-leucine zipper protein ATHB-13-like isoform X1	scopoletin glucosyltransferase-like
+470	Lchi08779	Lchi05513	positive_coexpression	0.97252440	0.97252440	positive	1025	177	414.23717582	AP2/ERF and B3 domain-containing transcription repressor RAV2-like	methyl-CpG-binding domain-containing protein 11-like isoform X1
+471	Lchi23901	Lchi01238	positive_coexpression	0.96443361	0.96443361	positive	1111	166	414.17455127	B-box zinc finger protein 20-like	WEB family protein At3g02930, chloroplastic-like isoform X1
+472	Lchi02953	Lchi13821	negative_coexpression	-0.99167454	0.99167454	negative	1070	163	414.14731917	homeobox-leucine zipper protein ATHB-13-like isoform X1	protein FLX-like 2
+473	Lchi18250	Lchi06352	positive_coexpression	0.97343910	0.97343910	positive	1077	168	414.06762851	transcription factor bHLH93	polygalacturonase At1g48100
+474	Lchi01491	Lchi02750	positive_coexpression	0.99265587	0.99265587	positive	983	177	414.05888395	scarecrow-like protein 27	LRR receptor-like serine/threonine-protein kinase ERECTA
+475	Lchi18004	Lchi16615	positive_coexpression	0.99484122	0.99484122	positive	1001	173	413.99382343	transcription factor bHLH13-like isoform X2	germin-like protein 5-1
+476	Lchi13371	Lchi27946	positive_coexpression	0.96216154	0.96216154	positive	1040	178	413.97552338	ethylene-responsive transcription factor 4-like	receptor protein kinase CLAVATA1
+477	Lchi18250	Lchi07386	positive_coexpression	0.95083416	0.95083416	positive	1077	176	413.97008783	transcription factor bHLH93	potassium transporter 2
+478	Lchi23901	Lchi30887	positive_coexpression	0.99757195	0.99757195	positive	1111	155	413.96832067	B-box zinc finger protein 20-like	peamaclein-like
+479	Lchi22404	Lchi16689	negative_coexpression	-0.90140796	0.90140796	negative	1212	174	413.94946240	nuclear transcription factor Y subunit A-1-like isoform X2	xyloglucan endotransglucosylase protein 2-like
+480	Lchi23901	Lchi06407	positive_coexpression	0.96975905	0.96975905	positive	1111	164	413.94514636	B-box zinc finger protein 20-like	GDSL esterase/lipase At4g16230-like isoform X1
+481	Lchi13371	Lchi17317	positive_coexpression	0.98728675	0.98728675	positive	1040	169	413.90753300	ethylene-responsive transcription factor 4-like	probable protein phosphatase 2C 52 isoform X1
+482	Lchi07566	Lchi02104	negative_coexpression	-0.96980327	0.96980327	negative	1059	172	413.90040147	LOB domain-containing protein 25-like isoform X3	bidirectional sugar transporter SWEET1
+483	Lchi22877	Lchi11374	positive_coexpression	0.97811830	0.97811830	positive	1041	172	413.88622516	transcription factor AS1	dehydrin/lea group 2-like protein
+484	Lchi02953	Lchi13097	positive_coexpression	0.97615510	0.97615510	positive	1070	168	413.87134397	homeobox-leucine zipper protein ATHB-13-like isoform X1	glycosylinositol phosphorylceramide mannosyl transferase 1-like
+485	Lchi01491	Lchi27946	positive_coexpression	0.98939401	0.98939401	positive	983	178	413.86246183	scarecrow-like protein 27	receptor protein kinase CLAVATA1
+486	Lchi13371	Lchi07386	positive_coexpression	0.96730542	0.96730542	positive	1040	176	413.84396349	ethylene-responsive transcription factor 4-like	potassium transporter 2
+487	Lchi13937	Lchi11374	negative_coexpression	-0.98322558	0.98322558	negative	1030	172	413.84337254	B3 domain-containing protein Os03g0212300-like	dehydrin/lea group 2-like protein
+488	Lchi13937	Lchi04752	negative_coexpression	-0.98899132	0.98899132	negative	1030	170	413.84294221	B3 domain-containing protein Os03g0212300-like	ABC transporter-like protein
+489	Lchi22877	Lchi26693	positive_coexpression	0.96404386	0.96404386	positive	1041	177	413.81744113	transcription factor AS1	zinc-finger homeodomain protein 1-like
+490	Lchi13937	Lchi13511	negative_coexpression	-0.98879570	0.98879570	negative	1030	170	413.76108511	B3 domain-containing protein Os03g0212300-like	auxin-induced protein 22B-like
+491	Lchi06972	Lchi17921	positive_coexpression	0.96571279	0.96571279	positive	1055	174	413.76031825	transcription factor bHLH149-like	probable polygalacturonase
+492	Lchi18250	Lchi02035	positive_coexpression	0.96695352	0.96695352	positive	1077	170	413.74990879	transcription factor bHLH93	amino acid permease 3-like
+493	Lchi02551	Lchi14169	positive_coexpression	0.97494543	0.97494543	positive	1035	174	413.73771056	transcription factor bHLH62-like isoform X1	putative 4-hydroxy-4-methyl-2-oxoglutarate aldolase 2
+494	Lchi13937	Lchi07558	negative_coexpression	-0.98575264	0.98575264	negative	1030	171	413.69913840	B3 domain-containing protein Os03g0212300-like	leucine-rich repeat receptor-like serine/threonine-protein kinase RGI4
+495	Lchi02953	Lchi16452	positive_coexpression	0.95330685	0.95330685	positive	1070	176	413.69563294	homeobox-leucine zipper protein ATHB-13-like isoform X1	protein AUXIN SIGNALING F-BOX 2-like
+496	Lchi05992	Lchi16615	positive_coexpression	0.98427677	0.98427677	positive	1021	173	413.66917293	ethylene-responsive transcription factor 2-like	germin-like protein 5-1
+497	Lchi13371	Lchi27397	positive_coexpression	0.98670369	0.98670369	positive	1040	169	413.66309244	ethylene-responsive transcription factor 4-like	p-coumarate 3-hydroxylase-like
+498	Lchi06060	Lchi17168	positive_coexpression	0.97352403	0.97352403	positive	1020	177	413.65034889	squamosa promoter-binding-like protein 7	thiamine thiazole synthase 2, chloroplastic-like
+499	Lchi06972	Lchi12998	positive_coexpression	0.97673965	0.97673965	positive	1055	170	413.64664712	transcription factor bHLH149-like	putative disease resistance protein At5g47280
+500	Lchi13371	Lchi22953	positive_coexpression	0.98085761	0.98085761	positive	1040	171	413.63824875	ethylene-responsive transcription factor 4-like	aspartyl protease family protein 2
+501	Lchi22404	Lchi18550	negative_coexpression	-0.90857667	0.90857667	negative	1212	171	413.62896771	nuclear transcription factor Y subunit A-1-like isoform X2	probable BOI-related E3 ubiquitin-protein ligase 3
+502	Lchi06972	Lchi11647	positive_coexpression	0.97666425	0.97666425	positive	1055	170	413.61471542	transcription factor bHLH149-like	ketol-acid reductoisomerase, chloroplastic-like
+503	Lchi05992	Lchi28705	positive_coexpression	0.98126978	0.98126978	positive	1021	174	413.59560898	ethylene-responsive transcription factor 2-like	oleosin S1-2
+504	Lchi07566	Lchi23745	positive_coexpression	0.98053151	0.98053151	positive	1059	168	413.58442499	LOB domain-containing protein 25-like isoform X3	allene oxide cyclase, chloroplastic-like
+505	Lchi24981	Lchi16235	positive_coexpression	0.97900474	0.97900474	positive	986	181	413.58286695	protein TIFY 6B isoform X2	beta-glucosidase 44-like
+506	Lchi22404	Lchi15201	negative_coexpression	-0.94492704	0.94492704	negative	1212	158	413.50249116	nuclear transcription factor Y subunit A-1-like isoform X2	aquaporin PIP1-3
+507	Lchi16402	Lchi17443	positive_coexpression	0.96470547	0.96470547	positive	1015	181	413.49194106	transcription factor MYB20-like	plant/F18G18-20 protein
+508	Lchi15589	Lchi15600	positive_coexpression	0.97662085	0.97662085	positive	1067	168	413.48793544	trihelix transcription factor GTL1 isoform X1	actin-101
+509	Lchi15176	Lchi00354	positive_coexpression	0.99076027	0.99076027	positive	1001	174	413.48546313	transcription factor EGL1-like isoform X1	stress-related protein-like
+510	Lchi08487	Lchi12025	negative_coexpression	-0.97816837	0.97816837	negative	1021	175	413.47143445	WUSCHEL-related homeobox 9	protein neprosin-like
+511	Lchi13937	Lchi12025	negative_coexpression	-0.97384316	0.97384316	negative	1030	175	413.45348309	B3 domain-containing protein Os03g0212300-like	protein neprosin-like
+512	Lchi06007	Lchi25245	positive_coexpression	0.98660266	0.98660266	positive	1027	171	413.45243977	homeobox-leucine zipper protein HAT2-like	myosin-binding protein 7-like
+513	Lchi15589	Lchi11647	positive_coexpression	0.97074002	0.97074002	positive	1067	170	413.43725141	trihelix transcription factor GTL1 isoform X1	ketol-acid reductoisomerase, chloroplastic-like
+514	Lchi00158	Lchi14169	positive_coexpression	0.98233628	0.98233628	positive	1018	174	413.43638727	transcription factor bHLH147	putative 4-hydroxy-4-methyl-2-oxoglutarate aldolase 2
+515	Lchi07566	Lchi12025	positive_coexpression	0.96035999	0.96035999	positive	1059	175	413.42911980	LOB domain-containing protein 25-like isoform X3	protein neprosin-like
+516	Lchi11320	Lchi16235	positive_coexpression	0.97612178	0.97612178	positive	991	181	413.40918163	transcription factor bHLH63-like	beta-glucosidase 44-like
+517	Lchi25021	Lchi16235	positive_coexpression	0.97660965	0.97660965	positive	990	181	413.40706662	heat stress transcription factor A-2b-like	beta-glucosidase 44-like
+518	Lchi18250	Lchi27946	positive_coexpression	0.94418126	0.94418126	positive	1077	178	413.40262424	transcription factor bHLH93	receptor protein kinase CLAVATA1
+519	Lchi06007	Lchi01000	positive_coexpression	0.98937029	0.98937029	positive	1027	170	413.39816753	homeobox-leucine zipper protein HAT2-like	V-type proton ATPase subunit B 2 isoform X1
+520	Lchi09693	Lchi27397	positive_coexpression	0.98938668	0.98938668	positive	1033	169	413.38962453	homeobox-leucine zipper protein ATHB-6-like	p-coumarate 3-hydroxylase-like
+521	Lchi23901	Lchi06686	positive_coexpression	0.95118272	0.95118272	positive	1111	170	413.37617471	B-box zinc finger protein 20-like	desmethyl-yatein O-methyltransferase-like
+522	Lchi08487	Lchi25772	negative_coexpression	-0.96693224	0.96693224	negative	1021	179	413.36664260	WUSCHEL-related homeobox 9	cysteine proteinase inhibitor 5-like
+523	Lchi05992	Lchi05599	positive_coexpression	0.97510874	0.97510874	positive	1021	176	413.35410413	ethylene-responsive transcription factor 2-like	protein kinase PINOID 2
+524	Lchi08487	Lchi14169	negative_coexpression	-0.98066932	0.98066932	negative	1021	174	413.34252097	WUSCHEL-related homeobox 9	putative 4-hydroxy-4-methyl-2-oxoglutarate aldolase 2
+525	Lchi02953	Lchi17197	positive_coexpression	0.99269646	0.99269646	positive	1070	162	413.30044157	homeobox-leucine zipper protein ATHB-13-like isoform X1	oil body-associated protein 1A-like
+526	Lchi18004	Lchi27946	positive_coexpression	0.97905761	0.97905761	positive	1001	178	413.27133900	transcription factor bHLH13-like isoform X2	receptor protein kinase CLAVATA1
+527	Lchi18004	Lchi11374	positive_coexpression	0.99586409	0.99586409	positive	1001	172	413.22000114	transcription factor bHLH13-like isoform X2	dehydrin/lea group 2-like protein
+528	Lchi13371	Lchi01385	positive_coexpression	0.98555827	0.98555827	positive	1040	169	413.18288953	ethylene-responsive transcription factor 4-like	abscisic acid receptor PYR1-like
+529	Lchi01043	Lchi25772	positive_coexpression	0.99721318	0.99721318	positive	959	179	413.16528964	axial regulator YABBY 5-like	cysteine proteinase inhibitor 5-like
+530	Lchi23901	Lchi07536	positive_coexpression	0.96498281	0.96498281	positive	1111	165	413.16029473	B-box zinc finger protein 20-like	protein NSP-INTERACTING KINASE 3
+531	Lchi06007	Lchi22934	positive_coexpression	0.99465525	0.99465525	positive	1027	168	413.15445677	homeobox-leucine zipper protein HAT2-like	seipin-1
+532	Lchi18004	Lchi17615	positive_coexpression	0.98150742	0.98150742	positive	1001	177	413.14001319	transcription factor bHLH13-like isoform X2	zinc finger CCCH domain-containing protein 53-like isoform X2
+533	Lchi06060	Lchi17443	positive_coexpression	0.96151602	0.96151602	positive	1020	181	413.13871827	squamosa promoter-binding-like protein 7	plant/F18G18-20 protein
+534	Lchi00158	Lchi11374	positive_coexpression	0.98726350	0.98726350	positive	1018	172	413.11521806	transcription factor bHLH147	dehydrin/lea group 2-like protein
+535	Lchi09693	Lchi31555	negative_coexpression	-0.97720277	0.97720277	negative	1033	173	413.10257463	homeobox-leucine zipper protein ATHB-6-like	protein CHUP1, chloroplastic-like isoform X1
+536	Lchi06007	Lchi26496	positive_coexpression	0.99452490	0.99452490	positive	1027	168	413.10031270	homeobox-leucine zipper protein HAT2-like	late embryogenisis abundant protein 4
+537	Lchi05992	Lchi25772	positive_coexpression	0.96629679	0.96629679	positive	1021	179	413.09498569	ethylene-responsive transcription factor 2-like	cysteine proteinase inhibitor 5-like
+538	Lchi15589	Lchi05599	positive_coexpression	0.95324409	0.95324409	positive	1067	176	413.08808168	trihelix transcription factor GTL1 isoform X1	protein kinase PINOID 2
+539	Lchi13937	Lchi02104	positive_coexpression	0.98137540	0.98137540	positive	1030	172	413.06462476	B3 domain-containing protein Os03g0212300-like	bidirectional sugar transporter SWEET1
+540	Lchi08487	Lchi18724	negative_coexpression	-0.96890086	0.96890086	negative	1021	178	413.04960729	WUSCHEL-related homeobox 9	protein DETOXIFICATION 33-like
+541	Lchi25021	Lchi02750	positive_coexpression	0.98672616	0.98672616	positive	990	177	413.04833210	heat stress transcription factor A-2b-like	LRR receptor-like serine/threonine-protein kinase ERECTA
+542	Lchi07566	Lchi20704	positive_coexpression	0.99399740	0.99399740	positive	1059	163	412.97810837	LOB domain-containing protein 25-like isoform X3	alpha-glucosidase-like
+543	Lchi24373	Lchi18724	positive_coexpression	0.98977149	0.98977149	positive	978	178	412.96606788	protein YABBY 4-like	protein DETOXIFICATION 33-like
+544	Lchi24373	Lchi27946	positive_coexpression	0.98975164	0.98975164	positive	978	178	412.95778579	protein YABBY 4-like	receptor protein kinase CLAVATA1
+545	Lchi06972	Lchi19725	positive_coexpression	0.97223395	0.97223395	positive	1055	171	412.94771506	transcription factor bHLH149-like	glucose and ribitol dehydrogenase-like
+546	Lchi07566	Lchi01238	positive_coexpression	0.98489738	0.98489738	positive	1059	166	412.94575520	LOB domain-containing protein 25-like isoform X3	WEB family protein At3g02930, chloroplastic-like isoform X1
+547	Lchi31297	Lchi28705	positive_coexpression	0.98894995	0.98894995	positive	1002	174	412.93604866	trihelix transcription factor ASIL2	oleosin S1-2
+548	Lchi25021	Lchi18724	positive_coexpression	0.98363620	0.98363620	positive	990	178	412.91637102	heat stress transcription factor A-2b-like	protein DETOXIFICATION 33-like
+549	Lchi08487	Lchi25188	negative_coexpression	-0.97131675	0.97131675	negative	1021	177	412.91473612	WUSCHEL-related homeobox 9	villin-1 isoform X1
+550	Lchi15589	Lchi12998	positive_coexpression	0.96946025	0.96946025	positive	1067	170	412.89219859	trihelix transcription factor GTL1 isoform X1	putative disease resistance protein At5g47280
+551	Lchi00158	Lchi28705	positive_coexpression	0.98097974	0.98097974	positive	1018	174	412.86545957	transcription factor bHLH147	oleosin S1-2
+552	Lchi06007	Lchi05599	positive_coexpression	0.97103894	0.97103894	positive	1027	176	412.83660865	homeobox-leucine zipper protein HAT2-like	protein kinase PINOID 2
+553	Lchi02198	Lchi16235	positive_coexpression	0.95425212	0.95425212	positive	1034	181	412.82186382	transcription factor HEC1-like	beta-glucosidase 44-like
+554	Lchi02953	Lchi03659	positive_coexpression	0.98547858	0.98547858	positive	1070	164	412.82025894	homeobox-leucine zipper protein ATHB-13-like isoform X1	probable xyloglucan glycosyltransferase 5
+555	Lchi06972	Lchi02670	positive_coexpression	0.98643577	0.98643577	positive	1055	166	412.80893241	transcription factor bHLH149-like	peroxisomal (S)-2-hydroxyacid oxidase GLO4-like isoform X1
+556	Lchi00158	Lchi05599	positive_coexpression	0.97519314	0.97519314	positive	1018	176	412.78210411	transcription factor bHLH147	protein kinase PINOID 2
+557	Lchi24373	Lchi25772	positive_coexpression	0.98652267	0.98652267	positive	978	179	412.76514060	protein YABBY 4-like	cysteine proteinase inhibitor 5-like
+558	Lchi18250	Lchi27919	positive_coexpression	0.97619128	0.97619128	positive	1077	166	412.75925470	transcription factor bHLH93	non-functional NADPH-dependent codeinone reductase 2-like isoform X1
+559	Lchi24981	Lchi17443	positive_coexpression	0.97701848	0.97701848	positive	986	181	412.74376672	protein TIFY 6B isoform X2	plant/F18G18-20 protein
+560	Lchi18004	Lchi11589	positive_coexpression	0.99459589	0.99459589	positive	1001	172	412.69377912	transcription factor bHLH13-like isoform X2	ribonuclease 3-like
+561	Lchi13371	Lchi05599	positive_coexpression	0.96461290	0.96461290	positive	1040	176	412.69201797	ethylene-responsive transcription factor 4-like	protein kinase PINOID 2
+562	Lchi13937	Lchi03719	negative_coexpression	-0.98914462	0.98914462	negative	1030	169	412.68792118	B3 domain-containing protein Os03g0212300-like	serine carboxypeptidase II-2-like
+563	Lchi15589	Lchi11589	positive_coexpression	0.96330738	0.96330738	positive	1067	172	412.67800335	trihelix transcription factor GTL1 isoform X1	ribonuclease 3-like
+564	Lchi08779	Lchi11374	positive_coexpression	0.98283833	0.98283833	positive	1025	172	412.67507745	AP2/ERF and B3 domain-containing transcription repressor RAV2-like	dehydrin/lea group 2-like protein
+565	Lchi20729	Lchi11642	positive_coexpression	0.97610170	0.97610170	positive	993	180	412.67289621	transcription factor PIF4-like isoform X2	arogenate dehydrogenase 2, chloroplastic-like
+566	Lchi01491	Lchi26693	positive_coexpression	0.98933101	0.98933101	positive	983	177	412.67201075	scarecrow-like protein 27	zinc-finger homeodomain protein 1-like
+567	Lchi13937	Lchi01000	negative_coexpression	-0.98614663	0.98614663	negative	1030	170	412.65258304	B3 domain-containing protein Os03g0212300-like	V-type proton ATPase subunit B 2 isoform X1
+568	Lchi08487	Lchi02035	negative_coexpression	-0.99042290	0.99042290	negative	1021	170	412.62734458	WUSCHEL-related homeobox 9	amino acid permease 3-like
+569	Lchi18004	Lchi05599	positive_coexpression	0.98304945	0.98304945	positive	1001	176	412.61853921	transcription factor bHLH13-like isoform X2	protein kinase PINOID 2
+570	Lchi18004	Lchi28705	positive_coexpression	0.98866498	0.98866498	positive	1001	174	412.61101148	transcription factor bHLH13-like isoform X2	oleosin S1-2
+571	Lchi22877	Lchi09003	positive_coexpression	0.96389759	0.96389759	positive	1041	176	412.58420050	transcription factor AS1	allene oxide synthase 1, chloroplastic-like
+572	Lchi02551	Lchi11647	positive_coexpression	0.98356324	0.98356324	positive	1035	170	412.56931545	transcription factor bHLH62-like isoform X1	ketol-acid reductoisomerase, chloroplastic-like
+573	Lchi09693	Lchi07558	positive_coexpression	0.98159319	0.98159319	positive	1033	171	412.55300296	homeobox-leucine zipper protein ATHB-6-like	leucine-rich repeat receptor-like serine/threonine-protein kinase RGI4
+574	Lchi13937	Lchi24864	negative_coexpression	-0.98881525	0.98881525	negative	1030	169	412.55050243	B3 domain-containing protein Os03g0212300-like	(S)-coclaurine N-methyltransferase-like isoform X1
+575	Lchi22877	Lchi11589	positive_coexpression	0.97495818	0.97495818	positive	1041	172	412.54903503	transcription factor AS1	ribonuclease 3-like
+576	Lchi08779	Lchi15600	positive_coexpression	0.99407965	0.99407965	positive	1025	168	412.51311151	AP2/ERF and B3 domain-containing transcription repressor RAV2-like	actin-101
+577	Lchi11320	Lchi17168	positive_coexpression	0.98493719	0.98493719	positive	991	177	412.50764012	transcription factor bHLH63-like	thiamine thiazole synthase 2, chloroplastic-like
+578	Lchi23901	Lchi22376	positive_coexpression	0.97835916	0.97835916	positive	1111	160	412.49181590	B-box zinc finger protein 20-like	O-fucosyltransferase 31-like
+579	Lchi16402	Lchi17168	positive_coexpression	0.97315580	0.97315580	positive	1015	177	412.47917751	transcription factor MYB20-like	thiamine thiazole synthase 2, chloroplastic-like
+580	Lchi11320	Lchi18724	positive_coexpression	0.98207939	0.98207939	positive	991	178	412.47100551	transcription factor bHLH63-like	protein DETOXIFICATION 33-like
+581	Lchi22877	Lchi12998	positive_coexpression	0.98046041	0.98046041	positive	1041	170	412.45814803	transcription factor AS1	putative disease resistance protein At5g47280
+582	Lchi01491	Lchi25772	positive_coexpression	0.98322016	0.98322016	positive	983	179	412.43360965	scarecrow-like protein 27	cysteine proteinase inhibitor 5-like
+583	Lchi23901	Lchi13837	positive_coexpression	0.99068260	0.99068260	positive	1111	156	412.43343372	B-box zinc finger protein 20-like	AINTEGUMENTA
+584	Lchi13371	Lchi12998	positive_coexpression	0.98084861	0.98084861	positive	1040	170	412.42322249	ethylene-responsive transcription factor 4-like	putative disease resistance protein At5g47280
+585	Lchi23901	Lchi08832	positive_coexpression	0.98119158	0.98119158	positive	1111	159	412.39121425	B-box zinc finger protein 20-like	NDR1/HIN1-like protein 6
+586	Lchi07566	Lchi17197	positive_coexpression	0.99563849	0.99563849	positive	1059	162	412.38908769	LOB domain-containing protein 25-like isoform X3	oil body-associated protein 1A-like
+587	Lchi06972	Lchi16999	positive_coexpression	0.98542559	0.98542559	positive	1055	166	412.38618686	transcription factor bHLH149-like	probable polygalacturonase
+588	Lchi18250	Lchi17197	positive_coexpression	0.98726761	0.98726761	positive	1077	162	412.38251977	transcription factor bHLH93	oil body-associated protein 1A-like
+589	Lchi19175	Lchi17443	positive_coexpression	0.98723745	0.98723745	positive	964	181	412.38173926	transcription factor CSA-like	plant/F18G18-20 protein
+590	Lchi00158	Lchi27946	positive_coexpression	0.96872282	0.96872282	positive	1018	178	412.36654173	transcription factor bHLH147	receptor protein kinase CLAVATA1
+591	Lchi13371	Lchi19388	positive_coexpression	0.99544370	0.99544370	positive	1040	165	412.35887311	ethylene-responsive transcription factor 4-like	L-type lectin-domain containing receptor kinase VIII.1
+592	Lchi01491	Lchi05513	positive_coexpression	0.98853511	0.98853511	positive	983	177	412.34002312	scarecrow-like protein 27	methyl-CpG-binding domain-containing protein 11-like isoform X1
+593	Lchi01491	Lchi16235	positive_coexpression	0.97754967	0.97754967	positive	983	181	412.33944287	scarecrow-like protein 27	beta-glucosidase 44-like
+594	Lchi06007	Lchi22953	positive_coexpression	0.98394674	0.98394674	positive	1027	171	412.33943182	homeobox-leucine zipper protein HAT2-like	aspartyl protease family protein 2
+595	Lchi05992	Lchi25188	positive_coexpression	0.96976388	0.96976388	positive	1021	177	412.25459832	ethylene-responsive transcription factor 2-like	villin-1 isoform X1
+596	Lchi00158	Lchi25772	positive_coexpression	0.96571219	0.96571219	positive	1018	179	412.23809065	transcription factor bHLH147	cysteine proteinase inhibitor 5-like
+597	Lchi23901	Lchi20704	positive_coexpression	0.96870506	0.96870506	positive	1111	163	412.23266307	B-box zinc finger protein 20-like	alpha-glucosidase-like
+598	Lchi13371	Lchi09003	positive_coexpression	0.96347654	0.96347654	positive	1040	176	412.20584709	ethylene-responsive transcription factor 4-like	allene oxide synthase 1, chloroplastic-like
+599	Lchi25021	Lchi17443	positive_coexpression	0.97375274	0.97375274	positive	990	181	412.19771263	heat stress transcription factor A-2b-like	plant/F18G18-20 protein
+600	Lchi18250	Lchi06311	positive_coexpression	0.99296165	0.99296165	positive	1077	160	412.19272132	transcription factor bHLH93	S-adenosylmethionine synthase 5
+601	Lchi08487	Lchi07386	negative_coexpression	-0.97235209	0.97235209	negative	1021	176	412.18554462	WUSCHEL-related homeobox 9	potassium transporter 2
+602	Lchi20729	Lchi12025	positive_coexpression	0.98874164	0.98874164	positive	993	175	412.17008999	transcription factor PIF4-like isoform X2	protein neprosin-like
+603	Lchi13937	Lchi06686	negative_coexpression	-0.98497248	0.98497248	negative	1030	170	412.16126054	B3 domain-containing protein Os03g0212300-like	desmethyl-yatein O-methyltransferase-like
+604	Lchi08814	Lchi17168	positive_coexpression	0.97287208	0.97287208	positive	1014	177	412.15573819	heat stress transcription factor C-1b-like	thiamine thiazole synthase 2, chloroplastic-like
+605	Lchi31297	Lchi11374	positive_coexpression	0.99279827	0.99279827	positive	1002	172	412.15359843	trihelix transcription factor ASIL2	dehydrin/lea group 2-like protein
+606	Lchi18250	Lchi17921	positive_coexpression	0.95207477	0.95207477	positive	1077	174	412.14831846	transcription factor bHLH93	probable polygalacturonase
+607	Lchi07566	Lchi28527	positive_coexpression	0.98298317	0.98298317	positive	1059	166	412.14316916	LOB domain-containing protein 25-like isoform X3	heavy metal-associated isoprenylated plant protein 9 isoform X1
+608	Lchi00158	Lchi11647	positive_coexpression	0.99071407	0.99071407	positive	1018	170	412.14181614	transcription factor bHLH147	ketol-acid reductoisomerase, chloroplastic-like
+609	Lchi11320	Lchi17443	positive_coexpression	0.97310483	0.97310483	positive	991	181	412.13143652	transcription factor bHLH63-like	plant/F18G18-20 protein
+610	Lchi02198	Lchi14169	positive_coexpression	0.97158498	0.97158498	positive	1034	174	412.11240348	transcription factor HEC1-like	putative 4-hydroxy-4-methyl-2-oxoglutarate aldolase 2
+611	Lchi18250	Lchi28527	positive_coexpression	0.97463006	0.97463006	positive	1077	166	412.09912997	transcription factor bHLH93	heavy metal-associated isoprenylated plant protein 9 isoform X1
+612	Lchi07566	Lchi01385	positive_coexpression	0.97409803	0.97409803	positive	1059	169	412.09182333	LOB domain-containing protein 25-like isoform X3	abscisic acid receptor PYR1-like
+613	Lchi00158	Lchi12998	positive_coexpression	0.99058461	0.99058461	positive	1018	170	412.08796016	transcription factor bHLH147	putative disease resistance protein At5g47280
+614	Lchi09693	Lchi17317	positive_coexpression	0.98626280	0.98626280	positive	1033	169	412.08439210	homeobox-leucine zipper protein ATHB-6-like	probable protein phosphatase 2C 52 isoform X1
+615	Lchi12859	Lchi11642	positive_coexpression	0.98567575	0.98567575	positive	971	180	412.07848434	transcription factor EMB1444-like isoform X2	arogenate dehydrogenase 2, chloroplastic-like
+616	Lchi24981	Lchi25188	positive_coexpression	0.98639941	0.98639941	positive	986	177	412.07654393	protein TIFY 6B isoform X2	villin-1 isoform X1
+617	Lchi06007	Lchi18550	positive_coexpression	0.98331487	0.98331487	positive	1027	171	412.07463607	homeobox-leucine zipper protein HAT2-like	probable BOI-related E3 ubiquitin-protein ligase 3
+618	Lchi15589	Lchi25188	positive_coexpression	0.94819146	0.94819146	positive	1067	177	412.06419769	trihelix transcription factor GTL1 isoform X1	villin-1 isoform X1
+619	Lchi08487	Lchi26693	negative_coexpression	-0.96928793	0.96928793	negative	1021	177	412.05226806	WUSCHEL-related homeobox 9	zinc-finger homeodomain protein 1-like
+620	Lchi31297	Lchi16235	positive_coexpression	0.96753871	0.96753871	positive	1002	181	412.04201072	trihelix transcription factor ASIL2	beta-glucosidase 44-like
+621	Lchi09693	Lchi02035	positive_coexpression	0.98325205	0.98325205	positive	1033	170	412.04009820	homeobox-leucine zipper protein ATHB-6-like	amino acid permease 3-like
+622	Lchi22877	Lchi25757	positive_coexpression	0.98822403	0.98822403	positive	1041	167	412.03965083	transcription factor AS1	cytochrome P450 71A1-like
+623	Lchi02198	Lchi18724	positive_coexpression	0.96041220	0.96041220	positive	1034	178	412.02914659	transcription factor HEC1-like	protein DETOXIFICATION 33-like
+624	Lchi02953	Lchi28527	positive_coexpression	0.97759187	0.97759187	positive	1070	166	412.00597473	homeobox-leucine zipper protein ATHB-13-like isoform X1	heavy metal-associated isoprenylated plant protein 9 isoform X1
+625	Lchi02953	Lchi16999	positive_coexpression	0.97755110	0.97755110	positive	1070	166	411.98879222	homeobox-leucine zipper protein ATHB-13-like isoform X1	probable polygalacturonase
+626	Lchi02198	Lchi17443	positive_coexpression	0.95227695	0.95227695	positive	1034	181	411.96737962	transcription factor HEC1-like	plant/F18G18-20 protein
+627	Lchi25021	Lchi05513	positive_coexpression	0.98408526	0.98408526	positive	990	177	411.94283862	heat stress transcription factor A-2b-like	methyl-CpG-binding domain-containing protein 11-like isoform X1
+628	Lchi08487	Lchi27946	negative_coexpression	-0.96624136	0.96624136	negative	1021	178	411.91584275	WUSCHEL-related homeobox 9	receptor protein kinase CLAVATA1
+629	Lchi01043	Lchi11642	positive_coexpression	0.99142361	0.99142361	positive	959	180	411.91235001	axial regulator YABBY 5-like	arogenate dehydrogenase 2, chloroplastic-like
+630	Lchi13937	Lchi22953	negative_coexpression	-0.98149484	0.98149484	negative	1030	171	411.91223150	B3 domain-containing protein Os03g0212300-like	aspartyl protease family protein 2
+631	Lchi06060	Lchi16235	positive_coexpression	0.95863920	0.95863920	positive	1020	181	411.90262266	squamosa promoter-binding-like protein 7	beta-glucosidase 44-like
+632	Lchi31297	Lchi05599	positive_coexpression	0.98079270	0.98079270	positive	1002	176	411.87688489	trihelix transcription factor ASIL2	protein kinase PINOID 2
+633	Lchi18250	Lchi11397	positive_coexpression	0.99219531	0.99219531	positive	1077	160	411.87460252	transcription factor bHLH93	lysM domain receptor-like kinase 3
+634	Lchi15176	Lchi16452	positive_coexpression	0.98119777	0.98119777	positive	1001	176	411.84132754	transcription factor EGL1-like isoform X1	protein AUXIN SIGNALING F-BOX 2-like
+635	Lchi16402	Lchi16235	positive_coexpression	0.96084863	0.96084863	positive	1015	181	411.83882277	transcription factor MYB20-like	beta-glucosidase 44-like
+636	Lchi06972	Lchi28527	positive_coexpression	0.98408514	0.98408514	positive	1055	166	411.82522816	transcription factor bHLH149-like	heavy metal-associated isoprenylated plant protein 9 isoform X1
+637	Lchi18250	Lchi25487	positive_coexpression	0.95960033	0.95960033	positive	1077	171	411.80943779	transcription factor bHLH93	protein MOTHER of FT and TFL1-like protein
+638	Lchi06972	Lchi22953	positive_coexpression	0.96951842	0.96951842	positive	1055	171	411.79431787	transcription factor bHLH149-like	aspartyl protease family protein 2
+639	Lchi13937	Lchi23745	negative_coexpression	-0.98985487	0.98985487	negative	1030	168	411.76058981	B3 domain-containing protein Os03g0212300-like	allene oxide cyclase, chloroplastic-like
+640	Lchi09693	Lchi12998	positive_coexpression	0.98253745	0.98253745	positive	1033	170	411.74063902	homeobox-leucine zipper protein ATHB-6-like	putative disease resistance protein At5g47280
+641	Lchi09693	Lchi11589	positive_coexpression	0.97678906	0.97678906	positive	1033	172	411.73252069	homeobox-leucine zipper protein ATHB-6-like	ribonuclease 3-like
+642	Lchi08779	Lchi19725	positive_coexpression	0.98342693	0.98342693	positive	1025	171	411.72011429	AP2/ERF and B3 domain-containing transcription repressor RAV2-like	glucose and ribitol dehydrogenase-like
+643	Lchi06007	Lchi17317	positive_coexpression	0.98822123	0.98822123	positive	1027	169	411.70178857	homeobox-leucine zipper protein HAT2-like	probable protein phosphatase 2C 52 isoform X1
+644	Lchi18250	Lchi02405	positive_coexpression	0.99171436	0.99171436	positive	1077	160	411.67495323	transcription factor bHLH93	serine carboxypeptidase-like 45
+645	Lchi00158	Lchi25188	positive_coexpression	0.96982276	0.96982276	positive	1018	177	411.67348335	transcription factor bHLH147	villin-1 isoform X1
+646	Lchi09693	Lchi11374	positive_coexpression	0.97662932	0.97662932	positive	1033	172	411.66518767	homeobox-leucine zipper protein ATHB-6-like	dehydrin/lea group 2-like protein
+647	Lchi25021	Lchi01554	positive_coexpression	0.99471432	0.99471432	positive	990	173	411.66033108	heat stress transcription factor A-2b-like	aquaporin TIP3-1-like
+648	Lchi06007	Lchi24864	positive_coexpression	0.98802531	0.98802531	positive	1027	169	411.62016655	homeobox-leucine zipper protein HAT2-like	(S)-coclaurine N-methyltransferase-like isoform X1
+649	Lchi15176	Lchi14169	positive_coexpression	0.98629057	0.98629057	positive	1001	174	411.62007144	transcription factor EGL1-like isoform X1	putative 4-hydroxy-4-methyl-2-oxoglutarate aldolase 2
+650	Lchi09693	Lchi04752	positive_coexpression	0.98223621	0.98223621	positive	1033	170	411.61440184	homeobox-leucine zipper protein ATHB-6-like	ABC transporter-like protein
+651	Lchi13937	Lchi28090	negative_coexpression	-0.98656505	0.98656505	negative	1030	169	411.61168080	B3 domain-containing protein Os03g0212300-like	protein P21-like protein
+652	Lchi23901	Lchi22690	positive_coexpression	0.97021234	0.97021234	positive	1111	162	411.60565306	B-box zinc finger protein 20-like	abscisic stress-ripening protein 2-like
+653	Lchi06060	Lchi14169	positive_coexpression	0.97694278	0.97694278	positive	1020	174	411.57012020	squamosa promoter-binding-like protein 7	putative 4-hydroxy-4-methyl-2-oxoglutarate aldolase 2
+654	Lchi08487	Lchi22953	negative_coexpression	-0.98495209	0.98495209	negative	1021	171	411.55324687	WUSCHEL-related homeobox 9	aspartyl protease family protein 2
+655	Lchi31297	Lchi17443	positive_coexpression	0.96629483	0.96629483	positive	1002	181	411.51228430	trihelix transcription factor ASIL2	plant/F18G18-20 protein
+656	Lchi00158	Lchi00354	positive_coexpression	0.97775227	0.97775227	positive	1018	174	411.50711257	transcription factor bHLH147	stress-related protein-like
+657	Lchi08779	Lchi00354	positive_coexpression	0.97436368	0.97436368	positive	1025	174	411.48844456	AP2/ERF and B3 domain-containing transcription repressor RAV2-like	stress-related protein-like
+658	Lchi22877	Lchi15600	positive_coexpression	0.98394680	0.98394680	positive	1041	168	411.48274018	transcription factor AS1	actin-101
+659	Lchi18004	Lchi05513	positive_coexpression	0.97755921	0.97755921	positive	1001	177	411.47811691	transcription factor bHLH13-like isoform X2	methyl-CpG-binding domain-containing protein 11-like isoform X1
+660	Lchi20729	Lchi16689	positive_coexpression	0.98988301	0.98988301	positive	993	174	411.46520789	transcription factor PIF4-like isoform X2	xyloglucan endotransglucosylase protein 2-like
+661	Lchi18250	Lchi28090	positive_coexpression	0.96443629	0.96443629	positive	1077	169	411.45727706	transcription factor bHLH93	protein P21-like protein
+662	Lchi15589	Lchi25757	positive_coexpression	0.97472835	0.97472835	positive	1067	167	411.45660943	trihelix transcription factor GTL1 isoform X1	cytochrome P450 71A1-like
+663	Lchi08779	Lchi25757	positive_coexpression	0.99439090	0.99439090	positive	1025	167	411.41233589	AP2/ERF and B3 domain-containing transcription repressor RAV2-like	cytochrome P450 71A1-like
+664	Lchi08814	Lchi18724	positive_coexpression	0.96830428	0.96830428	positive	1014	178	411.37777996	heat stress transcription factor C-1b-like	protein DETOXIFICATION 33-like
+665	Lchi24373	Lchi16235	positive_coexpression	0.97773057	0.97773057	positive	978	181	411.36554082	protein YABBY 4-like	beta-glucosidase 44-like
+666	Lchi02953	Lchi04815	positive_coexpression	0.97895634	0.97895634	positive	1070	165	411.33643929	homeobox-leucine zipper protein ATHB-13-like isoform X1	protein UNUSUAL FLORAL ORGANS-like
+667	Lchi07566	Lchi03659	positive_coexpression	0.98699552	0.98699552	positive	1059	164	411.32498020	LOB domain-containing protein 25-like isoform X3	probable xyloglucan glycosyltransferase 5
+668	Lchi05992	Lchi11642	positive_coexpression	0.95943367	0.95943367	positive	1021	180	411.30508519	ethylene-responsive transcription factor 2-like	arogenate dehydrogenase 2, chloroplastic-like
+669	Lchi15176	Lchi05990	positive_coexpression	0.98268825	0.98268825	positive	1001	175	411.29348129	transcription factor EGL1-like isoform X1	oleosin Cor a 13-like
+670	Lchi08487	Lchi01385	negative_coexpression	-0.99012792	0.99012792	negative	1021	169	411.28941296	WUSCHEL-related homeobox 9	abscisic acid receptor PYR1-like
+671	Lchi13371	Lchi13097	positive_coexpression	0.98382264	0.98382264	positive	1040	168	411.23315621	ethylene-responsive transcription factor 4-like	glycosylinositol phosphorylceramide mannosyl transferase 1-like
+672	Lchi05992	Lchi07558	positive_coexpression	0.98412931	0.98412931	positive	1021	171	411.20945575	ethylene-responsive transcription factor 2-like	leucine-rich repeat receptor-like serine/threonine-protein kinase RGI4
+673	Lchi02551	Lchi11589	positive_coexpression	0.97456527	0.97456527	positive	1035	172	411.19263662	transcription factor bHLH62-like isoform X1	ribonuclease 3-like
+674	Lchi06007	Lchi13511	positive_coexpression	0.98406005	0.98406005	positive	1027	170	411.17933853	homeobox-leucine zipper protein HAT2-like	auxin-induced protein 22B-like
+675	Lchi31297	Lchi17168	positive_coexpression	0.97631633	0.97631633	positive	1002	177	411.16017988	trihelix transcription factor ASIL2	thiamine thiazole synthase 2, chloroplastic-like
+676	Lchi20729	Lchi02750	positive_coexpression	0.98067433	0.98067433	positive	993	177	411.13652880	transcription factor PIF4-like isoform X2	LRR receptor-like serine/threonine-protein kinase ERECTA
+677	Lchi31297	Lchi16615	positive_coexpression	0.98747844	0.98747844	positive	1002	173	411.13508017	trihelix transcription factor ASIL2	germin-like protein 5-1
+678	Lchi18250	Lchi09003	positive_coexpression	0.94432133	0.94432133	positive	1077	176	411.13455991	transcription factor bHLH93	allene oxide synthase 1, chloroplastic-like
+679	Lchi23901	Lchi22888	negative_coexpression	-0.96313983	0.96313983	negative	1111	164	411.11970844	B-box zinc finger protein 20-like	metallothionein-like protein type 2
+680	Lchi08814	Lchi16235	positive_coexpression	0.95964301	0.95964301	positive	1014	181	411.11939843	heat stress transcription factor C-1b-like	beta-glucosidase 44-like
+681	Lchi22877	Lchi02750	positive_coexpression	0.95769542	0.95769542	positive	1041	177	411.09236263	transcription factor AS1	LRR receptor-like serine/threonine-protein kinase ERECTA
+682	Lchi25021	Lchi26693	positive_coexpression	0.98202533	0.98202533	positive	990	177	411.08054198	heat stress transcription factor A-2b-like	zinc-finger homeodomain protein 1-like
+683	Lchi00158	Lchi02035	positive_coexpression	0.98805267	0.98805267	positive	1018	170	411.03466095	transcription factor bHLH147	amino acid permease 3-like
+684	Lchi09693	Lchi11647	positive_coexpression	0.98082876	0.98082876	positive	1033	170	411.02459800	homeobox-leucine zipper protein ATHB-6-like	ketol-acid reductoisomerase, chloroplastic-like
+685	Lchi05992	Lchi11589	positive_coexpression	0.98081738	0.98081738	positive	1021	172	411.02216964	ethylene-responsive transcription factor 2-like	ribonuclease 3-like
+686	Lchi08487	Lchi17317	negative_coexpression	-0.98945147	0.98945147	negative	1021	169	411.00842227	WUSCHEL-related homeobox 9	probable protein phosphatase 2C 52 isoform X1
+687	Lchi02953	Lchi11837	positive_coexpression	0.96938503	0.96938503	positive	1070	168	411.00096203	homeobox-leucine zipper protein ATHB-13-like isoform X1	alpha-mannosidase At3g26720-like
+688	Lchi05992	Lchi04752	positive_coexpression	0.98640019	0.98640019	positive	1021	170	410.95141388	ethylene-responsive transcription factor 2-like	ABC transporter-like protein
+689	Lchi18250	Lchi04815	positive_coexpression	0.97480112	0.97480112	positive	1077	165	410.92810297	transcription factor bHLH93	protein UNUSUAL FLORAL ORGANS-like
+690	Lchi06972	Lchi12819	positive_coexpression	0.98790354	0.98790354	positive	1055	164	410.92512459	transcription factor bHLH149-like	E3 ubiquitin-protein ligase RDUF1-like
+691	Lchi02953	Lchi02176	positive_coexpression	0.99308848	0.99308848	positive	1070	160	410.90348456	homeobox-leucine zipper protein ATHB-13-like isoform X1	beta-1,3-galactosyltransferase 7-like
+692	Lchi07566	Lchi25294	positive_coexpression	0.97707355	0.97707355	positive	1059	167	410.89747495	LOB domain-containing protein 25-like isoform X3	subtilisin-like protease SBT1.8
+693	Lchi07566	Lchi01501	negative_coexpression	-0.98897517	0.98897517	negative	1059	163	410.89151232	LOB domain-containing protein 25-like isoform X3	proteasome subunit beta type-7-B
+694	Lchi20729	Lchi16452	positive_coexpression	0.98283178	0.98283178	positive	993	176	410.87540877	transcription factor PIF4-like isoform X2	protein AUXIN SIGNALING F-BOX 2-like
+695	Lchi05992	Lchi08727	positive_coexpression	0.96650082	0.96650082	positive	1021	177	410.86744468	ethylene-responsive transcription factor 2-like	LAX3-1
+696	Lchi13371	Lchi02104	negative_coexpression	-0.97141939	0.97141939	negative	1040	172	410.85413387	ethylene-responsive transcription factor 4-like	bidirectional sugar transporter SWEET1
+697	Lchi00158	Lchi27397	positive_coexpression	0.99046284	0.99046284	positive	1018	169	410.82364140	transcription factor bHLH147	p-coumarate 3-hydroxylase-like
+698	Lchi02551	Lchi04752	positive_coexpression	0.97939068	0.97939068	positive	1035	170	410.81907698	transcription factor bHLH62-like isoform X1	ABC transporter-like protein
+699	Lchi25021	Lchi31555	negative_coexpression	-0.99266464	0.99266464	negative	990	173	410.81207553	heat stress transcription factor A-2b-like	protein CHUP1, chloroplastic-like isoform X1
+700	Lchi24373	Lchi25188	positive_coexpression	0.98738176	0.98738176	positive	978	177	410.81014572	protein YABBY 4-like	villin-1 isoform X1
+701	Lchi02551	Lchi27397	positive_coexpression	0.98225719	0.98225719	positive	1035	169	410.80785934	transcription factor bHLH62-like isoform X1	p-coumarate 3-hydroxylase-like
+702	Lchi13371	Lchi11589	positive_coexpression	0.97127390	0.97127390	positive	1040	172	410.79260003	ethylene-responsive transcription factor 4-like	ribonuclease 3-like
+703	Lchi01043	Lchi27946	positive_coexpression	0.99426091	0.99426091	positive	959	178	410.78981749	axial regulator YABBY 5-like	receptor protein kinase CLAVATA1
+704	Lchi25021	Lchi25188	positive_coexpression	0.98130280	0.98130280	positive	990	177	410.77808744	heat stress transcription factor A-2b-like	villin-1 isoform X1
+705	Lchi13937	Lchi25245	negative_coexpression	-0.97878426	0.97878426	negative	1030	171	410.77465950	B3 domain-containing protein Os03g0212300-like	myosin-binding protein 7-like
+706	Lchi00158	Lchi02750	positive_coexpression	0.96770120	0.96770120	positive	1018	177	410.77291674	transcription factor bHLH147	LRR receptor-like serine/threonine-protein kinase ERECTA
+707	Lchi07566	Lchi14598	negative_coexpression	-0.97095478	0.97095478	negative	1059	169	410.76207254	LOB domain-containing protein 25-like isoform X3	pentatricopeptide repeat-containing protein At3g02490, mitochondrial-like isoform X2
+708	Lchi06007	Lchi14598	negative_coexpression	-0.98593789	0.98593789	negative	1027	169	410.75052874	homeobox-leucine zipper protein HAT2-like	pentatricopeptide repeat-containing protein At3g02490, mitochondrial-like isoform X2
+709	Lchi07566	Lchi16999	positive_coexpression	0.97965276	0.97965276	positive	1059	166	410.74680168	LOB domain-containing protein 25-like isoform X3	probable polygalacturonase
+710	Lchi06007	Lchi23745	positive_coexpression	0.98876595	0.98876595	positive	1027	168	410.70819156	homeobox-leucine zipper protein HAT2-like	allene oxide cyclase, chloroplastic-like
+711	Lchi02953	Lchi17924	positive_coexpression	0.98336810	0.98336810	positive	1070	163	410.67834853	homeobox-leucine zipper protein ATHB-13-like isoform X1	beta-carotene hydroxylase 2, chloroplastic-like
+712	Lchi22877	Lchi11647	positive_coexpression	0.97622186	0.97622186	positive	1041	170	410.67508319	transcription factor AS1	ketol-acid reductoisomerase, chloroplastic-like
+713	Lchi23901	Lchi12955	positive_coexpression	0.97709614	0.97709614	positive	1111	159	410.66991587	B-box zinc finger protein 20-like	beta-glucosidase 46-like
+714	Lchi06972	Lchi02750	positive_coexpression	0.95033658	0.95033658	positive	1055	177	410.66747626	transcription factor bHLH149-like	LRR receptor-like serine/threonine-protein kinase ERECTA
+715	Lchi01491	Lchi01554	positive_coexpression	0.99578232	0.99578232	positive	983	173	410.64280861	scarecrow-like protein 27	aquaporin TIP3-1-like
+716	Lchi24373	Lchi17443	positive_coexpression	0.97600085	0.97600085	positive	978	181	410.63778696	protein YABBY 4-like	plant/F18G18-20 protein
+717	Lchi18250	Lchi26693	positive_coexpression	0.94048065	0.94048065	positive	1077	177	410.62401902	transcription factor bHLH93	zinc-finger homeodomain protein 1-like
+718	Lchi13937	Lchi11837	negative_coexpression	-0.98710316	0.98710316	negative	1030	168	410.61593137	B3 domain-containing protein Os03g0212300-like	alpha-mannosidase At3g26720-like
+719	Lchi01043	Lchi17443	positive_coexpression	0.98556578	0.98556578	positive	959	181	410.61442944	axial regulator YABBY 5-like	plant/F18G18-20 protein
+720	Lchi01491	Lchi17443	positive_coexpression	0.97344398	0.97344398	positive	983	181	410.60762506	scarecrow-like protein 27	plant/F18G18-20 protein
+721	Lchi02953	Lchi01238	positive_coexpression	0.97414589	0.97414589	positive	1070	166	410.55366688	homeobox-leucine zipper protein ATHB-13-like isoform X1	WEB family protein At3g02930, chloroplastic-like isoform X1
+722	Lchi07566	Lchi11825	positive_coexpression	0.96758062	0.96758062	positive	1059	170	410.54389836	LOB domain-containing protein 25-like isoform X3	nudix hydrolase 12, mitochondrial-like
+723	Lchi01491	Lchi16452	positive_coexpression	0.98694175	0.98694175	positive	983	176	410.51082510	scarecrow-like protein 27	protein AUXIN SIGNALING F-BOX 2-like
+724	Lchi08487	Lchi11647	negative_coexpression	-0.98525363	0.98525363	negative	1021	170	410.47373711	WUSCHEL-related homeobox 9	ketol-acid reductoisomerase, chloroplastic-like
+725	Lchi06007	Lchi18761	positive_coexpression	0.98523891	0.98523891	positive	1027	169	410.45932743	homeobox-leucine zipper protein HAT2-like	deSI-like protein At4g17486
+726	Lchi06007	Lchi25487	positive_coexpression	0.97941279	0.97941279	positive	1027	171	410.43940381	homeobox-leucine zipper protein HAT2-like	protein MOTHER of FT and TFL1-like protein
+727	Lchi22877	Lchi16999	positive_coexpression	0.98734564	0.98734564	positive	1041	166	410.43900064	transcription factor AS1	probable polygalacturonase
+728	Lchi07566	Lchi13097	positive_coexpression	0.97306788	0.97306788	positive	1059	168	410.43629452	LOB domain-containing protein 25-like isoform X3	glycosylinositol phosphorylceramide mannosyl transferase 1-like
+729	Lchi31297	Lchi11589	positive_coexpression	0.98866045	0.98866045	positive	1002	172	410.43580998	trihelix transcription factor ASIL2	ribonuclease 3-like
+730	Lchi18004	Lchi14169	positive_coexpression	0.98338735	0.98338735	positive	1001	174	410.40843700	transcription factor bHLH13-like isoform X2	putative 4-hydroxy-4-methyl-2-oxoglutarate aldolase 2
+731	Lchi13371	Lchi16452	positive_coexpression	0.95926982	0.95926982	positive	1040	176	410.40607874	ethylene-responsive transcription factor 4-like	protein AUXIN SIGNALING F-BOX 2-like
+732	Lchi05992	Lchi12998	positive_coexpression	0.98505896	0.98505896	positive	1021	170	410.39263421	ethylene-responsive transcription factor 2-like	putative disease resistance protein At5g47280
+733	Lchi25021	Lchi09003	positive_coexpression	0.98316103	0.98316103	positive	990	176	410.39171732	heat stress transcription factor A-2b-like	allene oxide synthase 1, chloroplastic-like
+734	Lchi02953	Lchi06311	positive_coexpression	0.99182045	0.99182045	positive	1070	160	410.37882039	homeobox-leucine zipper protein ATHB-13-like isoform X1	S-adenosylmethionine synthase 5
+735	Lchi13937	Lchi25294	negative_coexpression	-0.98942715	0.98942715	negative	1030	167	410.35588982	B3 domain-containing protein Os03g0212300-like	subtilisin-like protease SBT1.8
+736	Lchi08487	Lchi16615	negative_coexpression	-0.97631198	0.97631198	negative	1021	173	410.32175258	WUSCHEL-related homeobox 9	germin-like protein 5-1
+737	Lchi07566	Lchi19388	positive_coexpression	0.98159403	0.98159403	positive	1059	165	410.31922005	LOB domain-containing protein 25-like isoform X3	L-type lectin-domain containing receptor kinase VIII.1
+738	Lchi06972	Lchi09565	positive_coexpression	0.98642659	0.98642659	positive	1055	164	410.31077730	transcription factor bHLH149-like	CBL-interacting serine/threonine-protein kinase 6
+739	Lchi02953	Lchi29887	positive_coexpression	0.99161720	0.99161720	positive	1070	160	410.29472301	homeobox-leucine zipper protein ATHB-13-like isoform X1	geraniol 8-hydroxylase-like
+740	Lchi02953	Lchi20704	positive_coexpression	0.98240751	0.98240751	positive	1070	163	410.27718287	homeobox-leucine zipper protein ATHB-13-like isoform X1	alpha-glucosidase-like
+741	Lchi08487	Lchi05599	negative_coexpression	-0.96776444	0.96776444	negative	1021	176	410.24081387	WUSCHEL-related homeobox 9	protein kinase PINOID 2
+742	Lchi07566	Lchi22140	positive_coexpression	0.97840464	0.97840464	positive	1059	166	410.22349248	LOB domain-containing protein 25-like isoform X3	ABC transporter G family member 8-like
+743	Lchi02953	Lchi11397	positive_coexpression	0.99140888	0.99140888	positive	1070	160	410.20852786	homeobox-leucine zipper protein ATHB-13-like isoform X1	lysM domain receptor-like kinase 3
+744	Lchi24981	Lchi17168	positive_coexpression	0.98184937	0.98184937	positive	986	177	410.17572694	protein TIFY 6B isoform X2	thiamine thiazole synthase 2, chloroplastic-like
+745	Lchi02877	Lchi11642	negative_coexpression	-0.97758156	0.97758156	negative	978	180	410.16507770	protein SHORT ROOT IN SALT MEDIUM 1 isoform X2	arogenate dehydrogenase 2, chloroplastic-like
+746	Lchi02551	Lchi05599	positive_coexpression	0.96100366	0.96100366	positive	1035	176	410.15834353	transcription factor bHLH62-like isoform X1	protein kinase PINOID 2
+747	Lchi06060	Lchi18724	positive_coexpression	0.96257794	0.96257794	positive	1020	178	410.15309351	squamosa promoter-binding-like protein 7	protein DETOXIFICATION 33-like
+748	Lchi13371	Lchi06352	positive_coexpression	0.98122692	0.98122692	positive	1040	168	410.14815767	ethylene-responsive transcription factor 4-like	polygalacturonase At1g48100
+749	Lchi01043	Lchi16235	positive_coexpression	0.98442763	0.98442763	positive	959	181	410.14024413	axial regulator YABBY 5-like	beta-glucosidase 44-like
+750	Lchi02953	Lchi08166	positive_coexpression	0.98509926	0.98509926	positive	1070	162	410.13741416	homeobox-leucine zipper protein ATHB-13-like isoform X1	protein ENHANCED DISEASE RESISTANCE 2-like isoform X1
+751	Lchi13371	Lchi19725	positive_coexpression	0.97253066	0.97253066	positive	1040	171	410.12668399	ethylene-responsive transcription factor 4-like	glucose and ribitol dehydrogenase-like
+752	Lchi08487	Lchi31555	positive_coexpression	0.97582847	0.97582847	positive	1021	173	410.11854431	WUSCHEL-related homeobox 9	protein CHUP1, chloroplastic-like isoform X1
+753	Lchi09693	Lchi06116	positive_coexpression	0.97291619	0.97291619	positive	1033	172	410.10004281	homeobox-leucine zipper protein ATHB-6-like	probable galactinol--sucrose galactosyltransferase 2 isoform X1
+754	Lchi00158	Lchi11589	positive_coexpression	0.98005003	0.98005003	positive	1018	172	410.09677948	transcription factor bHLH147	ribonuclease 3-like
+755	Lchi13371	Lchi05990	positive_coexpression	0.96124792	0.96124792	positive	1040	175	410.08237781	ethylene-responsive transcription factor 4-like	oleosin Cor a 13-like
+756	Lchi06007	Lchi03719	positive_coexpression	0.98430091	0.98430091	positive	1027	169	410.06854826	homeobox-leucine zipper protein HAT2-like	serine carboxypeptidase II-2-like
+757	Lchi02198	Lchi16615	positive_coexpression	0.96955228	0.96955228	positive	1034	173	410.06674689	transcription factor HEC1-like	germin-like protein 5-1
+758	Lchi02953	Lchi13511	positive_coexpression	0.96147138	0.96147138	positive	1070	170	410.06500744	homeobox-leucine zipper protein ATHB-13-like isoform X1	auxin-induced protein 22B-like
+759	Lchi05992	Lchi27397	positive_coexpression	0.98716307	0.98716307	positive	1021	169	410.05784339	ethylene-responsive transcription factor 2-like	p-coumarate 3-hydroxylase-like
+760	Lchi15176	Lchi17921	positive_coexpression	0.98253590	0.98253590	positive	1001	174	410.05309151	transcription factor EGL1-like isoform X1	probable polygalacturonase
+761	Lchi08487	Lchi13097	negative_coexpression	-0.99006104	0.99006104	negative	1021	168	410.04307600	WUSCHEL-related homeobox 9	glycosylinositol phosphorylceramide mannosyl transferase 1-like
+762	Lchi11320	Lchi25188	positive_coexpression	0.97905058	0.97905058	positive	991	177	410.04223256	transcription factor bHLH63-like	villin-1 isoform X1
+763	Lchi05992	Lchi11374	positive_coexpression	0.97846204	0.97846204	positive	1021	172	410.03513884	ethylene-responsive transcription factor 2-like	dehydrin/lea group 2-like protein
+764	Lchi00158	Lchi22953	positive_coexpression	0.98272830	0.98272830	positive	1018	171	410.02034523	transcription factor bHLH147	aspartyl protease family protein 2
+765	Lchi18004	Lchi09003	positive_coexpression	0.97685164	0.97685164	positive	1001	176	410.01711228	transcription factor bHLH13-like isoform X2	allene oxide synthase 1, chloroplastic-like
+766	Lchi02953	Lchi12955	positive_coexpression	0.99404043	0.99404043	positive	1070	159	410.01004760	homeobox-leucine zipper protein ATHB-13-like isoform X1	beta-glucosidase 46-like
+767	Lchi25021	Lchi03143	positive_coexpression	0.99068624	0.99068624	positive	990	173	409.99331904	heat stress transcription factor A-2b-like	scopoletin glucosyltransferase-like
+768	Lchi06972	Lchi06352	positive_coexpression	0.97382623	0.97382623	positive	1055	168	409.97968627	transcription factor bHLH149-like	polygalacturonase At1g48100
+769	Lchi22877	Lchi09565	positive_coexpression	0.99223089	0.99223089	positive	1041	164	409.97750874	transcription factor AS1	CBL-interacting serine/threonine-protein kinase 6
+770	Lchi23901	Lchi26947	positive_coexpression	0.97541791	0.97541791	positive	1111	159	409.96456197	B-box zinc finger protein 20-like	alcohol dehydrogenase 1-like isoform X1
+771	Lchi22404	Lchi12850	negative_coexpression	-0.92233962	0.92233962	negative	1212	163	409.95480089	nuclear transcription factor Y subunit A-1-like isoform X2	ABA-hypersensitive germination 3
+772	Lchi22877	Lchi25487	positive_coexpression	0.97162980	0.97162980	positive	1041	171	409.94372792	transcription factor AS1	protein MOTHER of FT and TFL1-like protein
+773	Lchi01491	Lchi09003	positive_coexpression	0.98557460	0.98557460	positive	983	176	409.94216958	scarecrow-like protein 27	allene oxide synthase 1, chloroplastic-like
+774	Lchi24981	Lchi28705	positive_coexpression	0.98970550	0.98970550	positive	986	174	409.93883763	protein TIFY 6B isoform X2	oleosin S1-2
+775	Lchi15176	Lchi22953	positive_coexpression	0.99082530	0.99082530	positive	1001	171	409.93233977	transcription factor EGL1-like isoform X1	aspartyl protease family protein 2
+776	Lchi25021	Lchi05990	positive_coexpression	0.98482007	0.98482007	positive	990	175	409.91471833	heat stress transcription factor A-2b-like	oleosin Cor a 13-like
+777	Lchi23901	Lchi13741	positive_coexpression	0.97219878	0.97219878	positive	1111	160	409.89450150	B-box zinc finger protein 20-like	O-fucosyltransferase 7-like isoform X1
+778	Lchi07566	Lchi26496	positive_coexpression	0.97177619	0.97177619	positive	1059	168	409.89146464	LOB domain-containing protein 25-like isoform X3	late embryogenisis abundant protein 4
+779	Lchi13937	Lchi15600	negative_coexpression	-0.98535210	0.98535210	negative	1030	168	409.88752408	B3 domain-containing protein Os03g0212300-like	actin-101
+780	Lchi13371	Lchi25487	positive_coexpression	0.97196311	0.97196311	positive	1040	171	409.88734203	ethylene-responsive transcription factor 4-like	protein MOTHER of FT and TFL1-like protein
+781	Lchi05992	Lchi07386	positive_coexpression	0.96685630	0.96685630	positive	1021	176	409.85584819	ethylene-responsive transcription factor 2-like	potassium transporter 2
+782	Lchi08487	Lchi16452	negative_coexpression	-0.96683639	0.96683639	negative	1021	176	409.84740823	WUSCHEL-related homeobox 9	protein AUXIN SIGNALING F-BOX 2-like
+783	Lchi18250	Lchi09565	positive_coexpression	0.97518873	0.97518873	positive	1077	164	409.84387521	transcription factor bHLH93	CBL-interacting serine/threonine-protein kinase 6
+784	Lchi13937	Lchi02035	negative_coexpression	-0.97942507	0.97942507	negative	1030	170	409.83994949	B3 domain-containing protein Os03g0212300-like	amino acid permease 3-like
+785	Lchi09693	Lchi13097	positive_coexpression	0.98379004	0.98379004	positive	1033	168	409.83328112	homeobox-leucine zipper protein ATHB-6-like	glycosylinositol phosphorylceramide mannosyl transferase 1-like
+786	Lchi08814	Lchi17443	positive_coexpression	0.95661205	0.95661205	positive	1014	181	409.82090885	heat stress transcription factor C-1b-like	plant/F18G18-20 protein
+787	Lchi05992	Lchi27946	positive_coexpression	0.96132606	0.96132606	positive	1021	178	409.82041399	ethylene-responsive transcription factor 2-like	receptor protein kinase CLAVATA1
+788	Lchi13937	Lchi11647	negative_coexpression	-0.97937268	0.97937268	negative	1030	170	409.81802692	B3 domain-containing protein Os03g0212300-like	ketol-acid reductoisomerase, chloroplastic-like
+789	Lchi01491	Lchi05990	positive_coexpression	0.98808050	0.98808050	positive	983	175	409.81524665	scarecrow-like protein 27	oleosin Cor a 13-like
+790	Lchi16402	Lchi14169	positive_coexpression	0.97515124	0.97515124	positive	1015	174	409.80723610	transcription factor MYB20-like	putative 4-hydroxy-4-methyl-2-oxoglutarate aldolase 2
+791	Lchi18004	Lchi19725	positive_coexpression	0.99043524	0.99043524	positive	1001	171	409.77096096	transcription factor bHLH13-like isoform X2	glucose and ribitol dehydrogenase-like
+792	Lchi15176	Lchi16615	positive_coexpression	0.98468524	0.98468524	positive	1001	173	409.76750781	transcription factor EGL1-like isoform X1	germin-like protein 5-1
+793	Lchi22877	Lchi02670	positive_coexpression	0.98571742	0.98571742	positive	1041	166	409.76215054	transcription factor AS1	peroxisomal (S)-2-hydroxyacid oxidase GLO4-like isoform X1
+794	Lchi02202	Lchi18724	positive_coexpression	0.98157495	0.98157495	positive	979	178	409.75552073	bZIP transcription factor TRAB1-like isoform X1	protein DETOXIFICATION 33-like
+795	Lchi06007	Lchi28705	positive_coexpression	0.96930659	0.96930659	positive	1027	174	409.75193327	homeobox-leucine zipper protein HAT2-like	oleosin S1-2
+796	Lchi08487	Lchi02104	positive_coexpression	0.97773373	0.97773373	positive	1021	172	409.72993263	WUSCHEL-related homeobox 9	bidirectional sugar transporter SWEET1
+797	Lchi07566	Lchi07536	positive_coexpression	0.98016971	0.98016971	positive	1059	165	409.72383555	LOB domain-containing protein 25-like isoform X3	protein NSP-INTERACTING KINASE 3
+798	Lchi02551	Lchi17615	positive_coexpression	0.95725811	0.95725811	positive	1035	177	409.71877211	transcription factor bHLH62-like isoform X1	zinc finger CCCH domain-containing protein 53-like isoform X2
+799	Lchi18250	Lchi16999	positive_coexpression	0.96897137	0.96897137	positive	1077	166	409.70648755	transcription factor bHLH93	probable polygalacturonase
+800	Lchi02953	Lchi01501	negative_coexpression	-0.98102373	0.98102373	negative	1070	163	409.69928281	homeobox-leucine zipper protein ATHB-13-like isoform X1	proteasome subunit beta type-7-B
+801	Lchi24981	Lchi05599	positive_coexpression	0.98347634	0.98347634	positive	986	176	409.69315474	protein TIFY 6B isoform X2	protein kinase PINOID 2
+802	Lchi23901	Lchi01643	positive_coexpression	0.96269673	0.96269673	positive	1111	163	409.67581685	B-box zinc finger protein 20-like	two-component response regulator ORR1-like
+803	Lchi23901	Lchi17924	positive_coexpression	0.96264791	0.96264791	positive	1111	163	409.65504149	B-box zinc finger protein 20-like	beta-carotene hydroxylase 2, chloroplastic-like
+804	Lchi02198	Lchi28705	positive_coexpression	0.96571833	0.96571833	positive	1034	174	409.62397552	transcription factor HEC1-like	oleosin S1-2
+805	Lchi08779	Lchi02750	positive_coexpression	0.96167505	0.96167505	positive	1025	177	409.61600220	AP2/ERF and B3 domain-containing transcription repressor RAV2-like	LRR receptor-like serine/threonine-protein kinase ERECTA
+806	Lchi07566	Lchi04815	positive_coexpression	0.97989982	0.97989982	positive	1059	165	409.61101798	LOB domain-containing protein 25-like isoform X3	protein UNUSUAL FLORAL ORGANS-like
+807	Lchi02953	Lchi11229	positive_coexpression	0.97781205	0.97781205	positive	1070	164	409.60872399	homeobox-leucine zipper protein ATHB-13-like isoform X1	24-methylenesterol C-methyltransferase 2-like
+808	Lchi00158	Lchi17921	positive_coexpression	0.97323334	0.97323334	positive	1018	174	409.60522812	transcription factor bHLH147	probable polygalacturonase
+809	Lchi15176	Lchi28705	positive_coexpression	0.98144960	0.98144960	positive	1001	174	409.59973334	transcription factor EGL1-like isoform X1	oleosin S1-2
+810	Lchi08487	Lchi09003	negative_coexpression	-0.96624148	0.96624148	negative	1021	176	409.59522252	WUSCHEL-related homeobox 9	allene oxide synthase 1, chloroplastic-like
+811	Lchi09693	Lchi13511	positive_coexpression	0.97741175	0.97741175	positive	1033	170	409.59267102	homeobox-leucine zipper protein ATHB-6-like	auxin-induced protein 22B-like
+812	Lchi07566	Lchi29887	positive_coexpression	0.99500459	0.99500459	positive	1059	160	409.57463750	LOB domain-containing protein 25-like isoform X3	geraniol 8-hydroxylase-like
+813	Lchi06007	Lchi16615	positive_coexpression	0.97167706	0.97167706	positive	1027	173	409.57196628	homeobox-leucine zipper protein HAT2-like	germin-like protein 5-1
+814	Lchi18004	Lchi02750	positive_coexpression	0.97300124	0.97300124	positive	1001	177	409.55955802	transcription factor bHLH13-like isoform X2	LRR receptor-like serine/threonine-protein kinase ERECTA
+815	Lchi13937	Lchi17317	negative_coexpression	-0.98162758	0.98162758	negative	1030	169	409.55168453	B3 domain-containing protein Os03g0212300-like	probable protein phosphatase 2C 52 isoform X1
+816	Lchi11320	Lchi14169	positive_coexpression	0.98622054	0.98622054	positive	991	174	409.52978627	transcription factor bHLH63-like	putative 4-hydroxy-4-methyl-2-oxoglutarate aldolase 2
+817	Lchi25021	Lchi05599	positive_coexpression	0.98109376	0.98109376	positive	990	176	409.52879613	heat stress transcription factor A-2b-like	protein kinase PINOID 2
+818	Lchi13937	Lchi01385	negative_coexpression	-0.98153156	0.98153156	negative	1030	169	409.51162336	B3 domain-containing protein Os03g0212300-like	abscisic acid receptor PYR1-like
+819	Lchi13371	Lchi08727	positive_coexpression	0.95447016	0.95447016	positive	1040	177	409.51108135	ethylene-responsive transcription factor 4-like	LAX3-1
+820	Lchi02953	Lchi06686	positive_coexpression	0.96015799	0.96015799	positive	1070	170	409.50485007	homeobox-leucine zipper protein ATHB-13-like isoform X1	desmethyl-yatein O-methyltransferase-like
+821	Lchi11320	Lchi28705	positive_coexpression	0.98615354	0.98615354	positive	991	174	409.50196440	transcription factor bHLH63-like	oleosin S1-2
+822	Lchi12859	Lchi02750	positive_coexpression	0.98776186	0.98776186	positive	971	177	409.49490358	transcription factor EMB1444-like isoform X2	LRR receptor-like serine/threonine-protein kinase ERECTA
+823	Lchi11320	Lchi05599	positive_coexpression	0.98051506	0.98051506	positive	991	176	409.49389335	transcription factor bHLH63-like	protein kinase PINOID 2
+824	Lchi06007	Lchi01385	positive_coexpression	0.98289198	0.98289198	positive	1027	169	409.48157544	homeobox-leucine zipper protein HAT2-like	abscisic acid receptor PYR1-like
+825	Lchi06007	Lchi24833	positive_coexpression	0.99164015	0.99164015	positive	1027	166	409.44292227	homeobox-leucine zipper protein HAT2-like	kinesin-like protein KIN-14B isoform X1
+826	Lchi02551	Lchi19725	positive_coexpression	0.97323483	0.97323483	positive	1035	171	409.43585613	transcription factor bHLH62-like isoform X1	glucose and ribitol dehydrogenase-like
+827	Lchi07566	Lchi25245	positive_coexpression	0.96208823	0.96208823	positive	1059	171	409.41234789	LOB domain-containing protein 25-like isoform X3	myosin-binding protein 7-like
+828	Lchi09693	Lchi01554	positive_coexpression	0.96838307	0.96838307	positive	1033	173	409.37413577	homeobox-leucine zipper protein ATHB-6-like	aquaporin TIP3-1-like
+829	Lchi31297	Lchi19725	positive_coexpression	0.98897856	0.98897856	positive	1002	171	409.37262016	trihelix transcription factor ASIL2	glucose and ribitol dehydrogenase-like
+830	Lchi08487	Lchi27397	negative_coexpression	-0.98549819	0.98549819	negative	1021	169	409.36626859	WUSCHEL-related homeobox 9	p-coumarate 3-hydroxylase-like
+831	Lchi07566	Lchi14492	positive_coexpression	0.98829001	0.98829001	positive	1059	162	409.34537956	LOB domain-containing protein 25-like isoform X3	histidine-containing phosphotransfer protein 1-like
+832	Lchi23901	Lchi08166	positive_coexpression	0.96486533	0.96486533	positive	1111	162	409.33722227	B-box zinc finger protein 20-like	protein ENHANCED DISEASE RESISTANCE 2-like isoform X1
+833	Lchi01491	Lchi16689	positive_coexpression	0.98975223	0.98975223	positive	983	174	409.33404956	scarecrow-like protein 27	xyloglucan endotransglucosylase protein 2-like
+834	Lchi06007	Lchi11807	positive_coexpression	0.97963214	0.97963214	positive	1027	170	409.32918203	homeobox-leucine zipper protein HAT2-like	pentatricopeptide repeat-containing protein DOT4, chloroplastic-like
+835	Lchi22877	Lchi02035	positive_coexpression	0.97298956	0.97298956	positive	1041	170	409.31532562	transcription factor AS1	amino acid permease 3-like
+836	Lchi06007	Lchi13097	positive_coexpression	0.98541081	0.98541081	positive	1027	168	409.31455186	homeobox-leucine zipper protein HAT2-like	glycosylinositol phosphorylceramide mannosyl transferase 1-like
+837	Lchi08779	Lchi25487	positive_coexpression	0.97765929	0.97765929	positive	1025	171	409.30544236	AP2/ERF and B3 domain-containing transcription repressor RAV2-like	protein MOTHER of FT and TFL1-like protein
+838	Lchi02953	Lchi02405	positive_coexpression	0.98922020	0.98922020	positive	1070	160	409.30293258	homeobox-leucine zipper protein ATHB-13-like isoform X1	serine carboxypeptidase-like 45
+839	Lchi02551	Lchi25188	positive_coexpression	0.95627731	0.95627731	positive	1035	177	409.29897711	transcription factor bHLH62-like isoform X1	villin-1 isoform X1
+840	Lchi02198	Lchi04752	positive_coexpression	0.97615194	0.97615194	positive	1034	170	409.26268750	transcription factor HEC1-like	ABC transporter-like protein
+841	Lchi06972	Lchi02035	positive_coexpression	0.96632028	0.96632028	positive	1055	170	409.23407161	transcription factor bHLH149-like	amino acid permease 3-like
+842	Lchi18250	Lchi13510	positive_coexpression	0.99512804	0.99512804	positive	1077	157	409.20095773	transcription factor bHLH93	auxin-responsive protein IAA16-like
+843	Lchi12859	Lchi05513	positive_coexpression	0.98705071	0.98705071	positive	971	177	409.20008323	transcription factor EMB1444-like isoform X2	methyl-CpG-binding domain-containing protein 11-like isoform X1
+844	Lchi06007	Lchi22902	negative_coexpression	-0.98802269	0.98802269	negative	1027	167	409.17621029	homeobox-leucine zipper protein HAT2-like	DNA repair RAD52-like protein 2, chloroplastic
+845	Lchi18004	Lchi31555	negative_coexpression	-0.98324317	0.98324317	negative	1001	173	409.16740393	transcription factor bHLH13-like isoform X2	protein CHUP1, chloroplastic-like isoform X1
+846	Lchi06972	Lchi04815	positive_coexpression	0.98057878	0.98057878	positive	1055	165	409.11998304	transcription factor bHLH149-like	protein UNUSUAL FLORAL ORGANS-like
+847	Lchi01043	Lchi09003	positive_coexpression	0.99578816	0.99578816	positive	959	176	409.10293540	axial regulator YABBY 5-like	allene oxide synthase 1, chloroplastic-like
+848	Lchi24373	Lchi09003	positive_coexpression	0.98606569	0.98606569	positive	978	176	409.10200612	protein YABBY 4-like	allene oxide synthase 1, chloroplastic-like
+849	Lchi19175	Lchi16235	positive_coexpression	0.97937608	0.97937608	positive	964	181	409.09794423	transcription factor CSA-like	beta-glucosidase 44-like
+850	Lchi15589	Lchi06311	positive_coexpression	0.99010873	0.99010873	positive	1067	160	409.09586596	trihelix transcription factor GTL1 isoform X1	S-adenosylmethionine synthase 5
+851	Lchi01491	Lchi12025	positive_coexpression	0.98633498	0.98633498	positive	983	175	409.09127658	scarecrow-like protein 27	protein neprosin-like
+852	Lchi24373	Lchi02750	positive_coexpression	0.98324627	0.98324627	positive	978	177	409.08953337	protein YABBY 4-like	LRR receptor-like serine/threonine-protein kinase ERECTA
+853	Lchi08487	Lchi11374	negative_coexpression	-0.97620010	0.97620010	negative	1021	172	409.08724833	WUSCHEL-related homeobox 9	dehydrin/lea group 2-like protein
+854	Lchi15176	Lchi31555	negative_coexpression	-0.98303783	0.98303783	negative	1001	173	409.08195362	transcription factor EGL1-like isoform X1	protein CHUP1, chloroplastic-like isoform X1
+855	Lchi18250	Lchi02176	positive_coexpression	0.98545277	0.98545277	positive	1077	160	409.07567679	transcription factor bHLH93	beta-1,3-galactosyltransferase 7-like
+856	Lchi02953	Lchi24864	positive_coexpression	0.96195859	0.96195859	positive	1070	169	409.06433674	homeobox-leucine zipper protein ATHB-13-like isoform X1	(S)-coclaurine N-methyltransferase-like isoform X1
+857	Lchi22877	Lchi28527	positive_coexpression	0.98399675	0.98399675	positive	1041	166	409.04686904	transcription factor AS1	heavy metal-associated isoprenylated plant protein 9 isoform X1
+858	Lchi07566	Lchi11105	negative_coexpression	-0.97852558	0.97852558	negative	1059	165	409.03656757	LOB domain-containing protein 25-like isoform X3	nucleolin 2-like isoform X3
+859	Lchi24981	Lchi11642	positive_coexpression	0.97092277	0.97092277	positive	986	180	409.03398779	protein TIFY 6B isoform X2	arogenate dehydrogenase 2, chloroplastic-like
+860	Lchi08779	Lchi05990	positive_coexpression	0.96577257	0.96577257	positive	1025	175	409.03062274	AP2/ERF and B3 domain-containing transcription repressor RAV2-like	oleosin Cor a 13-like
+861	Lchi12859	Lchi16235	positive_coexpression	0.97566152	0.97566152	positive	971	181	409.02332910	transcription factor EMB1444-like isoform X2	beta-glucosidase 44-like
+862	Lchi07566	Lchi22690	positive_coexpression	0.98751175	0.98751175	positive	1059	162	409.02302769	LOB domain-containing protein 25-like isoform X3	abscisic stress-ripening protein 2-like
+863	Lchi13937	Lchi27397	negative_coexpression	-0.98034781	0.98034781	negative	1030	169	409.01774277	B3 domain-containing protein Os03g0212300-like	p-coumarate 3-hydroxylase-like
+864	Lchi08814	Lchi14169	positive_coexpression	0.97370100	0.97370100	positive	1014	174	408.99614791	heat stress transcription factor C-1b-like	putative 4-hydroxy-4-methyl-2-oxoglutarate aldolase 2
+865	Lchi25021	Lchi17615	positive_coexpression	0.97698361	0.97698361	positive	990	177	408.97005366	heat stress transcription factor A-2b-like	zinc finger CCCH domain-containing protein 53-like isoform X2
+866	Lchi05992	Lchi05513	positive_coexpression	0.96197665	0.96197665	positive	1021	177	408.94418282	ethylene-responsive transcription factor 2-like	methyl-CpG-binding domain-containing protein 11-like isoform X1
+867	Lchi18250	Lchi07737	positive_coexpression	0.99446648	0.99446648	positive	1077	157	408.92892139	transcription factor bHLH93	phenylalanine N-monooxygenase-like
+868	Lchi07566	Lchi26947	positive_coexpression	0.99651700	0.99651700	positive	1059	159	408.91331677	LOB domain-containing protein 25-like isoform X3	alcohol dehydrogenase 1-like isoform X1
+869	Lchi13937	Lchi06352	negative_coexpression	-0.98296988	0.98296988	negative	1030	168	408.89656638	B3 domain-containing protein Os03g0212300-like	polygalacturonase At1g48100
+870	Lchi09693	Lchi25245	positive_coexpression	0.97288913	0.97288913	positive	1033	171	408.89478067	homeobox-leucine zipper protein ATHB-6-like	myosin-binding protein 7-like
+871	Lchi09693	Lchi22140	positive_coexpression	0.98741680	0.98741680	positive	1033	166	408.88833116	homeobox-leucine zipper protein ATHB-6-like	ABC transporter G family member 8-like
+872	Lchi07566	Lchi13821	negative_coexpression	-0.98414981	0.98414981	negative	1059	163	408.88671025	LOB domain-containing protein 25-like isoform X3	protein FLX-like 2
+873	Lchi01491	Lchi17615	positive_coexpression	0.98024625	0.98024625	positive	983	177	408.88255491	scarecrow-like protein 27	zinc finger CCCH domain-containing protein 53-like isoform X2
+874	Lchi12859	Lchi17443	positive_coexpression	0.97530699	0.97530699	positive	971	181	408.87470067	transcription factor EMB1444-like isoform X2	plant/F18G18-20 protein
+875	Lchi09693	Lchi09565	positive_coexpression	0.99338561	0.99338561	positive	1033	164	408.87442782	homeobox-leucine zipper protein ATHB-6-like	CBL-interacting serine/threonine-protein kinase 6
+876	Lchi08487	Lchi28705	negative_coexpression	-0.97006762	0.97006762	negative	1021	174	408.87400818	WUSCHEL-related homeobox 9	oleosin S1-2
+877	Lchi18004	Lchi00354	positive_coexpression	0.97970569	0.97970569	positive	1001	174	408.87192718	transcription factor bHLH13-like isoform X2	stress-related protein-like
+878	Lchi13937	Lchi12998	negative_coexpression	-0.97708887	0.97708887	negative	1030	170	408.86236773	B3 domain-containing protein Os03g0212300-like	putative disease resistance protein At5g47280
+879	Lchi18004	Lchi11647	positive_coexpression	0.99110240	0.99110240	positive	1001	170	408.84625804	transcription factor bHLH13-like isoform X2	ketol-acid reductoisomerase, chloroplastic-like
+880	Lchi00158	Lchi26693	positive_coexpression	0.96314830	0.96314830	positive	1018	177	408.84028711	transcription factor bHLH147	zinc-finger homeodomain protein 1-like
+881	Lchi09693	Lchi01000	positive_coexpression	0.97561061	0.97561061	positive	1033	170	408.83788805	homeobox-leucine zipper protein ATHB-6-like	V-type proton ATPase subunit B 2 isoform X1
+882	Lchi18250	Lchi22953	positive_coexpression	0.95259219	0.95259219	positive	1077	171	408.80191674	transcription factor bHLH93	aspartyl protease family protein 2
+883	Lchi00158	Lchi07558	positive_coexpression	0.97977954	0.97977954	positive	1018	171	408.79004425	transcription factor bHLH147	leucine-rich repeat receptor-like serine/threonine-protein kinase RGI4
+884	Lchi23901	Lchi11105	negative_coexpression	-0.95474482	0.95474482	negative	1111	165	408.77686850	B-box zinc finger protein 20-like	nucleolin 2-like isoform X3
+885	Lchi09693	Lchi25757	positive_coexpression	0.98417634	0.98417634	positive	1033	167	408.77216625	homeobox-leucine zipper protein ATHB-6-like	cytochrome P450 71A1-like
+886	Lchi08779	Lchi28090	positive_coexpression	0.98212153	0.98212153	positive	1025	169	408.76200124	AP2/ERF and B3 domain-containing transcription repressor RAV2-like	protein P21-like protein
+887	Lchi13937	Lchi16689	negative_coexpression	-0.96553534	0.96553534	negative	1030	174	408.75343066	B3 domain-containing protein Os03g0212300-like	xyloglucan endotransglucosylase protein 2-like
+888	Lchi02551	Lchi12998	positive_coexpression	0.97445315	0.97445315	positive	1035	170	408.74796118	transcription factor bHLH62-like isoform X1	putative disease resistance protein At5g47280
+889	Lchi09693	Lchi16999	positive_coexpression	0.98700929	0.98700929	positive	1033	166	408.71958167	homeobox-leucine zipper protein ATHB-6-like	probable polygalacturonase
+890	Lchi31297	Lchi11642	positive_coexpression	0.96237421	0.96237421	positive	1002	180	408.70889481	trihelix transcription factor ASIL2	arogenate dehydrogenase 2, chloroplastic-like
+891	Lchi24373	Lchi05599	positive_coexpression	0.98509210	0.98509210	positive	978	176	408.69808006	protein YABBY 4-like	protein kinase PINOID 2
+892	Lchi09693	Lchi03143	positive_coexpression	0.96677381	0.96677381	positive	1033	173	408.69383740	homeobox-leucine zipper protein ATHB-6-like	scopoletin glucosyltransferase-like
+893	Lchi22404	Lchi11711	negative_coexpression	-0.93986499	0.93986499	negative	1212	156	408.67595062	nuclear transcription factor Y subunit A-1-like isoform X2	rac-like GTP-binding protein 5
+894	Lchi06007	Lchi14169	positive_coexpression	0.96669245	0.96669245	positive	1027	174	408.64686607	homeobox-leucine zipper protein HAT2-like	putative 4-hydroxy-4-methyl-2-oxoglutarate aldolase 2
+895	Lchi20729	Lchi16235	positive_coexpression	0.96386510	0.96386510	positive	993	181	408.62992424	transcription factor PIF4-like isoform X2	beta-glucosidase 44-like
+896	Lchi23901	Lchi13353	positive_coexpression	0.97531080	0.97531080	positive	1111	158	408.62845565	B-box zinc finger protein 20-like	auxin-responsive protein IAA14-like
+897	Lchi13371	Lchi04752	positive_coexpression	0.97182089	0.97182089	positive	1040	170	408.62728361	ethylene-responsive transcription factor 4-like	ABC transporter-like protein
+898	Lchi06972	Lchi27919	positive_coexpression	0.97643465	0.97643465	positive	1055	166	408.62361006	transcription factor bHLH149-like	non-functional NADPH-dependent codeinone reductase 2-like isoform X1
+899	Lchi06972	Lchi05990	positive_coexpression	0.95095211	0.95095211	positive	1055	175	408.60521063	transcription factor bHLH149-like	oleosin Cor a 13-like
+900	Lchi07566	Lchi01370	positive_coexpression	0.96297950	0.96297950	positive	1059	170	408.59164580	LOB domain-containing protein 25-like isoform X3	late embryogenesis abundant protein 6
+901	Lchi24373	Lchi26693	positive_coexpression	0.98204958	0.98204958	positive	978	177	408.59163842	protein YABBY 4-like	zinc-finger homeodomain protein 1-like
+902	Lchi15176	Lchi12025	positive_coexpression	0.97619617	0.97619617	positive	1001	175	408.57629180	transcription factor EGL1-like isoform X1	protein neprosin-like
+903	Lchi18004	Lchi28090	positive_coexpression	0.99336755	0.99336755	positive	1001	169	408.57365526	transcription factor bHLH13-like isoform X2	protein P21-like protein
+904	Lchi31297	Lchi25188	positive_coexpression	0.97016650	0.97016650	positive	1002	177	408.57027625	trihelix transcription factor ASIL2	villin-1 isoform X1
+905	Lchi15176	Lchi07558	positive_coexpression	0.98750907	0.98750907	positive	1001	171	408.56032200	transcription factor EGL1-like isoform X1	leucine-rich repeat receptor-like serine/threonine-protein kinase RGI4
+906	Lchi11320	Lchi17615	positive_coexpression	0.97551113	0.97551113	positive	991	177	408.55985360	transcription factor bHLH63-like	zinc finger CCCH domain-containing protein 53-like isoform X2
+907	Lchi24981	Lchi25772	positive_coexpression	0.97248638	0.97248638	positive	986	179	408.55309096	protein TIFY 6B isoform X2	cysteine proteinase inhibitor 5-like
+908	Lchi18004	Lchi26693	positive_coexpression	0.97060812	0.97060812	positive	1001	177	408.55223642	transcription factor bHLH13-like isoform X2	zinc-finger homeodomain protein 1-like
+909	Lchi25021	Lchi06116	positive_coexpression	0.99006617	0.99006617	positive	990	172	408.55077806	heat stress transcription factor A-2b-like	probable galactinol--sucrose galactosyltransferase 2 isoform X1
+910	Lchi07566	Lchi16689	positive_coexpression	0.95172858	0.95172858	positive	1059	174	408.54106376	LOB domain-containing protein 25-like isoform X3	xyloglucan endotransglucosylase protein 2-like
+911	Lchi18250	Lchi19388	positive_coexpression	0.96913195	0.96913195	positive	1077	165	408.53826034	transcription factor bHLH93	L-type lectin-domain containing receptor kinase VIII.1
+912	Lchi09693	Lchi11807	positive_coexpression	0.97485739	0.97485739	positive	1033	170	408.52224483	homeobox-leucine zipper protein ATHB-6-like	pentatricopeptide repeat-containing protein DOT4, chloroplastic-like
+913	Lchi24981	Lchi16615	positive_coexpression	0.98911828	0.98911828	positive	986	173	408.51662682	protein TIFY 6B isoform X2	germin-like protein 5-1
+914	Lchi08814	Lchi28705	positive_coexpression	0.97251749	0.97251749	positive	1014	174	408.49902299	heat stress transcription factor C-1b-like	oleosin S1-2
+915	Lchi06007	Lchi25294	positive_coexpression	0.98638630	0.98638630	positive	1027	167	408.49852154	homeobox-leucine zipper protein HAT2-like	subtilisin-like protease SBT1.8
+916	Lchi15176	Lchi02104	negative_coexpression	-0.98447281	0.98447281	negative	1001	172	408.49334739	transcription factor EGL1-like isoform X1	bidirectional sugar transporter SWEET1
+917	Lchi06060	Lchi28705	positive_coexpression	0.96960980	0.96960980	positive	1020	174	408.48085487	squamosa promoter-binding-like protein 7	oleosin S1-2
+918	Lchi09693	Lchi14598	negative_coexpression	-0.97761190	0.97761190	negative	1033	169	408.46983737	homeobox-leucine zipper protein ATHB-6-like	pentatricopeptide repeat-containing protein At3g02490, mitochondrial-like isoform X2
+919	Lchi07566	Lchi04049	positive_coexpression	0.99231309	0.99231309	positive	1059	160	408.46673293	LOB domain-containing protein 25-like isoform X3	major latex protein 146-like
+920	Lchi18004	Lchi07558	positive_coexpression	0.98728156	0.98728156	positive	1001	171	408.46619470	transcription factor bHLH13-like isoform X2	leucine-rich repeat receptor-like serine/threonine-protein kinase RGI4
+921	Lchi08814	Lchi16615	positive_coexpression	0.97520232	0.97520232	positive	1014	173	408.44798215	heat stress transcription factor C-1b-like	germin-like protein 5-1
+922	Lchi13937	Lchi22140	negative_coexpression	-0.98777539	0.98777539	negative	1030	166	408.44243634	B3 domain-containing protein Os03g0212300-like	ABC transporter G family member 8-like
+923	Lchi24373	Lchi01554	positive_coexpression	0.99296081	0.99296081	positive	978	173	408.43653873	protein YABBY 4-like	aquaporin TIP3-1-like
+924	Lchi09693	Lchi18761	positive_coexpression	0.97751158	0.97751158	positive	1033	169	408.42792126	homeobox-leucine zipper protein ATHB-6-like	deSI-like protein At4g17486
+925	Lchi02953	Lchi09565	positive_coexpression	0.97497904	0.97497904	positive	1070	164	408.42196667	homeobox-leucine zipper protein ATHB-13-like isoform X1	CBL-interacting serine/threonine-protein kinase 6
+926	Lchi09693	Lchi19725	positive_coexpression	0.97170794	0.97170794	positive	1033	171	408.39833928	homeobox-leucine zipper protein ATHB-6-like	glucose and ribitol dehydrogenase-like
+927	Lchi00158	Lchi04752	positive_coexpression	0.98170501	0.98170501	positive	1018	170	408.39400387	transcription factor bHLH147	ABC transporter-like protein
+928	Lchi06972	Lchi28090	positive_coexpression	0.96712554	0.96712554	positive	1055	169	408.36868769	transcription factor bHLH149-like	protein P21-like protein
+929	Lchi02551	Lchi02035	positive_coexpression	0.97352493	0.97352493	positive	1035	170	408.35860635	transcription factor bHLH62-like isoform X1	amino acid permease 3-like
+930	Lchi08779	Lchi27397	positive_coexpression	0.98114038	0.98114038	positive	1025	169	408.35364359	AP2/ERF and B3 domain-containing transcription repressor RAV2-like	p-coumarate 3-hydroxylase-like
+931	Lchi14874	Lchi16689	negative_coexpression	-0.90932238	0.90932238	negative	1159	174	408.35156286	nuclear transcription factor Y subunit A-10-like isoform X2	xyloglucan endotransglucosylase protein 2-like
+932	Lchi01491	Lchi25188	positive_coexpression	0.97894359	0.97894359	positive	983	177	408.33918639	scarecrow-like protein 27	villin-1 isoform X1
+933	Lchi23901	Lchi11629	positive_coexpression	0.98400134	0.98400134	positive	1111	155	408.33684454	B-box zinc finger protein 20-like	protein SCAR3-like isoform X2
+934	Lchi01491	Lchi03143	positive_coexpression	0.99018407	0.99018407	positive	983	173	408.33419049	scarecrow-like protein 27	scopoletin glucosyltransferase-like
+935	Lchi22877	Lchi01385	positive_coexpression	0.97348529	0.97348529	positive	1041	169	408.31760984	transcription factor AS1	abscisic acid receptor PYR1-like
+936	Lchi02551	Lchi11642	positive_coexpression	0.94598067	0.94598067	positive	1035	180	408.30875259	transcription factor bHLH62-like isoform X1	arogenate dehydrogenase 2, chloroplastic-like
+937	Lchi23901	Lchi26173	positive_coexpression	0.96242166	0.96242166	positive	1111	162	408.30051273	B-box zinc finger protein 20-like	mitochondrial metalloendopeptidase OMA1
+938	Lchi13937	Lchi02670	negative_coexpression	-0.98742676	0.98742676	negative	1030	166	408.29827878	B3 domain-containing protein Os03g0212300-like	peroxisomal (S)-2-hydroxyacid oxidase GLO4-like isoform X1
+939	Lchi06007	Lchi11589	positive_coexpression	0.97145677	0.97145677	positive	1027	172	408.29393095	homeobox-leucine zipper protein HAT2-like	ribonuclease 3-like
+940	Lchi02953	Lchi26496	positive_coexpression	0.96295428	0.96295428	positive	1070	168	408.27444537	homeobox-leucine zipper protein ATHB-13-like isoform X1	late embryogenisis abundant protein 4
+941	Lchi24373	Lchi05513	positive_coexpression	0.98126340	0.98126340	positive	978	177	408.26454030	protein YABBY 4-like	methyl-CpG-binding domain-containing protein 11-like isoform X1
+942	Lchi09693	Lchi12819	positive_coexpression	0.99188679	0.99188679	positive	1033	164	408.25751817	homeobox-leucine zipper protein ATHB-6-like	E3 ubiquitin-protein ligase RDUF1-like
+943	Lchi02877	Lchi02750	negative_coexpression	-0.98123538	0.98123538	negative	978	177	408.25288229	protein SHORT ROOT IN SALT MEDIUM 1 isoform X2	LRR receptor-like serine/threonine-protein kinase ERECTA
+944	Lchi15589	Lchi11642	positive_coexpression	0.93152219	0.93152219	positive	1067	180	408.23634501	trihelix transcription factor GTL1 isoform X1	arogenate dehydrogenase 2, chloroplastic-like
+945	Lchi02953	Lchi14598	negative_coexpression	-0.95999372	0.95999372	negative	1070	169	408.22879324	homeobox-leucine zipper protein ATHB-13-like isoform X1	pentatricopeptide repeat-containing protein At3g02490, mitochondrial-like isoform X2
+946	Lchi23901	Lchi17053	positive_coexpression	0.95635420	0.95635420	positive	1111	164	408.22323781	B-box zinc finger protein 20-like	jasmonoyl--L-amino acid synthetase JAR4-like
+947	Lchi15176	Lchi11589	positive_coexpression	0.98375851	0.98375851	positive	1001	172	408.19695850	transcription factor EGL1-like isoform X1	ribonuclease 3-like
+948	Lchi31297	Lchi11647	positive_coexpression	0.98902845	0.98902845	positive	1002	170	408.19445980	trihelix transcription factor ASIL2	ketol-acid reductoisomerase, chloroplastic-like
+949	Lchi13937	Lchi25757	negative_coexpression	-0.98420674	0.98420674	negative	1030	167	408.19077236	B3 domain-containing protein Os03g0212300-like	cytochrome P450 71A1-like
+950	Lchi00158	Lchi07386	positive_coexpression	0.96434462	0.96434462	positive	1018	176	408.19011640	transcription factor bHLH147	potassium transporter 2
+951	Lchi18250	Lchi17239	positive_coexpression	0.98948735	0.98948735	positive	1077	158	408.17522565	transcription factor bHLH93	non-symbiotic hemoglobin 2
+952	Lchi23901	Lchi01404	positive_coexpression	0.97421879	0.97421879	positive	1111	158	408.17093343	B-box zinc finger protein 20-like	leucine carboxyl methyltransferase 1 homolog isoform X4
+953	Lchi11320	Lchi08727	positive_coexpression	0.97457981	0.97457981	positive	991	177	408.16980170	transcription factor bHLH63-like	LAX3-1
+954	Lchi20729	Lchi05513	positive_coexpression	0.97359121	0.97359121	positive	993	177	408.16701152	transcription factor PIF4-like isoform X2	methyl-CpG-binding domain-containing protein 11-like isoform X1
+955	Lchi13937	Lchi27919	negative_coexpression	-0.98710358	0.98710358	negative	1030	166	408.16464473	B3 domain-containing protein Os03g0212300-like	non-functional NADPH-dependent codeinone reductase 2-like isoform X1
+956	Lchi01043	Lchi26693	positive_coexpression	0.99067765	0.99067765	positive	959	177	408.15798952	axial regulator YABBY 5-like	zinc-finger homeodomain protein 1-like
+957	Lchi07566	Lchi22934	positive_coexpression	0.96766603	0.96766603	positive	1059	168	408.15781494	LOB domain-containing protein 25-like isoform X3	seipin-1
+958	Lchi08779	Lchi17921	positive_coexpression	0.96641576	0.96641576	positive	1025	174	408.13191834	AP2/ERF and B3 domain-containing transcription repressor RAV2-like	probable polygalacturonase
+959	Lchi06007	Lchi02035	positive_coexpression	0.97671652	0.97671652	positive	1027	170	408.11092029	homeobox-leucine zipper protein HAT2-like	amino acid permease 3-like
+960	Lchi13937	Lchi14598	positive_coexpression	0.97816503	0.97816503	positive	1030	169	408.10704991	B3 domain-containing protein Os03g0212300-like	pentatricopeptide repeat-containing protein At3g02490, mitochondrial-like isoform X2
+961	Lchi09693	Lchi15600	positive_coexpression	0.97953176	0.97953176	positive	1033	168	408.05934075	homeobox-leucine zipper protein ATHB-6-like	actin-101
+962	Lchi02953	Lchi10644	positive_coexpression	0.98308146	0.98308146	positive	1070	161	408.03210202	homeobox-leucine zipper protein ATHB-13-like isoform X1	GDSL esterase/lipase At3g26430-like
+963	Lchi09693	Lchi16689	positive_coexpression	0.96239424	0.96239424	positive	1033	174	408.01656937	homeobox-leucine zipper protein ATHB-6-like	xyloglucan endotransglucosylase protein 2-like
+964	Lchi22877	Lchi04815	positive_coexpression	0.98447400	0.98447400	positive	1041	165	408.01073309	transcription factor AS1	protein UNUSUAL FLORAL ORGANS-like
+965	Lchi15589	Lchi08727	positive_coexpression	0.93884748	0.93884748	positive	1067	177	408.00349921	trihelix transcription factor GTL1 isoform X1	LAX3-1
+966	Lchi08487	Lchi08727	negative_coexpression	-0.95975745	0.95975745	negative	1021	177	408.00078266	WUSCHEL-related homeobox 9	LAX3-1
+967	Lchi01491	Lchi06116	positive_coexpression	0.99220318	0.99220318	positive	983	172	407.98255835	scarecrow-like protein 27	probable galactinol--sucrose galactosyltransferase 2 isoform X1
+968	Lchi02953	Lchi01370	positive_coexpression	0.95656437	0.95656437	positive	1070	170	407.97218062	homeobox-leucine zipper protein ATHB-13-like isoform X1	late embryogenesis abundant protein 6
+969	Lchi02551	Lchi15600	positive_coexpression	0.97831446	0.97831446	positive	1035	168	407.94657233	transcription factor bHLH62-like isoform X1	actin-101
+970	Lchi23901	Lchi04049	positive_coexpression	0.96757525	0.96757525	positive	1111	160	407.94514756	B-box zinc finger protein 20-like	major latex protein 146-like
+971	Lchi08779	Lchi28527	positive_coexpression	0.98896468	0.98896468	positive	1025	166	407.94043827	AP2/ERF and B3 domain-containing transcription repressor RAV2-like	heavy metal-associated isoprenylated plant protein 9 isoform X1
+972	Lchi02953	Lchi04059	positive_coexpression	0.97381711	0.97381711	positive	1070	164	407.93523032	homeobox-leucine zipper protein ATHB-13-like isoform X1	protein DETOXIFICATION 49-like
+973	Lchi07566	Lchi11397	positive_coexpression	0.99098307	0.99098307	positive	1059	160	407.91925560	LOB domain-containing protein 25-like isoform X3	lysM domain receptor-like kinase 3
+974	Lchi13937	Lchi18761	negative_coexpression	-0.97770566	0.97770566	negative	1030	169	407.91539295	B3 domain-containing protein Os03g0212300-like	deSI-like protein At4g17486
+975	Lchi24981	Lchi14169	positive_coexpression	0.98481101	0.98481101	positive	986	174	407.91152593	protein TIFY 6B isoform X2	putative 4-hydroxy-4-methyl-2-oxoglutarate aldolase 2
+976	Lchi18250	Lchi13532	positive_coexpression	0.99196285	0.99196285	positive	1077	157	407.89941790	transcription factor bHLH93	DJ-1 protein homolog E-like
+977	Lchi08487	Lchi19388	negative_coexpression	-0.99376714	0.99376714	negative	1021	165	407.88663511	WUSCHEL-related homeobox 9	L-type lectin-domain containing receptor kinase VIII.1
+978	Lchi15589	Lchi06352	positive_coexpression	0.96333545	0.96333545	positive	1067	168	407.86307845	trihelix transcription factor GTL1 isoform X1	polygalacturonase At1g48100
+979	Lchi23901	Lchi15602	positive_coexpression	0.97960597	0.97960597	positive	1111	156	407.82209549	B-box zinc finger protein 20-like	actin-101
+980	Lchi06007	Lchi05688	positive_coexpression	0.98769355	0.98769355	positive	1027	166	407.81339220	homeobox-leucine zipper protein HAT2-like	serine/threonine-protein kinase STY13-like isoform X3
+981	Lchi16402	Lchi18724	positive_coexpression	0.95939231	0.95939231	positive	1015	178	407.79251994	transcription factor MYB20-like	protein DETOXIFICATION 33-like
+982	Lchi24373	Lchi05990	positive_coexpression	0.98570317	0.98570317	positive	978	175	407.78815338	protein YABBY 4-like	oleosin Cor a 13-like
+983	Lchi24981	Lchi11589	positive_coexpression	0.99016112	0.99016112	positive	986	172	407.76368945	protein TIFY 6B isoform X2	ribonuclease 3-like
+984	Lchi25021	Lchi06686	positive_coexpression	0.99391925	0.99391925	positive	990	170	407.74923977	heat stress transcription factor A-2b-like	desmethyl-yatein O-methyltransferase-like
+985	Lchi01491	Lchi31555	negative_coexpression	-0.98874694	0.98874694	negative	983	173	407.74154380	scarecrow-like protein 27	protein CHUP1, chloroplastic-like isoform X1
+986	Lchi02953	Lchi22140	positive_coexpression	0.96745938	0.96745938	positive	1070	166	407.73563805	homeobox-leucine zipper protein ATHB-13-like isoform X1	ABC transporter G family member 8-like
+987	Lchi06060	Lchi04752	positive_coexpression	0.97915739	0.97915739	positive	1020	170	407.73411717	squamosa promoter-binding-like protein 7	ABC transporter-like protein
+988	Lchi13371	Lchi01000	positive_coexpression	0.96967626	0.96967626	positive	1040	170	407.72551833	ethylene-responsive transcription factor 4-like	V-type proton ATPase subunit B 2 isoform X1
+989	Lchi09693	Lchi22888	negative_coexpression	-0.99049753	0.99049753	negative	1033	164	407.68570307	homeobox-leucine zipper protein ATHB-6-like	metallothionein-like protein type 2
+990	Lchi01491	Lchi00354	positive_coexpression	0.98576182	0.98576182	positive	983	174	407.68372675	scarecrow-like protein 27	stress-related protein-like
+991	Lchi06060	Lchi16615	positive_coexpression	0.97046518	0.97046518	positive	1020	173	407.66468865	squamosa promoter-binding-like protein 7	germin-like protein 5-1
+992	Lchi05992	Lchi25757	positive_coexpression	0.98723215	0.98723215	positive	1021	167	407.65276904	ethylene-responsive transcription factor 2-like	cytochrome P450 71A1-like
+993	Lchi15589	Lchi02670	positive_coexpression	0.96861506	0.96861506	positive	1067	166	407.65002275	trihelix transcription factor GTL1 isoform X1	peroxisomal (S)-2-hydroxyacid oxidase GLO4-like isoform X1
+994	Lchi08779	Lchi13511	positive_coexpression	0.97655457	0.97655457	positive	1025	170	407.64574180	AP2/ERF and B3 domain-containing transcription repressor RAV2-like	auxin-induced protein 22B-like
+995	Lchi20729	Lchi18550	positive_coexpression	0.98925674	0.98925674	positive	993	171	407.64460343	transcription factor PIF4-like isoform X2	probable BOI-related E3 ubiquitin-protein ligase 3
+996	Lchi13937	Lchi11825	negative_coexpression	-0.97408915	0.97408915	negative	1030	170	407.60713634	B3 domain-containing protein Os03g0212300-like	nudix hydrolase 12, mitochondrial-like
+997	Lchi05992	Lchi00354	positive_coexpression	0.96703255	0.96703255	positive	1021	174	407.59475587	ethylene-responsive transcription factor 2-like	stress-related protein-like
+998	Lchi23901	Lchi05297	positive_coexpression	0.99185777	0.99185777	positive	1111	152	407.59441384	B-box zinc finger protein 20-like	beta-hexosaminidase 3-like
+999	Lchi06060	Lchi05599	positive_coexpression	0.96196735	0.96196735	positive	1020	176	407.58364770	squamosa promoter-binding-like protein 7	protein kinase PINOID 2
+1000	Lchi06007	Lchi13411	positive_coexpression	0.99010581	0.99010581	positive	1027	165	407.57618780	homeobox-leucine zipper protein HAT2-like	probable protein phosphatase 2C 39

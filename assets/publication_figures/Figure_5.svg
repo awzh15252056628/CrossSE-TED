@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="600" height="880" preserveAspectRatio="xMinYMin meet" viewBox="0 0 600 880" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="600" height="880"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-880)" style="clip-path: url(#clip)">
+		<g transform=" matrix(0.4,0,0,0.4,0,0)">
+			<rect x="0" y="0" width="1500" height="2200" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="312.785888671875" y="2160" style="font-family: TimesNewRoman-Bold; font-size: 27px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,4320) scale(1,-1)">Within-species differential-expression results and database sample coverage</text>
+			<rect x="35" y="1590" width="1430" height="520" style="stroke: rgb(74%,74%,74%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="35" y="1050" width="1430" height="500" style="stroke: rgb(74%,74%,74%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="35" y="680" width="1430" height="330" style="stroke: rgb(74%,74%,74%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="35" y="50" width="1430" height="590" style="stroke: rgb(74%,74%,74%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="25" y="2075" style="font-family: TimesNewRoman-Bold; font-size: 34px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,4150) scale(1,-1)">A</text>
+			<text x="584.40380859375" y="2079" style="font-family: TimesNewRoman-Bold; font-size: 22px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,4158) scale(1,-1)">Representative woody angiosperms</text>
+			<text x="61.47265624999997" y="1965.6666666666665" style="font-family: TimesNewRoman-BoldItalic; font-size: 18px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,3931) scale(1,-1)">Castanea mollissima</text>
+			<path d="M 235,1898.333333 L 1465,1898.333333 Z" style="stroke: rgb(90%,90%,90%); stroke-linecap: butt; stroke-width: 0.9;"/>
+			<rect x="237.0" y="1981.6666666666665" width="303.5" height="31.0" rx="4" ry="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(85%,91%,96%); fill-rule: evenodd;"/>
+			<text x="338.73779296875" y="1990.6666666666665" style="font-family: TimesNewRoman-Bold; font-size: 12.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,3981) scale(1,-1)">Globular vs Callus</text>
+			<path d="M 388.75,1918.666667 L 388.75,1975.666667 Z" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<rect x="388.75" y="1951.6666666666665" width="50.96070559610706" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(84%,18%,15%); fill-rule: evenodd;"/>
+			<rect x="362.49237631792374" y="1930.6666666666665" width="26.257623682076257" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(27%,45%,70%); fill-rule: evenodd;"/>
+			<text x="444.71070559610706" y="1952.6666666666665" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,3905) scale(1,-1)">1,803</text>
+			<text x="340.24237631792374" y="1931.6666666666665" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,3863) scale(1,-1)">929</text>
+			<rect x="544.5" y="1981.6666666666665" width="303.5" height="31.0" rx="4" ry="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(85%,91%,96%); fill-rule: evenodd;"/>
+			<text x="647.6416015625" y="1990.6666666666665" style="font-family: TimesNewRoman-Bold; font-size: 12.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,3981) scale(1,-1)">Heart vs Globular</text>
+			<path d="M 696.25,1918.666667 L 696.25,1975.666667 Z" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<rect x="696.25" y="1951.6666666666665" width="29.508029197080305" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(84%,18%,15%); fill-rule: evenodd;"/>
+			<rect x="673.3558394160584" y="1930.6666666666665" width="22.894160583941584" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(27%,45%,70%); fill-rule: evenodd;"/>
+			<text x="730.7580291970803" y="1952.6666666666665" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,3905) scale(1,-1)">1,044</text>
+			<text x="651.1058394160584" y="1931.6666666666665" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,3863) scale(1,-1)">810</text>
+			<rect x="852.0" y="1981.6666666666665" width="303.5" height="31.0" rx="4" ry="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(85%,91%,96%); fill-rule: evenodd;"/>
+			<text x="956.533203125" y="1990.6666666666665" style="font-family: TimesNewRoman-Bold; font-size: 12.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,3981) scale(1,-1)">Torpedo vs Heart</text>
+			<path d="M 1003.75,1918.666667 L 1003.75,1975.666667 Z" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<rect x="1003.75" y="1951.6666666666665" width="3.2786699107866752" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(84%,18%,15%); fill-rule: evenodd;"/>
+			<rect x="1000.6409164639092" y="1930.6666666666665" width="3.109083536090793" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(27%,45%,70%); fill-rule: evenodd;"/>
+			<text x="1012.0286699107867" y="1952.6666666666665" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,3905) scale(1,-1)">116</text>
+			<text x="978.3909164639092" y="1931.6666666666665" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,3863) scale(1,-1)">110</text>
+			<rect x="1159.5" y="1981.6666666666665" width="303.5" height="31.0" rx="4" ry="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(85%,91%,96%); fill-rule: evenodd;"/>
+			<text x="1252.216796875" y="1990.6666666666665" style="font-family: TimesNewRoman-Bold; font-size: 12.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,3981) scale(1,-1)">Cotyledon vs Torpedo</text>
+			<path d="M 1311.25,1918.666667 L 1311.25,1975.666667 Z" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<rect x="1311.25" y="1951.6666666666665" width="38.241727493917324" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(84%,18%,15%); fill-rule: evenodd;"/>
+			<rect x="1268.7403487429035" y="1930.6666666666665" width="42.50965125709649" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(27%,45%,70%); fill-rule: evenodd;"/>
+			<text x="1354.4917274939173" y="1952.6666666666665" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,3905) scale(1,-1)">1,353</text>
+			<text x="1237.8653487429035" y="1931.6666666666665" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,3863) scale(1,-1)">1,504</text>
+			<text x="63.47656249999997" y="1829.0" style="font-family: TimesNewRoman-BoldItalic; font-size: 18px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,3658) scale(1,-1)">Liriodendron hybrid</text>
+			<path d="M 235,1761.666667 L 1465,1761.666667 Z" style="stroke: rgb(90%,90%,90%); stroke-linecap: butt; stroke-width: 0.9;"/>
+			<rect x="237.0" y="1845.0" width="303.5" height="31.0" rx="4" ry="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(85%,91%,96%); fill-rule: evenodd;"/>
+			<text x="338.73779296875" y="1854.0" style="font-family: TimesNewRoman-Bold; font-size: 12.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,3708) scale(1,-1)">Globular vs Callus</text>
+			<path d="M 388.75,1782 L 388.75,1839 Z" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<rect x="388.75" y="1815.0" width="80.75137875101382" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(84%,18%,15%); fill-rule: evenodd;"/>
+			<rect x="315.0647201946472" y="1794.0" width="73.68527980535282" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(27%,45%,70%); fill-rule: evenodd;"/>
+			<text x="474.5013787510138" y="1816.0" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,3632) scale(1,-1)">2,857</text>
+			<text x="284.1897201946472" y="1795.0" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,3590) scale(1,-1)">2,607</text>
+			<rect x="544.5" y="1845.0" width="303.5" height="31.0" rx="4" ry="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(85%,91%,96%); fill-rule: evenodd;"/>
+			<text x="647.6416015625" y="1854.0" style="font-family: TimesNewRoman-Bold; font-size: 12.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,3708) scale(1,-1)">Heart vs Globular</text>
+			<path d="M 696.25,1782 L 696.25,1839 Z" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<rect x="696.25" y="1815.0" width="104.55000000000007" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(84%,18%,15%); fill-rule: evenodd;"/>
+			<rect x="658.9975263584753" y="1794.0" width="37.252473641524716" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(27%,45%,70%); fill-rule: evenodd;"/>
+			<text x="805.8000000000001" y="1816.0" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,3632) scale(1,-1)">3,699</text>
+			<text x="628.1225263584753" y="1795.0" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,3590) scale(1,-1)">1,318</text>
+			<rect x="852.0" y="1845.0" width="303.5" height="31.0" rx="4" ry="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(85%,91%,96%); fill-rule: evenodd;"/>
+			<text x="956.533203125" y="1854.0" style="font-family: TimesNewRoman-Bold; font-size: 12.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,3708) scale(1,-1)">Torpedo vs Heart</text>
+			<path d="M 1003.75,1782 L 1003.75,1839 Z" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<rect x="1003.75" y="1815.0" width="37.67643957826431" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(84%,18%,15%); fill-rule: evenodd;"/>
+			<rect x="925.0336577453365" y="1794.0" width="78.71634225466346" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(27%,45%,70%); fill-rule: evenodd;"/>
+			<text x="1046.4264395782643" y="1816.0" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,3632) scale(1,-1)">1,333</text>
+			<text x="894.1586577453365" y="1795.0" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,3590) scale(1,-1)">2,785</text>
+			<rect x="1159.5" y="1845.0" width="303.5" height="31.0" rx="4" ry="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(85%,91%,96%); fill-rule: evenodd;"/>
+			<text x="1252.216796875" y="1854.0" style="font-family: TimesNewRoman-Bold; font-size: 12.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,3708) scale(1,-1)">Cotyledon vs Torpedo</text>
+			<path d="M 1311.25,1782 L 1311.25,1839 Z" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<rect x="1311.25" y="1815.0" width="38.58090024330909" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(84%,18%,15%); fill-rule: evenodd;"/>
+			<rect x="1309.6106650446065" y="1794.0" width="1.6393349553934513" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(27%,45%,70%); fill-rule: evenodd;"/>
+			<text x="1354.830900243309" y="1816.0" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,3632) scale(1,-1)">1,365</text>
+			<text x="1293.1106650446065" y="1795.0" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,3590) scale(1,-1)">58</text>
+			<text x="118.49609374999999" y="1692.3333333333333" style="font-family: TimesNewRoman-BoldItalic; font-size: 18px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,3384) scale(1,-1)">Vitis vinifera</text>
+			<path d="M 235,1625 L 1465,1625 Z" style="stroke: rgb(90%,90%,90%); stroke-linecap: butt; stroke-width: 0.9;"/>
+			<rect x="237.0" y="1708.3333333333333" width="303.5" height="31.0" rx="4" ry="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(85%,91%,96%); fill-rule: evenodd;"/>
+			<text x="338.73779296875" y="1717.3333333333333" style="font-family: TimesNewRoman-Bold; font-size: 12.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,3434) scale(1,-1)">Globular vs Callus</text>
+			<path d="M 388.75,1645.333333 L 388.75,1702.333333 Z" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<rect x="388.75" y="1678.3333333333333" width="12.06889699918895" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(84%,18%,15%); fill-rule: evenodd;"/>
+			<rect x="381.0903487429035" y="1657.3333333333333" width="7.659651257096527" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(27%,45%,70%); fill-rule: evenodd;"/>
+			<text x="405.81889699918895" y="1679.3333333333333" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,3358) scale(1,-1)">427</text>
+			<text x="358.8403487429035" y="1658.3333333333333" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,3316) scale(1,-1)">271</text>
+			<rect x="544.5" y="1708.3333333333333" width="303.5" height="31.0" rx="4" ry="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(85%,91%,96%); fill-rule: evenodd;"/>
+			<text x="647.6416015625" y="1717.3333333333333" style="font-family: TimesNewRoman-Bold; font-size: 12.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,3434) scale(1,-1)">Heart vs Globular</text>
+			<path d="M 696.25,1645.333333 L 696.25,1702.333333 Z" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<rect x="696.25" y="1678.3333333333333" width="59.94878345498785" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(84%,18%,15%); fill-rule: evenodd;"/>
+			<rect x="636.1316301703163" y="1657.3333333333333" width="60.11836982968373" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(27%,45%,70%); fill-rule: evenodd;"/>
+			<text x="761.1987834549878" y="1679.3333333333333" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,3358) scale(1,-1)">2,121</text>
+			<text x="605.2566301703163" y="1658.3333333333333" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,3316) scale(1,-1)">2,127</text>
+			<rect x="852.0" y="1708.3333333333333" width="303.5" height="31.0" rx="4" ry="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(85%,91%,96%); fill-rule: evenodd;"/>
+			<text x="956.533203125" y="1717.3333333333333" style="font-family: TimesNewRoman-Bold; font-size: 12.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,3434) scale(1,-1)">Torpedo vs Heart</text>
+			<path d="M 1003.75,1645.333333 L 1003.75,1702.333333 Z" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<rect x="1003.75" y="1678.3333333333333" width="70.03917274939181" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(84%,18%,15%); fill-rule: evenodd;"/>
+			<rect x="952.5066504460665" y="1657.3333333333333" width="51.24334955393351" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(27%,45%,70%); fill-rule: evenodd;"/>
+			<text x="1078.7891727493918" y="1679.3333333333333" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,3358) scale(1,-1)">2,478</text>
+			<text x="921.6316504460665" y="1658.3333333333333" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,3316) scale(1,-1)">1,813</text>
+			<rect x="1159.5" y="1708.3333333333333" width="303.5" height="31.0" rx="4" ry="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(85%,91%,96%); fill-rule: evenodd;"/>
+			<text x="1252.216796875" y="1717.3333333333333" style="font-family: TimesNewRoman-Bold; font-size: 12.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,3434) scale(1,-1)">Cotyledon vs Torpedo</text>
+			<path d="M 1311.25,1645.333333 L 1311.25,1702.333333 Z" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<rect x="1311.25" y="1678.3333333333333" width="39.17445255474445" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(84%,18%,15%); fill-rule: evenodd;"/>
+			<rect x="1301.5270478507705" y="1657.3333333333333" width="9.722952149229513" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(27%,45%,70%); fill-rule: evenodd;"/>
+			<text x="1355.4244525547444" y="1679.3333333333333" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,3358) scale(1,-1)">1,386</text>
+			<text x="1279.2770478507705" y="1658.3333333333333" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,3316) scale(1,-1)">344</text>
+			<text x="25" y="1515" style="font-family: TimesNewRoman-Bold; font-size: 34px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,3030) scale(1,-1)">B</text>
+			<text x="611.6083984375" y="1519" style="font-family: TimesNewRoman-Bold; font-size: 22px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,3038) scale(1,-1)">Representative gymnosperms</text>
+			<text x="20.44531249999997" y="1379.0" style="font-family: TimesNewRoman-BoldItalic; font-size: 18px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,2758) scale(1,-1)">Cunninghamia lanceolata</text>
+			<path d="M 235,1285 L 1465,1285 Z" style="stroke: rgb(90%,90%,90%); stroke-linecap: butt; stroke-width: 0.9;"/>
+			<rect x="237.0" y="1395.0" width="171.71428571428572" height="31.0" rx="4" ry="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(85%,91%,96%); fill-rule: evenodd;"/>
+			<text x="268.3283342633929" y="1404.0" style="font-family: TimesNewRoman-Bold; font-size: 12.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,2808) scale(1,-1)">CK 1 d vs Callus 0 d</text>
+			<path d="M 322.857143,1332 L 322.857143,1389 Z" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<rect x="322.8571428571429" y="1365.0" width="5.184323284730283" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(84%,18%,15%); fill-rule: evenodd;"/>
+			<rect x="317.3766615976385" y="1344.0" width="5.4804812595044154" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(27%,45%,70%); fill-rule: evenodd;"/>
+			<text x="333.0414661418732" y="1366.0" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,2732) scale(1,-1)">1,663</text>
+			<text x="286.5016615976385" y="1345.0" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,2690) scale(1,-1)">1,758</text>
+			<rect x="412.7142857142857" y="1395.0" width="171.71428571428572" height="31.0" rx="4" ry="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(85%,91%,96%); fill-rule: evenodd;"/>
+			<text x="451.68727329799106" y="1404.0" style="font-family: TimesNewRoman-Bold; font-size: 12.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,2808) scale(1,-1)">CK 3 d vs CK 1 d</text>
+			<path d="M 498.571429,1332 L 498.571429,1389 Z" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<rect x="498.57142857142856" y="1365.0" width="4.046453171124426" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(84%,18%,15%); fill-rule: evenodd;"/>
+			<rect x="497.1872797209053" y="1344.0" width="1.3841488505232746" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(27%,45%,70%); fill-rule: evenodd;"/>
+			<text x="507.617881742553" y="1366.0" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,2732) scale(1,-1)">1,298</text>
+			<text x="474.9372797209053" y="1345.0" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,2690) scale(1,-1)">444</text>
+			<rect x="588.4285714285714" y="1395.0" width="171.71428571428567" height="31.0" rx="4" ry="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(85%,91%,96%); fill-rule: evenodd;"/>
+			<text x="627.4015590122768" y="1404.0" style="font-family: TimesNewRoman-Bold; font-size: 12.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,2808) scale(1,-1)">CK 5 d vs CK 3 d</text>
+			<path d="M 674.285714,1332 L 674.285714,1389 Z" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<rect x="674.2857142857143" y="1365.0" width="1.7894176581089596" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(84%,18%,15%); fill-rule: evenodd;"/>
+			<rect x="671.9008632256911" y="1344.0" width="2.3848510600232657" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(27%,45%,70%); fill-rule: evenodd;"/>
+			<text x="681.0751319438233" y="1366.0" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,2732) scale(1,-1)">574</text>
+			<text x="649.6508632256911" y="1345.0" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,2690) scale(1,-1)">765</text>
+			<rect x="764.1428571428571" y="1395.0" width="171.71428571428578" height="31.0" rx="4" ry="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(85%,91%,96%); fill-rule: evenodd;"/>
+			<text x="803.1158447265625" y="1404.0" style="font-family: TimesNewRoman-Bold; font-size: 12.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,2808) scale(1,-1)">CK 7 d vs CK 5 d</text>
+			<path d="M 850,1332 L 850,1389 Z" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<rect x="850.0" y="1365.0" width="2.5344887735933526" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(84%,18%,15%); fill-rule: evenodd;"/>
+			<rect x="848.637673316039" y="1344.0" width="1.3623266839609869" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(27%,45%,70%); fill-rule: evenodd;"/>
+			<text x="857.5344887735934" y="1366.0" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,2732) scale(1,-1)">813</text>
+			<text x="826.387673316039" y="1345.0" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,2690) scale(1,-1)">437</text>
+			<rect x="939.8571428571429" y="1395.0" width="171.71428571428578" height="31.0" rx="4" ry="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(85%,91%,96%); fill-rule: evenodd;"/>
+			<text x="975.7051304408483" y="1404.0" style="font-family: TimesNewRoman-Bold; font-size: 12.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,2808) scale(1,-1)">CK 15 d vs CK 7 d</text>
+			<path d="M 1025.714286,1332 L 1025.714286,1389 Z" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<rect x="1025.7142857142858" y="1365.0" width="2.6280123445746995" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(84%,18%,15%); fill-rule: evenodd;"/>
+			<rect x="1021.2968557116021" y="1344.0" width="4.417430002683659" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(27%,45%,70%); fill-rule: evenodd;"/>
+			<text x="1033.3422980588605" y="1366.0" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,2732) scale(1,-1)">843</text>
+			<text x="990.4218557116021" y="1345.0" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,2690) scale(1,-1)">1,417</text>
+			<rect x="1115.5714285714287" y="1395.0" width="171.71428571428578" height="31.0" rx="4" ry="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(85%,91%,96%); fill-rule: evenodd;"/>
+			<text x="1148.294416155134" y="1404.0" style="font-family: TimesNewRoman-Bold; font-size: 12.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,2808) scale(1,-1)">CK 30 d vs CK 15 d</text>
+			<path d="M 1201.428571,1332 L 1201.428571,1389 Z" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<rect x="1201.4285714285716" y="1365.0" width="1.462085159674416" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(84%,18%,15%); fill-rule: evenodd;"/>
+			<rect x="1198.519988371053" y="1344.0" width="2.9085830575186264" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(27%,45%,70%); fill-rule: evenodd;"/>
+			<text x="1207.890656588246" y="1366.0" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,2732) scale(1,-1)">469</text>
+			<text x="1176.269988371053" y="1345.0" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,2690) scale(1,-1)">933</text>
+			<rect x="1291.2857142857142" y="1395.0" width="171.71428571428578" height="31.0" rx="4" ry="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(85%,91%,96%); fill-rule: evenodd;"/>
+			<text x="1324.0087018694196" y="1404.0" style="font-family: TimesNewRoman-Bold; font-size: 12.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,2808) scale(1,-1)">CK 40 d vs CK 30 d</text>
+			<path d="M 1377.142857,1332 L 1377.142857,1389 Z" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<rect x="1377.142857142857" y="1365.0" width="0.841712138831781" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(84%,18%,15%); fill-rule: evenodd;"/>
+			<rect x="1377.0243939529475" y="1344.0" width="0.11846318990956206" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(27%,45%,70%); fill-rule: evenodd;"/>
+			<text x="1382.984569281689" y="1366.0" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,2732) scale(1,-1)">270</text>
+			<text x="1360.5243939529475" y="1345.0" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,2690) scale(1,-1)">38</text>
+			<text x="131.5302734375" y="1189.0" style="font-family: TimesNewRoman-BoldItalic; font-size: 18px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,2378) scale(1,-1)">Picea abies</text>
+			<path d="M 235,1095 L 1465,1095 Z" style="stroke: rgb(90%,90%,90%); stroke-linecap: butt; stroke-width: 0.9;"/>
+			<rect x="237.0" y="1205.0" width="171.71428571428572" height="31.0" rx="4" ry="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(85%,91%,96%); fill-rule: evenodd;"/>
+			<text x="275.6372942243304" y="1214.0" style="font-family: TimesNewRoman-Bold; font-size: 12.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,2428) scale(1,-1)">Stage 2 vs Stage 1</text>
+			<path d="M 322.857143,1142 L 322.857143,1199 Z" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<rect x="322.8571428571429" y="1175.0" width="2.5344887735933526" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(84%,18%,15%); fill-rule: evenodd;"/>
+			<rect x="318.6142901869577" y="1154.0" width="4.2428526701851865" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(27%,45%,70%); fill-rule: evenodd;"/>
+			<text x="330.39163163073624" y="1176.0" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,2352) scale(1,-1)">813</text>
+			<text x="287.7392901869577" y="1155.0" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,2310) scale(1,-1)">1,361</text>
+			<rect x="412.7142857142857" y="1205.0" width="171.71428571428572" height="31.0" rx="4" ry="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(85%,91%,96%); fill-rule: evenodd;"/>
+			<text x="451.35157993861606" y="1214.0" style="font-family: TimesNewRoman-Bold; font-size: 12.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,2428) scale(1,-1)">Stage 3 vs Stage 2</text>
+			<path d="M 498.571429,1142 L 498.571429,1199 Z" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<rect x="498.57142857142856" y="1175.0" width="37.27537794078182" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(84%,18%,15%); fill-rule: evenodd;"/>
+			<rect x="475.34952589677073" y="1154.0" width="23.221902674657827" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(27%,45%,70%); fill-rule: evenodd;"/>
+			<text x="540.8468065122104" y="1176.0" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,2352) scale(1,-1)">11,957</text>
+			<text x="444.47452589677073" y="1155.0" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,2310) scale(1,-1)">7,449</text>
+			<rect x="588.4285714285714" y="1205.0" width="171.71428571428567" height="31.0" rx="4" ry="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(85%,91%,96%); fill-rule: evenodd;"/>
+			<text x="627.0658656529018" y="1214.0" style="font-family: TimesNewRoman-Bold; font-size: 12.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,2428) scale(1,-1)">Stage 4 vs Stage 3</text>
+			<path d="M 674.285714,1142 L 674.285714,1199 Z" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<rect x="674.2857142857143" y="1175.0" width="18.67353967260044" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(84%,18%,15%); fill-rule: evenodd;"/>
+			<rect x="659.0164325968334" y="1154.0" width="15.269281688880938" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(27%,45%,70%); fill-rule: evenodd;"/>
+			<text x="697.9592539583148" y="1176.0" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,2352) scale(1,-1)">5,990</text>
+			<text x="628.1414325968334" y="1155.0" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,2310) scale(1,-1)">4,898</text>
+			<rect x="764.1428571428571" y="1205.0" width="171.71428571428578" height="31.0" rx="4" ry="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(85%,91%,96%); fill-rule: evenodd;"/>
+			<text x="802.7801513671875" y="1214.0" style="font-family: TimesNewRoman-Bold; font-size: 12.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,2428) scale(1,-1)">Stage 5 vs Stage 4</text>
+			<path d="M 850,1142 L 850,1199 Z" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<rect x="850.0" y="1175.0" width="1.0630512568208133" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(84%,18%,15%); fill-rule: evenodd;"/>
+			<rect x="839.3788397888899" y="1154.0" width="10.621160211110123" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(27%,45%,70%); fill-rule: evenodd;"/>
+			<text x="856.0630512568208" y="1176.0" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,2352) scale(1,-1)">341</text>
+			<text x="808.5038397888899" y="1155.0" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,2310) scale(1,-1)">3,407</text>
+			<rect x="939.8571428571429" y="1205.0" width="171.71428571428578" height="31.0" rx="4" ry="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(85%,91%,96%); fill-rule: evenodd;"/>
+			<text x="978.4944370814733" y="1214.0" style="font-family: TimesNewRoman-Bold; font-size: 12.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,2428) scale(1,-1)">Stage 6 vs Stage 5</text>
+			<path d="M 1025.714286,1142 L 1025.714286,1199 Z" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<rect x="1025.7142857142858" y="1175.0" width="18.07187136595394" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(84%,18%,15%); fill-rule: evenodd;"/>
+			<rect x="1005.8249396189284" y="1154.0" width="19.889346095357382" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(27%,45%,70%); fill-rule: evenodd;"/>
+			<text x="1048.7861570802397" y="1176.0" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,2352) scale(1,-1)">5,797</text>
+			<text x="974.9499396189284" y="1155.0" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,2310) scale(1,-1)">6,380</text>
+			<rect x="1115.5714285714287" y="1205.0" width="171.71428571428578" height="31.0" rx="4" ry="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(85%,91%,96%); fill-rule: evenodd;"/>
+			<text x="1154.208722795759" y="1214.0" style="font-family: TimesNewRoman-Bold; font-size: 12.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,2428) scale(1,-1)">Stage 7 vs Stage 6</text>
+			<path d="M 1201.428571,1142 L 1201.428571,1199 Z" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<rect x="1201.4285714285716" y="1175.0" width="59.74285714285725" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(84%,18%,15%); fill-rule: evenodd;"/>
+			<rect x="1167.2332364254407" y="1154.0" width="34.19533500313082" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(27%,45%,70%); fill-rule: evenodd;"/>
+			<text x="1266.1714285714288" y="1176.0" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,2352) scale(1,-1)">19,164</text>
+			<text x="1130.6082364254407" y="1155.0" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,2310) scale(1,-1)">10,969</text>
+			<rect x="1291.2857142857142" y="1205.0" width="171.71428571428578" height="31.0" rx="4" ry="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(85%,91%,96%); fill-rule: evenodd;"/>
+			<text x="1329.9230085100446" y="1214.0" style="font-family: TimesNewRoman-Bold; font-size: 12.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,2428) scale(1,-1)">Stage 8 vs Stage 7</text>
+			<path d="M 1377.142857,1142 L 1377.142857,1199 Z" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<rect x="1377.142857142857" y="1175.0" width="19.596305572949177" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(84%,18%,15%); fill-rule: evenodd;"/>
+			<rect x="1363.0956167814652" y="1154.0" width="14.047240361391914" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(27%,45%,70%); fill-rule: evenodd;"/>
+			<text x="1401.7391627158063" y="1176.0" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,2352) scale(1,-1)">6,286</text>
+			<text x="1332.2206167814652" y="1155.0" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,2310) scale(1,-1)">4,506</text>
+			<text x="25" y="975" style="font-family: TimesNewRoman-Bold; font-size: 34px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,1950) scale(1,-1)">C</text>
+			<text x="632.38916015625" y="979" style="font-family: TimesNewRoman-Bold; font-size: 22px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,1958) scale(1,-1)">Representative monocots</text>
+			<text x="92.98144531249999" y="880.25" style="font-family: TimesNewRoman-BoldItalic; font-size: 18px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,1760) scale(1,-1)">Hippeastrum sp.</text>
+			<path d="M 235,827.5 L 1465,827.5 Z" style="stroke: rgb(90%,90%,90%); stroke-linecap: butt; stroke-width: 0.9;"/>
+			<rect x="237.0" y="896.25" width="406.0" height="31.0" rx="4" ry="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(85%,91%,96%); fill-rule: evenodd;"/>
+			<text x="413.6053466796875" y="905.25" style="font-family: TimesNewRoman-Bold; font-size: 12.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,1810) scale(1,-1)">L10 vs L0</text>
+			<path d="M 440,833.25 L 440,890.25 Z" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<rect x="440.0" y="866.25" width="139.39999999999998" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(84%,18%,15%); fill-rule: evenodd;"/>
+			<rect x="338.4108341164115" y="845.25" width="101.58916588358852" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(27%,45%,70%); fill-rule: evenodd;"/>
+			<text x="584.4" y="867.25" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,1734) scale(1,-1)">18,091</text>
+			<text x="301.7858341164115" y="846.25" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,1692) scale(1,-1)">13,184</text>
+			<rect x="647.0" y="896.25" width="406.0" height="31.0" rx="4" ry="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(85%,91%,96%); fill-rule: evenodd;"/>
+			<text x="820.4803466796875" y="905.25" style="font-family: TimesNewRoman-Bold; font-size: 12.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,1810) scale(1,-1)">L20 vs L10</text>
+			<path d="M 850,833.25 L 850,890.25 Z" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<rect x="850.0" y="866.25" width="16.55909568293623" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(84%,18%,15%); fill-rule: evenodd;"/>
+			<rect x="828.3398706539164" y="845.25" width="21.660129346083636" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(27%,45%,70%); fill-rule: evenodd;"/>
+			<text x="871.5590956829362" y="867.25" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,1734) scale(1,-1)">2,149</text>
+			<text x="797.4648706539164" y="846.25" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,1692) scale(1,-1)">2,811</text>
+			<rect x="1057.0" y="896.25" width="406.0" height="31.0" rx="4" ry="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(85%,91%,96%); fill-rule: evenodd;"/>
+			<text x="1230.4803466796875" y="905.25" style="font-family: TimesNewRoman-Bold; font-size: 12.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,1810) scale(1,-1)">L30 vs L20</text>
+			<path d="M 1260,833.25 L 1260,890.25 Z" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<rect x="1260.0" y="866.25" width="33.60363716765232" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(84%,18%,15%); fill-rule: evenodd;"/>
+			<rect x="1224.123243601791" y="845.25" width="35.876756398208954" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(27%,45%,70%); fill-rule: evenodd;"/>
+			<text x="1298.6036371676523" y="867.25" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,1734) scale(1,-1)">4,361</text>
+			<text x="1193.248243601791" y="846.25" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,1692) scale(1,-1)">4,656</text>
+			<text x="144.5205078125" y="772.75" style="font-family: TimesNewRoman-BoldItalic; font-size: 18px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,1545) scale(1,-1)">Zea mays</text>
+			<path d="M 235,720 L 1465,720 Z" style="stroke: rgb(90%,90%,90%); stroke-linecap: butt; stroke-width: 0.9;"/>
+			<rect x="237.0" y="788.75" width="406.0" height="31.0" rx="4" ry="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(85%,91%,96%); fill-rule: evenodd;"/>
+			<text x="416.0345458984375" y="797.75" style="font-family: TimesNewRoman-Bold; font-size: 12.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,1595) scale(1,-1)">EC vs IE</text>
+			<path d="M 440,725.75 L 440,782.75 Z" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<rect x="440.0" y="758.75" width="39.428986789011105" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(84%,18%,15%); fill-rule: evenodd;"/>
+			<rect x="419.4879885025703" y="737.75" width="20.512011497429683" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(27%,45%,70%); fill-rule: evenodd;"/>
+			<text x="484.4289867890111" y="759.75" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,1519) scale(1,-1)">5,117</text>
+			<text x="388.6129885025703" y="738.75" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,1477) scale(1,-1)">2,662</text>
+			<rect x="647.0" y="788.75" width="406.0" height="31.0" rx="4" ry="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(85%,91%,96%); fill-rule: evenodd;"/>
+			<text x="824.9908447265625" y="797.75" style="font-family: TimesNewRoman-Bold; font-size: 12.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,1595) scale(1,-1)">SE vs EC</text>
+			<path d="M 850,725.75 L 850,782.75 Z" style="stroke: rgb(6%,6%,6%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<rect x="850.0" y="758.75" width="1.9263722292853345" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(84%,18%,15%); fill-rule: evenodd;"/>
+			<rect x="836.9469017743629" y="737.75" width="13.053098225637086" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(27%,45%,70%); fill-rule: evenodd;"/>
+			<text x="856.9263722292853" y="759.75" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,1519) scale(1,-1)">250</text>
+			<text x="806.0719017743629" y="738.75" style="font-family: TimesNewRoman-Bold; font-size: 11.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,1477) scale(1,-1)">1,694</text>
+			<text x="25" y="605" style="font-family: TimesNewRoman-Bold; font-size: 34px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,1210) scale(1,-1)">D</text>
+			<text x="535.865234375" y="609" style="font-family: TimesNewRoman-Bold; font-size: 22px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,1218) scale(1,-1)">Processed expression-matrix sample coverage</text>
+			<path d="M 440,120 L 440,553 Z" style="stroke: rgb(90%,90%,90%); stroke-linecap: butt; stroke-width: 0.9;"/>
+			<text x="436.75" y="96" style="font-family: TimesNewRoman; font-size: 13px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,192) scale(1,-1)">0</text>
+			<path d="M 626,120 L 626,553 Z" style="stroke: rgb(90%,90%,90%); stroke-linecap: butt; stroke-width: 0.9;"/>
+			<text x="619.5" y="96" style="font-family: TimesNewRoman; font-size: 13px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,192) scale(1,-1)">10</text>
+			<path d="M 812,120 L 812,553 Z" style="stroke: rgb(90%,90%,90%); stroke-linecap: butt; stroke-width: 0.9;"/>
+			<text x="805.5" y="96" style="font-family: TimesNewRoman; font-size: 13px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,192) scale(1,-1)">20</text>
+			<path d="M 998,120 L 998,553 Z" style="stroke: rgb(90%,90%,90%); stroke-linecap: butt; stroke-width: 0.9;"/>
+			<text x="991.5" y="96" style="font-family: TimesNewRoman; font-size: 13px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,192) scale(1,-1)">30</text>
+			<path d="M 1184,120 L 1184,553 Z" style="stroke: rgb(90%,90%,90%); stroke-linecap: butt; stroke-width: 0.9;"/>
+			<text x="1177.5" y="96" style="font-family: TimesNewRoman; font-size: 13px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,192) scale(1,-1)">40</text>
+			<path d="M 1370,120 L 1370,553 Z" style="stroke: rgb(90%,90%,90%); stroke-linecap: butt; stroke-width: 0.9;"/>
+			<text x="1363.5" y="96" style="font-family: TimesNewRoman; font-size: 13px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,192) scale(1,-1)">50</text>
+			<text x="255.34375" y="523.824" style="font-family: TimesNewRoman-Italic; font-size: 16px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,1047) scale(1,-1)">Cunninghamia lanceolata</text>
+			<rect x="440" y="515.824" width="837.0" height="18.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(61%,78%,92%); fill-rule: evenodd;"/>
+			<text x="1287.0" y="520.824" style="font-family: TimesNewRoman-Bold; font-size: 15px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,1041) scale(1,-1)">45</text>
+			<text x="338.8984375" y="480.524" style="font-family: TimesNewRoman-Italic; font-size: 16px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,961) scale(1,-1)">Vitis vinifera</text>
+			<rect x="440" y="472.524" width="744.0" height="18.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(61%,78%,92%); fill-rule: evenodd;"/>
+			<text x="1194.0" y="477.524" style="font-family: TimesNewRoman-Bold; font-size: 15px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,955) scale(1,-1)">40</text>
+			<text x="290.8828125" y="437.22400000000005" style="font-family: TimesNewRoman-Italic; font-size: 16px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,874) scale(1,-1)">Liriodendron hybrid</text>
+			<rect x="440" y="429.22400000000005" width="613.8" height="18.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(61%,78%,92%); fill-rule: evenodd;"/>
+			<text x="1063.8" y="434.22400000000005" style="font-family: TimesNewRoman-Bold; font-size: 15px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,868) scale(1,-1)">33</text>
+			<text x="202.4931640625" y="393.92400000000004" style="font-family: TimesNewRoman-Italic; font-size: 13.5px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,787) scale(1,-1)">Liquidambar styraciflua × L. formosana</text>
+			<rect x="440" y="385.92400000000004" width="558.0" height="18.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(61%,78%,92%); fill-rule: evenodd;"/>
+			<text x="1008.0" y="390.92400000000004" style="font-family: TimesNewRoman-Bold; font-size: 15px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,781) scale(1,-1)">30</text>
+			<text x="347.8046875" y="350.624" style="font-family: TimesNewRoman-Italic; font-size: 16px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,701) scale(1,-1)">Picea abies</text>
+			<rect x="440" y="342.624" width="446.4" height="18.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(61%,78%,92%); fill-rule: evenodd;"/>
+			<text x="896.4" y="347.624" style="font-family: TimesNewRoman-Bold; font-size: 15px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,695) scale(1,-1)">24</text>
+			<text x="309.5703125" y="307.32400000000007" style="font-family: TimesNewRoman-Italic; font-size: 16px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,614) scale(1,-1)">Camellia oleifera</text>
+			<rect x="440" y="299.32400000000007" width="446.4" height="18.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(61%,78%,92%); fill-rule: evenodd;"/>
+			<text x="896.4" y="304.32400000000007" style="font-family: TimesNewRoman-Bold; font-size: 15px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,608) scale(1,-1)">24</text>
+			<text x="288.2109375" y="264.02400000000006" style="font-family: TimesNewRoman-Italic; font-size: 16px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,528) scale(1,-1)">Castanea mollissima</text>
+			<rect x="440" y="256.02400000000006" width="334.79999999999995" height="18.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(61%,78%,92%); fill-rule: evenodd;"/>
+			<text x="784.8" y="261.02400000000006" style="font-family: TimesNewRoman-Bold; font-size: 15px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,522) scale(1,-1)">18</text>
+			<text x="316.21875" y="220.72400000000005" style="font-family: TimesNewRoman-Italic; font-size: 16px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,441) scale(1,-1)">Hippeastrum sp.</text>
+			<rect x="440" y="212.72400000000005" width="223.20000000000005" height="18.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(61%,78%,92%); fill-rule: evenodd;"/>
+			<text x="673.2" y="217.72400000000005" style="font-family: TimesNewRoman-Bold; font-size: 15px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,435) scale(1,-1)">12</text>
+			<text x="361.1171875" y="177.42399999999998" style="font-family: TimesNewRoman-Italic; font-size: 16px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,354) scale(1,-1)">Zea mays</text>
+			<rect x="440" y="169.42399999999998" width="167.39999999999998" height="18.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(61%,78%,92%); fill-rule: evenodd;"/>
+			<text x="617.4" y="174.42399999999998" style="font-family: TimesNewRoman-Bold; font-size: 15px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,348) scale(1,-1)">9</text>
+			<text x="328.234375" y="134.12400000000002" style="font-family: TimesNewRoman-Italic; font-size: 16px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,268) scale(1,-1)">Quercus suber</text>
+			<rect x="440" y="126.12400000000002" width="74.39999999999998" height="18.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(61%,78%,92%); fill-rule: evenodd;"/>
+			<text x="524.4" y="131.12400000000002" style="font-family: TimesNewRoman-Bold; font-size: 15px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,262) scale(1,-1)">4</text>
+			<text x="811.4453125" y="70" style="font-family: TimesNewRoman-Bold; font-size: 16px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,140) scale(1,-1)">Number of sample columns</text>
+			<text x="654.3310546875" y="38" style="font-family: TimesNewRoman-Italic; font-size: 14px;fill: rgb(40%,40%,40%); stroke:none;" transform="translate(0,76) scale(1,-1)">Total shown: 239 sample columns</text>
+			<rect x="1030" y="2118" width="16" height="16" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(84%,18%,15%); fill-rule: evenodd;"/>
+			<text x="1054" y="2118" style="font-family: TimesNewRoman; font-size: 14px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,4236) scale(1,-1)">Upregulated in the later stage</text>
+			<rect x="1030" y="2090" width="16" height="16" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(27%,45%,70%); fill-rule: evenodd;"/>
+			<text x="1054" y="2090" style="font-family: TimesNewRoman; font-size: 14px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,4180) scale(1,-1)">Downregulated in the later stage</text>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,36 @@
+{
+  "release": "v2026.07",
+  "freeze_date": "2026-07-15",
+  "organism": "Liriodendron hybrid",
+  "reference_annotation": "Liriodendron chinense",
+  "analysis_scope": {
+    "samples": 15,
+    "developmental_stages": 5,
+    "stage_labels": [
+      "Callus",
+      "Globular",
+      "Heart",
+      "Torpedo",
+      "Cotyledon"
+    ],
+    "correlation_method": "Pearson",
+    "retained_relationship_threshold": "|r| >= 0.90"
+  },
+  "publication_network": {
+    "nodes": 167,
+    "transcription_factors": 38,
+    "target_genes": 129,
+    "edges": 1000,
+    "positive_edges": 868,
+    "negative_edges": 132,
+    "selection_rule": "Top 1,000 edges ranked by core_score in descending order",
+    "core_score_formula": "abs(r) * sqrt(source_TF_degree * target_gene_degree)"
+  },
+  "files": {
+    "edges": "liriodendron_figure3_edges.tsv",
+    "nodes": "liriodendron_figure3_nodes.tsv",
+    "gene_annotations": "liriodendron_figure3_gene_annotations.tsv",
+    "node_id_mapping": "liriodendron_figure3_node_id_mapping.tsv"
+  },
+  "interpretation": "These are coexpression relationships and must not be interpreted as experimentally validated regulatory interactions."
+}
