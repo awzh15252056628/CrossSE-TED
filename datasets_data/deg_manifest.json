@@ -1,1 +1,156 @@
-{"generated":"2026-07-23 16:16:33","species":[{"key":"Cm","label":"Castanea mollissima","group":"Dicot","file":"deg_Cm.json.gz","total":7669,"comparisons":[{"name":"Cotyledon_vs_Torpedo","n":2857},{"name":"Globular_vs_Callus","n":2732},{"name":"Heart_vs_Globular","n":1854},{"name":"Torpedo_vs_Heart","n":226}]},{"key":"Lc","label":"Liriodendron hybrid (L. chinense reference annotation)","group":"Dicot","file":"deg_Lc.json.gz","total":16022,"comparisons":[{"name":"Cotyledon_vs_Torpedo","n":1423},{"name":"Globular_vs_Callus","n":5464},{"name":"Heart_vs_Globular","n":5017},{"name":"Torpedo_vs_Heart","n":4118}]},{"key":"Vv","label":"Vitis vinifera","group":"Dicot","file":"deg_Vv.json.gz","total":10967,"comparisons":[{"name":"Cotyledon_vs_Torpedo","n":1730},{"name":"Globular_vs_Callus","n":698},{"name":"Heart_vs_Globular","n":4248},{"name":"Torpedo_vs_Heart","n":4291}]},{"key":"Cula","label":"Cunninghamia lanceolata","group":"Gymnosperm","file":"deg_Cula.json.gz","total":11722,"comparisons":[{"name":"CK_15d_vs_CK_7d","n":2260},{"name":"CK_1d_vs_Callus_0d","n":3421},{"name":"CK_30d_vs_CK_15d","n":1402},{"name":"CK_3d_vs_CK_1d","n":1742},{"name":"CK_40d_vs_CK_30d","n":308},{"name":"CK_5d_vs_CK_3d","n":1339},{"name":"CK_7d_vs_CK_5d","n":1250}]},{"key":"Pa","label":"Picea abies","group":"Gymnosperm","file":"deg_Pa.json.gz","total":89318,"comparisons":[{"name":"S2_S1","n":2174},{"name":"S3_S2","n":19406},{"name":"S4_S3","n":10888},{"name":"S5_S4","n":3748},{"name":"S6_S5","n":12177},{"name":"S7_S6","n":30133},{"name":"S8_S7","n":10792}]},{"key":"Hip","label":"Hippeastrum","group":"Monocot","file":"deg_Hip.json.gz","total":45252,"comparisons":[{"name":"L10_L0","n":31275},{"name":"L20_L10","n":4960},{"name":"L30_L20","n":9017}]},{"key":"Zma","label":"Zea mays","group":"Monocot","file":"deg_Zma.json.gz","total":9723,"comparisons":[{"name":"EC_IE","n":7779},{"name":"SE_EC","n":1944}]}]}
+{
+  "generated": "2026-07-23 16:16:33",
+  "species": [
+    {
+      "key": "Cm",
+      "label": "Castanea mollissima",
+      "group": "Dicot",
+      "file": "deg_Cm.json.gz",
+      "total": 7669,
+      "comparisons": [
+        {
+          "name": "Cotyledon_vs_Torpedo",
+          "n": 2857
+        },
+        {
+          "name": "Globular_vs_Callus",
+          "n": 2732
+        },
+        {
+          "name": "Heart_vs_Globular",
+          "n": 1854
+        },
+        {
+          "name": "Torpedo_vs_Heart",
+          "n": 226
+        }
+      ]
+    },
+    {
+      "key": "Lc",
+      "label": "Liriodendron hybrid (L. chinense reference annotation)",
+      "group": "Dicot",
+      "file": "deg_Lc.json.gz",
+      "total": 16022,
+      "comparisons": [
+        {
+          "name": "Cotyledon_vs_Torpedo",
+          "n": 1423
+        },
+        {
+          "name": "Globular_vs_Callus",
+          "n": 5464
+        },
+        {
+          "name": "Heart_vs_Globular",
+          "n": 5017
+        },
+        {
+          "name": "Torpedo_vs_Heart",
+          "n": 4118
+        }
+      ]
+    },
+    {
+      "key": "Vv",
+      "label": "Vitis vinifera",
+      "group": "Dicot",
+      "file": "deg_Vv.json.gz",
+      "total": 10967,
+      "comparisons": [
+        {
+          "name": "Cotyledon_vs_Torpedo",
+          "n": 1730
+        },
+        {
+          "name": "Globular_vs_Callus",
+          "n": 698
+        },
+        {
+          "name": "Heart_vs_Globular",
+          "n": 4248
+        },
+        {
+          "name": "Torpedo_vs_Heart",
+          "n": 4291
+        }
+      ]
+    },
+    {
+      "key": "Cula",
+      "label": "Cunninghamia lanceolata",
+      "group": "Gymnosperm",
+      "file": "deg_Cula.json.gz",
+      "total": 11722,
+      "comparisons": [
+        {
+          "name": "CK_15d_vs_CK_7d",
+          "n": 2260
+        },
+        {
+          "name": "CK_1d_vs_Callus_0d",
+          "n": 3421
+        },
+        {
+          "name": "CK_30d_vs_CK_15d",
+          "n": 1402
+        },
+        {
+          "name": "CK_3d_vs_CK_1d",
+          "n": 1742
+        },
+        {
+          "name": "CK_40d_vs_CK_30d",
+          "n": 308
+        },
+        {
+          "name": "CK_5d_vs_CK_3d",
+          "n": 1339
+        },
+        {
+          "name": "CK_7d_vs_CK_5d",
+          "n": 1250
+        }
+      ]
+    },
+    {
+      "key": "Hip",
+      "label": "Hippeastrum",
+      "group": "Monocot",
+      "file": "deg_Hip.json.gz",
+      "total": 45252,
+      "comparisons": [
+        {
+          "name": "L10_L0",
+          "n": 31275
+        },
+        {
+          "name": "L20_L10",
+          "n": 4960
+        },
+        {
+          "name": "L30_L20",
+          "n": 9017
+        }
+      ]
+    },
+    {
+      "key": "Zma",
+      "label": "Zea mays",
+      "group": "Monocot",
+      "file": "deg_Zma.json.gz",
+      "total": 9723,
+      "comparisons": [
+        {
+          "name": "EC_IE",
+          "n": 7779
+        },
+        {
+          "name": "SE_EC",
+          "n": 1944
+        }
+      ]
+    }
+  ],
+  "note": "Picea abies exon-level differential-expression payload is excluded from the public DEG query pending a gene-level DESeq2 rerun. Gene-level expression matrices remain available for browsing."
+}
