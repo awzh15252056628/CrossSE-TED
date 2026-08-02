@@ -35,22 +35,25 @@ def load_catalog() -> tuple[list[str], list[dict[str, str]], dict[str, object]]:
         reader = csv.DictReader(handle, delimiter="\t")
         rows = list(reader)
         columns = list(reader.fieldnames or [])
-    require(len(rows) == 996, f"Expected 996 RNA-seq runs, found {len(rows)}")
+    require(len(rows) == 1097, f"Expected 1,097 RNA-seq runs, found {len(rows)}")
     require(all(row["LibraryStrategy"] == "RNA-Seq" for row in rows), "Non-RNA-seq records remain")
-    require(len({row["Run"] for row in rows}) == 996, "Duplicate Run accessions remain")
+    require(len({row["Run"] for row in rows}) == 1097, "Duplicate Run accessions remain")
     projects = {row["BioProject"] for row in rows if row["BioProject"]}
     taxa = {row["ScientificName"] for row in rows if row["ScientificName"]}
-    require(len(projects) == 79, f"Expected 79 BioProjects, found {len(projects)}")
-    require(len(taxa) == 45, f"Expected 45 taxonomic labels, found {len(taxa)}")
+    require(len(projects) == 82, f"Expected 82 BioProjects, found {len(projects)}")
+    require(len(taxa) == 46, f"Expected 46 taxonomic labels, found {len(taxa)}")
+    require("plant metagenome" not in taxa, "Unresolved plant metagenome label remains")
+    require({"PRJNA862291", "PRJEB72619", "PRJNA347903", "PRJNA980588"} <= projects,
+            "One or more core expression projects are absent")
     for number, row in enumerate(rows, start=1):
         row["No."] = str(number)
     total_size_gb = round(sum(float(row.get("size_MB") or 0) for row in rows) / 1024, 1)
     counts = {
-        "runs": 996,
-        "species": 45,
-        "projects": 79,
+        "runs": 1097,
+        "species": 46,
+        "projects": 82,
         "strategies": 1,
-        "rna_seq_only": 996,
+        "rna_seq_only": 1097,
         "total_size_gb": total_size_gb,
     }
     return columns, rows, counts
@@ -173,8 +176,8 @@ def update_index(counts: dict[str, object]) -> None:
     )
     text = re.sub(
         r'<div class="release-strip">.*?</div>',
-        '<div class="release-strip"><strong>Publication-associated release v2026.07</strong> · RNA-seq catalog 996 runs / 45 taxonomic labels / 79 BioProjects · expression query 10 taxa / 30 matrices / 239 sample columns. '
-        '<a href="supplementary_tables/Supplementary_Tables_S1-S5.xlsx">Supplementary Tables S1–S5</a> · '
+        '<div class="release-strip"><strong>Publication-associated release v2026.07</strong> · RNA-seq catalog 1,097 runs / 46 taxonomic labels / 82 BioProjects · expression query 10 taxa / 30 matrices / 239 sample columns. '
+        '<a href="supplementary_tables/Supplementary_Tables_S1-S7_revised.xlsx">Supplementary Tables S1–S7</a> · '
         '<a href="release/v2026.07/CHANGELOG.md">Changelog</a> · <a href="release/v2026.07/release.json">Release metadata</a> · '
         '<a href="release/v2026.07/SHA256SUMS.txt">SHA-256 checksums</a></div>',
         text,
@@ -230,16 +233,17 @@ def write_release(counts: dict[str, object]) -> None:
         "updated_on": "2026-08-02",
         "catalog": {
             "rna_seq_records": {
-                "runs": 996,
-                "taxonomic_labels": 45,
-                "bioprojects": 79,
+                "runs": 1097,
+                "taxonomic_labels": 46,
+                "bioprojects": 82,
                 "library_strategy": "RNA-Seq",
                 "total_size_gb": counts["total_size_gb"],
                 "file": "../../datasets_data/sra_datasets.json.gz",
                 "sha256": sha256(REPO / "datasets_data" / "sra_datasets.json.gz"),
             }
         },
-        "expression_query": {"taxa": 10, "matrices": 30, "sample_columns": 239},
+        "expression_query": {"taxa": 10, "matrices": 30, "sample_columns": 239,
+                             "matrix_manifest": "../../expression_data/core_30_matrix_manifest.tsv"},
         "publication_figures": {
             "count": 5,
             "formats": ["SVG", "PDF", "PNG (600 dpi)", "TIFF (600 dpi)"],
@@ -247,13 +251,15 @@ def write_release(counts: dict[str, object]) -> None:
             "files": figure_files,
         },
         "supplementary_tables": {
-            "workbook": "../../supplementary_tables/Supplementary_Tables_S1-S5.xlsx",
-            "S5_DEG_contrasts": 31,
+            "workbook": "../../supplementary_tables/Supplementary_Tables_S1-S7_revised.xlsx",
+            "S5_DEG_contrasts": 24,
             "S5_sample_columns": 239,
         },
         "notes": [
-            "All database-scale counts use one deduplicated RNA-seq reporting scope.",
-            "Non-RNA library strategies are outside the manuscript-associated catalog.",
+            "All database-scale counts use one deduplicated RNA-seq reporting scope that includes the four core expression projects.",
+            "PRJNA972435 was excluded because its ScientificName is the unresolved label plant metagenome.",
+            "Picea abies exon-feature DEG results are withheld pending a gene-level rerun.",
+            "The DEG threshold is padj < 0.05 and |log2FoldChange| >= 1.",
             "Liriodendron experimental samples are labeled as Liriodendron hybrid; L. chinense is retained only as the reference annotation label.",
             "Coexpression relationships are associative and are not experimentally validated regulatory interactions.",
         ],
@@ -267,10 +273,10 @@ Scope reconciliation: **2 August 2026**
 
 ## Unified reporting scope
 
-- RNA-seq catalog: **996 unique runs, 45 NCBI ScientificName labels, and 79 BioProjects**.
+- RNA-seq catalog: **1,097 unique runs, 46 exact NCBI ScientificName labels, and 82 BioProjects**.
 - Expression-query collection: **10 taxa, 30 downloadable matrices, and 239 unique sample columns**.
 - Five manuscript figures in SVG, PDF, 600-dpi PNG, and 600-dpi TIFF formats.
-- Supplementary Tables S1–S5, including 31 adjacent-stage DEG contrasts and the 239-column coverage table in Supplementary Table S5.
+- Supplementary Tables S1–S7, including 24 gene-level adjacent-stage DEG contrasts and the 239-column coverage table.
 
 ## Reconciliation changes
 
@@ -293,7 +299,10 @@ def write_checksums() -> None:
         REPO / "datasets_data" / "Table_S1_CrossSE-TED_all_RNAseq_datasets.tsv",
         REPO / "datasets_data" / "Table_S1_CrossSE-TED_all_RNAseq_datasets.csv",
         REPO / "datasets_data" / "Table_S1_CrossSE-TED_all_RNAseq_datasets.xlsx",
-        REPO / "supplementary_tables" / "Supplementary_Tables_S1-S5.xlsx",
+        REPO / "datasets_data" / "deg_manifest.json",
+        REPO / "datasets_data" / "Picea_DEG_WITHHELD_README.txt",
+        REPO / "expression_data" / "core_30_matrix_manifest.tsv",
+        REPO / "supplementary_tables" / "Supplementary_Tables_S1-S7_revised.xlsx",
         REPO / "supplementary_tables" / "S5A_DEG_counts.tsv",
         REPO / "supplementary_tables" / "S5B_Sample_coverage.tsv",
         release_dir / "release.json",

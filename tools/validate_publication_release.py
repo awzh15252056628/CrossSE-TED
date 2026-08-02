@@ -45,7 +45,7 @@ def main() -> None:
     summary = payload["public_sra"]["summary"]
     require(payload["public_sra"]["rows"] == [], "Embedded SRA rows must be empty")
     require({key: summary[key] for key in ("runs", "species", "projects", "strategies")} ==
-            {"runs": 996, "species": 45, "projects": 79, "strategies": 1},
+            {"runs": 1097, "species": 46, "projects": 82, "strategies": 1},
             f"Embedded catalog summary mismatch: {summary}")
     require(summary["embedded_fallback"] is False, "Embedded fallback flag must be false")
     require(payload["stats"]["species"] == 10, "Expression taxon count mismatch")
@@ -55,17 +55,20 @@ def main() -> None:
 
     with gzip.open(REPO / "datasets_data" / "sra_datasets.json.gz", "rt", encoding="utf-8") as handle:
         catalog = json.load(handle)
-    require(len(catalog["rows"]) == 996, "Catalog must contain 996 records")
+    require(len(catalog["rows"]) == 1097, "Catalog must contain 1,097 records")
     columns = catalog["columns"]
     idx = {name: columns.index(name) for name in ("Run", "ScientificName", "BioProject", "LibraryStrategy")}
-    require(len({row[idx["Run"]] for row in catalog["rows"]}) == 996, "Duplicate Run accession")
-    require(len({row[idx["ScientificName"]] for row in catalog["rows"]}) == 45, "Taxonomic-label count mismatch")
-    require(len({row[idx["BioProject"]] for row in catalog["rows"]}) == 79, "BioProject count mismatch")
+    require(len({row[idx["Run"]] for row in catalog["rows"]}) == 1097, "Duplicate Run accession")
+    require(len({row[idx["ScientificName"]] for row in catalog["rows"]}) == 46, "Taxonomic-label count mismatch")
+    require(len({row[idx["BioProject"]] for row in catalog["rows"]}) == 82, "BioProject count mismatch")
+    require("plant metagenome" not in {row[idx["ScientificName"]] for row in catalog["rows"]},
+            "Unresolved plant metagenome label remains")
     require({row[idx["LibraryStrategy"]] for row in catalog["rows"]} == {"RNA-Seq"}, "Non-RNA-seq record remains")
 
     release = json.loads((RELEASE / "release.json").read_text(encoding="utf-8"))
-    require(release["catalog"]["rna_seq_records"]["runs"] == 996, "release.json run count mismatch")
-    require(release["expression_query"] == {"taxa": 10, "matrices": 30, "sample_columns": 239}, "release.json expression scope mismatch")
+    require(release["catalog"]["rna_seq_records"]["runs"] == 1097, "release.json run count mismatch")
+    require({key: release["expression_query"][key] for key in ("taxa", "matrices", "sample_columns")} ==
+            {"taxa": 10, "matrices": 30, "sample_columns": 239}, "release.json expression scope mismatch")
     require(release["publication_figures"]["count"] == 5, "release.json figure count mismatch")
 
     expression_index = json.loads((REPO / "expression_data" / "index.json").read_text(encoding="utf-8"))
@@ -96,11 +99,12 @@ def main() -> None:
 
     deg = read_tsv(REPO / "supplementary_tables" / "S5A_DEG_counts.tsv")
     coverage = read_tsv(REPO / "supplementary_tables" / "S5B_Sample_coverage.tsv")
-    require(len(deg) == 31, "Supplementary Table S5A must contain 31 contrasts")
+    require(len(deg) == 24, "Supplementary Table S5A must contain 24 gene-level contrasts")
+    require(not any(row["Taxon"] == "Picea abies" for row in deg), "Picea exon-level DEG rows remain")
     require(all(row["n (later)"] == "3" and row["n (earlier)"] == "3" for row in deg), "S5A group sizes must all be three")
     require(len(coverage) == 10 and sum(int(row["Processed expression-matrix sample columns"]) for row in coverage) == 239,
             "S5B coverage mismatch")
-    require((REPO / "supplementary_tables" / "Supplementary_Tables_S1-S5.xlsx").is_file(), "Supplementary workbook missing")
+    require((REPO / "supplementary_tables" / "Supplementary_Tables_S1-S7_revised.xlsx").is_file(), "Supplementary workbook missing")
     require((REPO / "datasets_data" / "Table_S1_CrossSE-TED_all_RNAseq_datasets.xlsx").is_file(), "Catalog workbook missing")
 
     coexpression = REPO / "datasets_data" / "coexpression"
@@ -121,12 +125,12 @@ def main() -> None:
         require(sha256(path) == expected, f"Checksum mismatch: {relative}")
         checked += 1
 
-    stale_patterns = ["1,110", "1110 runs", "47 taxonomic", "89 BioProjects", "1,387", "72 matrices", "six publication figures"]
+    stale_patterns = ["996 runs", "45 taxonomic labels", "79 BioProjects", "1,110", "1110 runs", "47 taxonomic", "89 BioProjects", "six publication figures"]
     combined = index + "\n" + app
     require(not any(pattern in combined for pattern in stale_patterns), "Stale reporting scope remains in website text")
-    print(json.dumps({"status": "PASS", "RNA-seq_runs": 996, "taxonomic_labels": 45, "BioProjects": 79,
+    print(json.dumps({"status": "PASS", "RNA-seq_runs": 1097, "taxonomic_labels": 46, "BioProjects": 82,
                       "expression_taxa": 10, "matrices": 30, "sample_columns": 239,
-                      "publication_figures": 5, "S5_contrasts": 31, "checksums_verified": checked}, indent=2))
+                      "publication_figures": 5, "S5_contrasts": 24, "checksums_verified": checked}, indent=2))
 
 
 if __name__ == "__main__":

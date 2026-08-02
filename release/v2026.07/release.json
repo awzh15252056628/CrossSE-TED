@@ -5,19 +5,20 @@
   "updated_on": "2026-08-02",
   "catalog": {
     "rna_seq_records": {
-      "runs": 996,
-      "taxonomic_labels": 45,
-      "bioprojects": 79,
+      "runs": 1097,
+      "taxonomic_labels": 46,
+      "bioprojects": 82,
       "library_strategy": "RNA-Seq",
-      "total_size_gb": 2394.8,
+      "total_size_gb": 2602.8,
       "file": "../../datasets_data/sra_datasets.json.gz",
-      "sha256": "1794717628a1a469e8473e03d0e709bb176d569af88a7207de58c0d9765b916e"
+      "sha256": "ccf0f6af95c4e2dd3f94896b7f694ecce05bc12ac68d23fdc1455f9b5c9e524d"
     }
   },
   "expression_query": {
     "taxa": 10,
     "matrices": 30,
-    "sample_columns": 239
+    "sample_columns": 239,
+    "matrix_manifest": "../../expression_data/core_30_matrix_manifest.tsv"
   },
   "publication_figures": {
     "count": 5,
@@ -55,14 +56,18 @@
     ]
   },
   "supplementary_tables": {
-    "workbook": "../../supplementary_tables/Supplementary_Tables_S1-S5.xlsx",
-    "S5_DEG_contrasts": 31,
-    "S5_sample_columns": 239
+    "workbook": "../../supplementary_tables/Supplementary_Tables_S1-S7_revised.xlsx",
+    "S5_DEG_contrasts": 24,
+    "S5_sample_columns": 239,
+    "sheets": 9,
+    "S1_runs": 1097,
+    "S4_verification_status": "pending author completion"
   },
   "notes": [
-    "All database-scale counts use one deduplicated RNA-seq reporting scope.",
-    "Non-RNA library strategies are outside the manuscript-associated catalog.",
-    "Liriodendron experimental samples are labeled as Liriodendron hybrid; L. chinense is retained only as the reference annotation label.",
+    "All database-scale counts use one deduplicated RNA-seq reporting scope that includes the four core projects used by the expression-query subset.",
+    "PRJNA972435 was excluded because its public ScientificName is the unresolved non-species-level label 'plant metagenome'.",
+    "Picea abies exon-level differential-expression results are withheld pending a gene-level DESeq2 rerun; its gene-level expression matrices remain available.",
+    "The DEG threshold is padj < 0.05 and |log2FC| >= 1.",
     "Coexpression relationships are associative and are not experimentally validated regulatory interactions."
   ],
   "checksum_manifest": "SHA256SUMS.txt"
