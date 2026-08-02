@@ -1,0 +1,11 @@
+species	gene_id	seqid	start	end	mid	status
+Camellia_oleifera	maker-HiC_scaffold_10-snap-gene-1860.33-mRNA-1	HiC_scaffold_10	186051792.0	186054172.0	186052982.0	weak
+Camellia_oleifera	maker-HiC_scaffold_7-snap-gene-1397.22-mRNA-1	HiC_scaffold_7	139692831.0	139695044.0	139693937.5	unsupported
+Castanea_mollissima	CmMahoganyH2.02G171900.1.v1.1	Chr02	43665440.0	43667411.0	43666425.5	strict
+Liquidambar	KAK9284459.1	CM077824.1	38603651.0	38606267.0	38604959.0	strict
+Picea_abies	MA_491379g0010	MA_491379	7188.0	8535.0	7861.5	weak
+QuercusSuber	XP_023926621.1	NW_027069484.1	1281882.0	1284770.0	1283326.0	strict
+Vitis_vinifera	XP_002274796.1	NW_003724220.1	196076.0	198513.0	197294.5	supported
+Vitis_vinifera	XP_002283699.1	NC_012024.3	10013436.0	10015007.0	10014221.5	unsupported
+Zea_mays	NP_001130585.1	NC_050100.1	53565778.0	53567270.0	53566524.0	unsupported
+Zea_mays	NP_001344440.1	NC_050101.1	98459639.0	98460998.0	98460318.5	unsupported
