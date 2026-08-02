@@ -1,35 +1,26 @@
 {
   "release_id": "v2026.07",
-  "status": "publication freeze",
+  "status": "publication-associated release",
   "freeze_date": "2026-07-15",
-  "prepared_on": "2026-07-30",
+  "updated_on": "2026-08-02",
   "catalog": {
-    "all_curated_records": {
-      "runs": 1110,
-      "taxonomic_labels": 47,
-      "bioprojects": 89,
-      "library_strategies": 4,
-      "total_size_gb": 2445.4,
-      "file": "../../datasets_data/sra_datasets.json.gz",
-      "sha256": "a643603855a257884c47e1755985f4b2ada6529d90e15323a95480fb62040a07"
-    },
-    "rna_seq_analytical_subset": {
+    "rna_seq_records": {
       "runs": 996,
       "taxonomic_labels": 45,
-      "bioprojects": 79
+      "bioprojects": 79,
+      "library_strategy": "RNA-Seq",
+      "total_size_gb": 2394.8,
+      "file": "../../datasets_data/sra_datasets.json.gz",
+      "sha256": "1794717628a1a469e8473e03d0e709bb176d569af88a7207de58c0d9765b916e"
     }
   },
   "expression_query": {
     "taxa": 10,
+    "matrices": 30,
     "sample_columns": 239
   },
-  "ui_index": {
-    "species": 11,
-    "matrices": 72,
-    "sample_columns": 1387
-  },
   "publication_figures": {
-    "count": 6,
+    "count": 5,
     "formats": [
       "SVG",
       "PDF",
@@ -38,49 +29,39 @@
     ],
     "directory": "../../assets/publication_figures",
     "files": [
-      "Figure_1.svg",
       "Figure_1.pdf",
       "Figure_1.png",
+      "Figure_1.svg",
       "Figure_1.tif",
-      "Figure_2.svg",
       "Figure_2.pdf",
       "Figure_2.png",
+      "Figure_2.svg",
       "Figure_2.tif",
-      "Figure_3.svg",
       "Figure_3.pdf",
       "Figure_3.png",
+      "Figure_3.svg",
       "Figure_3.tif",
-      "Figure_4.svg",
       "Figure_4.pdf",
       "Figure_4.png",
+      "Figure_4.svg",
       "Figure_4.tif",
-      "Figure_5.svg",
       "Figure_5.pdf",
       "Figure_5.png",
+      "Figure_5.svg",
       "Figure_5.tif",
-      "Figure_6.svg",
-      "Figure_6.pdf",
-      "Figure_6.png",
-      "Figure_6.tif",
-      "Figure_5_data.tsv",
-      "Figure5_DEG_count_summary.tsv",
-      "Figure_6A_background_anchors.tsv",
-      "Figure_6A_highlighted_loci.tsv",
-      "Figure_6B_plot_data.tsv"
+      "Figure_5A_background_anchors.tsv",
+      "Figure_5A_highlighted_loci.tsv",
+      "Figure_5B_plot_data.tsv"
     ]
   },
-  "figure3_frozen_network": {
-    "nodes": 167,
-    "transcription_factors": 38,
-    "target_genes": 129,
-    "edges": 1000,
-    "positive_edges": 868,
-    "negative_edges": 132,
-    "samples": 15,
-    "stages": 5
+  "supplementary_tables": {
+    "workbook": "../../supplementary_tables/Supplementary_Tables_S1-S5.xlsx",
+    "S5_DEG_contrasts": 31,
+    "S5_sample_columns": 239
   },
   "notes": [
-    "The run-level SRA catalog is loaded from the external compressed JSON; no stale run-level fallback is embedded in index.html.",
+    "All database-scale counts use one deduplicated RNA-seq reporting scope.",
+    "Non-RNA library strategies are outside the manuscript-associated catalog.",
     "Liriodendron experimental samples are labeled as Liriodendron hybrid; L. chinense is retained only as the reference annotation label.",
     "Coexpression relationships are associative and are not experimentally validated regulatory interactions."
   ],
