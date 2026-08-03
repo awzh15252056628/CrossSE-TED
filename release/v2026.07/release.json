@@ -2,7 +2,7 @@
   "release_id": "v2026.07",
   "status": "publication-associated release",
   "freeze_date": "2026-07-15",
-  "updated_on": "2026-08-02",
+  "updated_on": "2026-08-03",
   "catalog": {
     "rna_seq_records": {
       "runs": 1097,
@@ -61,14 +61,14 @@
     "S5_sample_columns": 239,
     "sheets": 9,
     "S1_runs": 1097,
-    "S4_verification_status": "pending author completion"
+    "S4_verification_status": "not claimed; stage mappings documented without unverified independent-review fields"
   },
   "notes": [
     "All database-scale counts use one deduplicated RNA-seq reporting scope that includes the four core projects used by the expression-query subset.",
     "PRJNA972435 was excluded because its public ScientificName is the unresolved non-species-level label 'plant metagenome'.",
-    "Picea abies exon-level differential-expression results are withheld pending a gene-level DESeq2 rerun; its gene-level expression matrices remain available.",
     "The DEG threshold is padj < 0.05 and |log2FC| >= 1.",
-    "Coexpression relationships are associative and are not experimentally validated regulatory interactions."
+    "Coexpression relationships are associative and are not experimentally validated regulatory interactions.",
+    "Picea abies remains available for expression browsing and is outside the 24-contrast gene-level DEG scope."
   ],
   "checksum_manifest": "SHA256SUMS.txt"
 }

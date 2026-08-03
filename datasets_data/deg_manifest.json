@@ -152,5 +152,5 @@
       ]
     }
   ],
-  "note": "Picea abies exon-level differential-expression payload is excluded from the public DEG query pending a gene-level DESeq2 rerun. Gene-level expression matrices remain available for browsing."
+  "note": "The public DEG query is restricted to 24 gene-level contrasts from six taxa; Picea abies is available for expression browsing only."
 }
