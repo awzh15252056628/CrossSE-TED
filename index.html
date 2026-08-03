@@ -333,7 +333,7 @@ body.in-module #homeView{ display:none; }
       <div>
         <span class="hero-eyebrow">Cross-species Somatic Embryogenesis Resource · Publication-associated release v2026.07</span>
         <h1>Multi-species somatic embryogenesis transcriptome, regulatory modules &amp; lab tools</h1>
-        <p class="lead">An integrated resource spanning 11 species &mdash; expression matrices ordered by developmental stage, interactive coexpression and stage-specificity queries, gene-family lookup, ortholog and differential-expression browsing, primer / CRISPR / BLAST tools, public RNA-seq links and result figures.</p>
+        <p class="lead">A public expression-query resource spanning 10 taxa, 30 FPKM/CPM/read-count matrices and 239 sample columns, with catalog, expression, stage-specificity, ortholog, gene-family, differential-expression and stage-associated coexpression queries.</p>
         <div class="hero-cta">
           <button class="btn light" type="button" data-view="coexpression">Explore coexpression</button>
           <button class="btn ghost" type="button" data-view="stage-specificity">Query stage τ</button>
@@ -343,8 +343,8 @@ body.in-module #homeView{ display:none; }
       </div>
       <div class="hero-stats">
         <div class="hero-stat"><b>11</b><span>Species / datasets</span></div>
-        <div class="hero-stat"><b>72</b><span>Sorted matrices</span></div>
-        <div class="hero-stat"><b>1387</b><span>Sample columns</span></div>
+        <div class="hero-stat"><b>30</b><span>Public query matrices</span></div>
+        <div class="hero-stat"><b>239</b><span>Sample columns</span></div>
         <div class="hero-stat"><b>33</b><span>Integrated figures</span></div>
       </div>
     </div>
@@ -358,9 +358,9 @@ body.in-module #homeView{ display:none; }
   <section class="hero-main">
     <div class="eyebrow">Cross-species Somatic Embryogenesis Resource</div>
     <h1>An offline resource integrating multi-species somatic embryogenesis expression matrices, stage metadata and core regulatory figures</h1>
-    <p class="lead">This page integrates Castanea mollissima, Liriodendron hybrid, Vitis vinifera, Liquidambar styraciflua × Liquidambar formosana, Quercus suber, Cunninghamia lanceolata, Picea abies, Hippeastrum sp., Zea mays, Camellia oleifera and supplementary Gossypium hirsutum trend data. The RNA-seq section contains FPKM, CPM and readcount matrices ordered by developmental stage; Cunninghamia lanceolata retains the reference-guided CULA transcriptome and the full CK/PSK treatment time series.</p>
+    <p class="lead">This page integrates the ten public expression-query taxa: Castanea mollissima, Liriodendron hybrid, Vitis vinifera, Liquidambar styraciflua × Liquidambar formosana, Quercus suber, Cunninghamia lanceolata, Picea abies, Hippeastrum sp., Zea mays and Camellia oleifera. The RNA-seq section contains FPKM, CPM and readcount matrices ordered by developmental stage; Cunninghamia lanceolata retains the reference-guided CULA transcriptome and the full CK/PSK treatment time series.</p>
     <div class="hero-actions">
-      <a class="btn primary" href="#data">View 72 sorted matrices</a>
+      <a class="btn primary" href="#data">View 30 public matrices</a>
       <a class="btn" href="#gene-search">Search by gene ID</a>
       <a class="btn" href="#data">View data inventory</a>
       <a class="btn" href="#figures">Browse figures</a>
@@ -368,8 +368,8 @@ body.in-module #homeView{ display:none; }
     </div>
     <div class="stats">
       <div class="stat"><b>11</b><span>Species/datasets</span></div>
-      <div class="stat"><b>72</b><span>Sorted expression matrices</span></div>
-      <div class="stat"><b>1387</b><span>Expression sample columns</span></div>
+      <div class="stat"><b>30</b><span>Public expression matrices</span></div>
+      <div class="stat"><b>239</b><span>Expression sample columns</span></div>
       <div class="stat"><b>33</b><span>Integrated figures</span></div>
       <div class="stat"><b>7</b><span>Supplementary trend files</span></div>
     </div>
@@ -498,7 +498,7 @@ body.in-module #homeView{ display:none; }
       </div>
     </div>
     <div class="xse-figure-ref">
-      <img src="assets/Figure_2_expression_specificity_and_core_TF.png" alt="Expression specificity categories and core TF family composition" loading="lazy" data-extra-figure="specificity">
+      <img src="assets/Figure_2_expression_specificity_classes.png" alt="Expression-specificity classes across eight taxa" loading="lazy" data-extra-figure="specificity">
       <div class="xse-figure-copy">
         <h3>Expression-specificity reference</h3>
         <p>Figure 2 summarizes counts and percentage composition for the four expression classes across species, together with the family composition of core TF hubs. The query above exposes the gene-level τ values that were previously absent from the database interface.</p>
@@ -552,7 +552,7 @@ body.in-module #homeView{ display:none; }
       <div class="xse-kpi"><b>0.0170–0.4707</b><span>observed Ka/Ks range</span></div>
     </div>
     <div class="xse-pair-grid">
-      <img src="assets/Figure_6_PsbO_OEE1_microsynteny_KaKs.png" alt="PsbO OEE1 microsynteny and Ka Ks analysis" loading="lazy" data-extra-figure="evolution">
+      <img src="assets/Figure_5_PsbO_OEE1_microsynteny_KaKs.png" alt="PsbO/OEE1 microsynteny and Ka/Ks analysis" loading="lazy" data-extra-figure="evolution">
       <div>
         <div class="xse-side" style="position:static">
           <label for="evoFilter">Pair subset</label>
