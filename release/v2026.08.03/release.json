@@ -1,7 +1,7 @@
 {
-  "release_id": "v2026.07",
+  "release_id": "v2026.08.03",
   "status": "publication-associated release",
-  "freeze_date": "2026-07-15",
+  "freeze_date": "2026-08-03",
   "updated_on": "2026-08-03",
   "catalog": {
     "rna_seq_records": {
@@ -70,5 +70,8 @@
     "Coexpression relationships are associative and are not experimentally validated regulatory interactions.",
     "Picea abies remains available for expression browsing and is outside the 24-contrast gene-level DEG scope."
   ],
-  "checksum_manifest": "SHA256SUMS.txt"
+  "checksum_manifest": "SHA256SUMS.txt",
+  "release_date": "2026-08-03",
+  "manuscript_access_date": "2026-08-03",
+  "supplementary_material_date": "2026-08-03"
 }

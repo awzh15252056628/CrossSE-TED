@@ -1,0 +1,9 @@
+Action	BioProject	Run count	Reason/status
+Excluded	PRJNA972435	3	ScientificName is the non-species-level label 'plant metagenome'; the three records cannot be assigned to a verified plant species from the public metadata.
+Added	PRJEB72619	48	Core expression project included in the canonical catalog
+Added	PRJNA347903	4	Core expression project included in the canonical catalog
+Added	PRJNA862291	12	Core expression project included in the canonical catalog
+Added	PRJNA980588	40	Core expression project included in the canonical catalog
+Final total	All retained projects	1097	46 taxonomic labels; 82 BioProjects; 2602.8 GB
+Picea DEG status	PRJEB72619	48	Expression matrices retained; exon-feature differential-expression files excluded from the gene-level DEG scope
+Release metadata	v2026.08.03		Release date = manuscript access date = supplementary-material date = 2026-08-03

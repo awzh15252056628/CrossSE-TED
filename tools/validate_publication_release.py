@@ -15,7 +15,7 @@ from pathlib import Path
 from PIL import Image
 
 REPO = Path(__file__).resolve().parents[1]
-RELEASE = REPO / "release" / "v2026.07"
+RELEASE = REPO / "release" / "v2026.08.03"
 
 
 def require(condition: bool, message: str) -> None:
@@ -70,6 +70,9 @@ def main() -> None:
     require({key: release["expression_query"][key] for key in ("taxa", "matrices", "sample_columns")} ==
             {"taxa": 10, "matrices": 30, "sample_columns": 239}, "release.json expression scope mismatch")
     require(release["publication_figures"]["count"] == 5, "release.json figure count mismatch")
+    require(release["release_id"] == "v2026.08.03", "release identifier mismatch")
+    require(all(release[key] == "2026-08-03" for key in ("release_date", "freeze_date", "updated_on", "manuscript_access_date", "supplementary_material_date")), "release dates are not synchronized")
+    require("pending author completion" not in json.dumps(release).lower(), "obsolete S4 pending status remains")
 
     expression_index = json.loads((REPO / "expression_data" / "index.json").read_text(encoding="utf-8"))
     require(len(expression_index["species"]) == 10, "Expression index must contain 10 taxa")
@@ -95,7 +98,7 @@ def main() -> None:
                 require(dpi and all(abs(float(value) - 600) < 0.2 for value in dpi[:2]), f"Not 600 dpi: Figure_{number}{suffix} {dpi}")
     require(not any(publication.glob("Figure_6.*")), "Obsolete Figure 6 remains")
     require("Figure5_DEG_count_summary.tsv" not in app and "Figure_6" not in app, "Obsolete gallery reference remains")
-    require(len(re.findall(r'group:"Publication-associated release v2026\.07"', app)) == 5, "Gallery must contain five publication figures")
+    require(len(re.findall(r'group:"Publication-associated release v2026\.08\.03"', app)) == 5, "Gallery must contain five publication figures")
 
     deg = read_tsv(REPO / "supplementary_tables" / "S5A_DEG_counts.tsv")
     coverage = read_tsv(REPO / "supplementary_tables" / "S5B_Sample_coverage.tsv")
@@ -125,7 +128,7 @@ def main() -> None:
         require(sha256(path) == expected, f"Checksum mismatch: {relative}")
         checked += 1
 
-    stale_patterns = ["996 runs", "45 taxonomic labels", "79 BioProjects", "1,110", "1110 runs", "47 taxonomic", "89 BioProjects", "six publication figures"]
+    stale_patterns = ["v2026.07", "2026-07-15", "2026-08-02", "pending author completion", "996 runs", "45 taxonomic labels", "79 BioProjects", "1,110", "1110 runs", "47 taxonomic", "89 BioProjects", "six publication figures"]
     combined = index + "\n" + app
     require(not any(pattern in combined for pattern in stale_patterns), "Stale reporting scope remains in website text")
     print(json.dumps({"status": "PASS", "RNA-seq_runs": 1097, "taxonomic_labels": 46, "BioProjects": 82,
