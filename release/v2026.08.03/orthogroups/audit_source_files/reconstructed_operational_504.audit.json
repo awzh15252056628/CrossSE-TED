@@ -1,0 +1,16 @@
+{
+  "orthogroups_tsv": "/mnt/data/crossse_revised/CrossSE-TED_v2026.08.03_orthogroup_definition_revised_submission_package/03_Supplementary_Files/Supplementary_File_1_504_operational_1to1_orthogroups/audit_source_files/Orthogroups.tsv",
+  "orthogroups_tsv_sha256": "9ecbfaddea0baef744cc0bfd392c990b28153d81a85fd899bdf22d0f3151e26c",
+  "species_columns": [
+    "Castanea_mollissima",
+    "Cunninghamia_lanceolata_CULA",
+    "Liquidambar_formosana",
+    "Liriodendron_chinense",
+    "Picea_abies",
+    "Quercus_suber",
+    "Vitis_vinifera"
+  ],
+  "retention_rule": "exactly one non-empty member in every one of seven species columns",
+  "n_operational_one_to_one_orthogroups": 504,
+  "official_single_copy_list_supplied": false
+}

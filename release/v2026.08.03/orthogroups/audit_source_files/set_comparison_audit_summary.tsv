@@ -1,0 +1,11 @@
+metric	value
+operational_set_source	Orthogroups.tsv
+operational_retention_rule	exactly one non-empty member in each of seven species columns
+n_operational_one_to_one_orthogroups	504
+n_archived_official_single_copy_identifiers	505
+n_intersection	200
+n_archived_official_only	305
+n_operational_only	304
+archived_official_only_row_pattern	each of the 305 rows had at least one missing species and at least one species with multiple members in archived Orthogroups.tsv
+terminology	operational one-to-one orthogroup set; not OrthoFinder-generated single-copy set
+submission_package_numbering	Supplementary File 1 (formerly Supplementary File 3 in an earlier draft)
