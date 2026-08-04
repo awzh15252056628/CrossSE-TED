@@ -505,7 +505,10 @@ function metadataPackage() {
   };
 }
 
-function handleDownload(kind) {
+async function handleDownload(kind) {
+  if (["sra-all","sra-filtered","bioprojects","metadata-json"].includes(kind) && typeof window.__crossseEnsureSraData === "function") {
+    await window.__crossseEnsureSraData();
+  }
   const matrixHeaders = ["id","category","species","abbr","data_type","columns","matched","unmatched","stages","file","size","source_path","link"].map(key => ({key, label:key}));
   const sraHeaders = ["Run","ScientificName","SampleName","LibraryStrategy","LibraryLayout","LibraryName","BioProject","Platform","Model","size_MB","ReleaseDate","NCBI_SRA","ENA_Run","Project_URL","Direct_Download"].map(key => ({key, label:key}));
   const bioHeaders = ["BioProject","Species","Source","RunCount","URL"].map(key => ({key, label:key}));
@@ -1275,7 +1278,7 @@ const MODULE_META = [
   {id:"figures", title:"Figure Gallery", desc:"32 integrated result figures, including all five publication-associated figures in vector and 600-dpi raster formats.", accent:"#d0416b", grad:"linear-gradient(135deg,#d0416b,#ef7396)", icon:"image"},
   {id:"downloads", title:"Download Center", desc:"Export matrix inventory, SRA links, project links and metadata.", accent:"#0d7a8c", grad:"linear-gradient(135deg,#0d7a8c,#14b0a0)", icon:"download"},
   {id:"expr-query", title:"Expression Query", desc:"Look up FPKM / read count / CPM for any gene across all samples in 10 species, with CSV / TSV export.", accent:"#7b3fe4", grad:"linear-gradient(135deg,#7b3fe4,#9d6bff)", icon:"chart"},
-  {id:"ortho-query", title:"Orthologs", desc:"One-to-one orthogroups across 7 reference species plus dicot and gymnosperm subsets, with gene / protein / OrthoFinder ID lookup and CSV / TSV export.", accent:"#0d7a8c", grad:"linear-gradient(135deg,#0d7a8c,#22b0c4)", icon:"nodes"},
+  {id:"ortho-query", title:"Orthologs", desc:"504 operational one-to-one orthogroups across 7 reference species plus the 2,885 target-three and 4,059 CULA–Picea operational subsets, with gene / protein / OrthoFinder ID lookup and CSV / TSV export.", accent:"#0d7a8c", grad:"linear-gradient(135deg,#0d7a8c,#22b0c4)", icon:"nodes"},
   {id:"deg-query", title:"Differential Expression", desc:"Significant DEGs (padj<0.05, |log2FC|≥1) across 6 species and their stage / treatment comparisons; filter by direction and gene ID, with export.", accent:"#d0416b", grad:"linear-gradient(135deg,#c0392b,#e8615a)", icon:"volcano"},
   {id:"nr-annotation", title:"NR Annotation", desc:"Best-hit protein annotations against the NCBI NR database (DIAMOND blastp) for 10 species; search by gene / protein ID and export hit accession, identity, e-value, bitscore, coverage and description.", accent:"#8e44ad", grad:"linear-gradient(135deg,#6d28d9,#a855f7)", icon:"nrtag"},
   {id:"tf-query", title:"Transcription Factors", desc:"Putative transcription factors for 10 species, classified into families from NCBI NR best-hit descriptions; filter by species, TF family and gene / protein ID, with CSV / TSV export.", accent:"#16a34a", grad:"linear-gradient(135deg,#15803d,#22c55e)", icon:"tftree"}
@@ -1401,6 +1404,7 @@ renderModuleGrid();
       resetSelect("sraSpeciesFilter"); resetSelect("sraProjectFilter"); resetSelect("sraStrategyFilter");
       initSraBrowser();
       renderSraBrowser(true);
+      if($("downloadStatus")) $("downloadStatus").textContent = `Ready: ${matrixExportRows().length.toLocaleString()} matrix/supplementary records, ${rows.length.toLocaleString()} public SRA records, ${bioprojectRows().length.toLocaleString()} project links.`;
       SRA.loaded = true;
       setSraStatus("Loaded curated Table S1: "+c.runs+" runs | "+c.species+" species | "+c.projects+" BioProjects | "+c.rna_seq_only+" RNA-Seq runs | "+c.total_size_gb+" GB total.", "ok");
     }catch(err){
@@ -1409,6 +1413,8 @@ renderModuleGrid();
       SRA.loading = false;
     }
   }
+
+  window.__crossseEnsureSraData = ensureSraData;
 
   function openSraDetail(i){
     if(!SRA.full) return;
@@ -1441,7 +1447,7 @@ renderModuleGrid();
   }
 
   document.addEventListener("click", function(e){
-    if(e.target.closest('[data-view="sra"]')){ ensureSraData(); return; }
+    if(e.target.closest('[data-view="sra"], a[href="#sra"]')){ ensureSraData(); return; }
     const db = e.target.closest("[data-sra-detail]");
     if(db){ openSraDetail(Number(db.getAttribute("data-sra-detail"))); return; }
     if(e.target.id==="sraModalClose" || e.target.id==="sraModal"){ $("sraModal").classList.remove("open"); return; }
@@ -1602,7 +1608,7 @@ renderModuleGrid();
   }
 
   document.addEventListener("click",(e)=>{
-    if(e.target.closest('[data-view="expr-query"]')){ ensureInit(); }
+    if(e.target.closest('[data-view="expr-query"], a[href="#expr-query"]')){ ensureInit(); }
     if(e.target.closest("#eqRun")){ runQuery(); return; }
     if(e.target.closest("#eqClear")){ $id("eqGenes").value=""; $id("eqMiss").textContent=""; $id("eqTableWrap").style.display="none"; $id("eqExportBar").style.display="none"; setStatus("Cleared."); return; }
     const exp = e.target.closest("[data-eq-export]");
@@ -1624,10 +1630,10 @@ renderModuleGrid();
 (function(){
   const DATA_DIR = "datasets_data/";
   const ORTHO_DATASETS = [
-    {id:"all7_504", label:"7-species strict 1:1 (504 OGs)", file:"ortho_all7_504.json.gz"},
-    {id:"dicot3_2885", label:"3 dicots 1:1 - Lc / Cm / Vv (2885 OGs)", file:"ortho_dicot3_2885.json.gz"},
-    {id:"dicot3_strict504", label:"3 dicots - strict all-7 subset (504 OGs)", file:"ortho_dicot3_strict504.json.gz"},
-    {id:"gymno_4059", label:"Gymnosperm CULA vs Picea 1:1 (4059 OGs)", file:"ortho_gymno_4059.json.gz"}
+    {id:"all7_504", label:"7 reference species · operational one-to-one (504 OGs)", file:"ortho_all7_504.json.gz"},
+    {id:"dicot3_2885", label:"3 target woody angiosperms · operational one-to-one (2,885 OGs)", file:"ortho_dicot3_2885.json.gz"},
+    {id:"dicot3_strict504", label:"3-dicot projection of the 504 operational set (504 OGs)", file:"ortho_dicot3_strict504.json.gz"},
+    {id:"gymno_4059", label:"Cunninghamia lanceolata–Picea abies · operational pairwise one-to-one (4,059 OGs)", file:"ortho_gymno_4059.json.gz"}
   ];
   const BROWSE_LIMIT = 300;
   const OQ = { ds:{}, current:null, data:null, idx:null, view:[], inited:false };
@@ -1743,7 +1749,7 @@ renderModuleGrid();
   }
 
   document.addEventListener("click",(e)=>{
-    if(e.target.closest('[data-view="ortho-query"]')){ ensureInit(); }
+    if(e.target.closest('[data-view="ortho-query"], a[href="#ortho-query"]')){ ensureInit(); }
     if(e.target.closest("#oqRun")){ runQuery(); return; }
     if(e.target.closest("#oqClear")){ $id("oqGenes").value=""; runQuery(); return; }
     const exp=e.target.closest("[data-oq-export]");
@@ -1869,7 +1875,7 @@ renderModuleGrid();
   }
 
   document.addEventListener("click",(e)=>{
-    if(e.target.closest('[data-view="deg-query"]')){ ensureInit(); }
+    if(e.target.closest('[data-view="deg-query"], a[href="#deg-query"]')){ ensureInit(); }
     if(e.target.closest("#dgRun")){ runQuery(); return; }
     if(e.target.closest("#dgClear")){ $id("dgGenes").value=""; $id("dgTableWrap").style.display="none"; $id("dgExportBar").style.display="none"; setStatus("Cleared."); return; }
     const exp=e.target.closest("[data-dg-export]");
