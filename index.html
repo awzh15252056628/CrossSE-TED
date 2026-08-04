@@ -917,7 +917,19 @@ body.in-module #homeView{ display:none; }
       #ortho-query table.oq-table a{color:#0d7a8c;text-decoration:none;font-weight:600}
       #ortho-query table.oq-table a:hover{text-decoration:underline}
       #ortho-query .oq-miss{color:#c0392b;font-size:12.5px;margin-top:10px;line-height:1.5;word-break:break-word}
+      #ortho-query .oq-definition{margin:0 0 16px;padding:14px 16px;background:#f3fbfa;border:1px solid #cfe9e4;border-radius:12px;color:#2b3a34;font-size:13px;line-height:1.65}
+      #ortho-query .oq-definition p{margin:0 0 8px}
+      #ortho-query .oq-definition p:last-child{margin-bottom:0}
+      #ortho-query .oq-definition code{font-family:ui-monospace,Consolas,monospace;color:#0d7a8c}
+      #ortho-query .oq-links{display:flex;flex-wrap:wrap;gap:7px 12px;margin-top:10px}
+      #ortho-query .oq-links a{color:#0d7a8c;text-decoration:underline;text-underline-offset:2px}
     </style>
+    <div class="oq-definition">
+      <p><strong>Operational one-to-one orthogroup definition.</strong> For database queries and cross-species comparisons, the operational one-to-one orthogroup set was constructed directly from the archived <code>Orthogroups.tsv</code> file. A row was retained only when each of the seven species columns contained exactly one non-empty member. This reproducible filtering rule yielded 504 operational one-to-one orthogroups. The set is not described as the OrthoFinder-generated single-copy set.</p>
+      <p>The 504 operational one-to-one orthogroups each comprise exactly one member from each of seven reference gene sets: <em>Castanea mollissima</em>, <em>Cunninghamia lanceolata</em>, <em>Liquidambar formosana</em>, <em>Liriodendron chinense</em> reference, <em>Picea abies</em>, <em>Quercus suber</em> and <em>Vitis vinifera</em>. Liriodendron hybrid records use the <em>L. chinense</em> reference identifiers.</p>
+      <p>Additional operational subsets are defined separately: 2,885 target-three groups require exactly one member in the <em>L. chinense</em> reference, <em>C. mollissima</em> and <em>V. vinifera</em> columns while leaving the other four species unconstrained; 4,059 pairwise groups require exactly one member in <em>Cunninghamia lanceolata</em> and <em>Picea abies</em>. The latter is an orthology resource and does not imply Picea feature-level DEG results in the 24-contrast primary scope.</p>
+      <div class="oq-links"><strong>504-set audit/downloads:</strong> <a href="release/v2026.08.03/orthogroups/Supplementary_File_1_504_operational_1to1_orthogroups.tsv" download>membership TSV</a><a href="release/v2026.08.03/orthogroups/Supplementary_File_1_504_operational_1to1_orthogroups.xlsx" download>membership XLSX</a><a href="release/v2026.08.03/orthogroups/audit_source_files/Orthogroups.tsv" download>archived Orthogroups.tsv</a><a href="release/v2026.08.03/orthogroups/audit_source_files/filter_operational_one_to_one_orthogroups.py" download>filtering script</a><a href="release/v2026.08.03/orthogroups/audit_source_files/SOURCE_FILE_SHA256SUMS.txt" download>source SHA-256</a><a href="release/v2026.08.03/orthogroups/audit_source_files/set_comparison_audit_summary.tsv" download>set-comparison audit</a><a href="release/v2026.08.03/orthogroups/README_scope_and_definition.txt" download>scope README</a></div>
+    </div>
     <div class="oq-panel">
       <div class="oq-side">
         <label for="oqDataset">Dataset</label>
@@ -934,7 +946,7 @@ body.in-module #homeView{ display:none; }
           <button class="btn primary" type="button" id="oqRun">Query</button>
           <button class="btn" type="button" id="oqClear">Clear</button>
         </div>
-        <div class="oq-hint">IDs are matched across every species and every ID type, so you can look up an orthogroup from any single member. Protein RefSeq accessions link to NCBI. Switching dataset or ID type refreshes the table.</div>
+        <div class="oq-hint">IDs are matched across every species and every ID type, so you can look up an operational orthogroup from any single member. Protein RefSeq accessions link to NCBI. Switching dataset or ID type refreshes the table.</div>
       </div>
       <div class="oq-main">
         <div class="oq-status" id="oqStatus">Loading orthogroup datasets ...</div>
