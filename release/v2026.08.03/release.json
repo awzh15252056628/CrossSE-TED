@@ -20,6 +20,28 @@
     "sample_columns": 239,
     "matrix_manifest": "../../expression_data/core_30_matrix_manifest.tsv"
   },
+  "orthogroups": {
+    "operational_one_to_one_7_species": {
+      "count": 504,
+      "definition": "Constructed directly from archived Orthogroups.tsv; retain only rows with exactly one non-empty member in each of seven species columns.",
+      "membership_tsv": "orthogroups/Supplementary_File_1_504_operational_1to1_orthogroups.tsv",
+      "membership_xlsx": "orthogroups/Supplementary_File_1_504_operational_1to1_orthogroups.xlsx",
+      "archived_orthogroups_tsv": "orthogroups/audit_source_files/Orthogroups.tsv",
+      "filtering_script": "orthogroups/audit_source_files/filter_operational_one_to_one_orthogroups.py",
+      "source_sha256": "orthogroups/audit_source_files/SOURCE_FILE_SHA256SUMS.txt",
+      "set_comparison_audit": "orthogroups/audit_source_files/set_comparison_audit_summary.tsv"
+    },
+    "target_three_operational_one_to_one": {
+      "count": 2885,
+      "definition": "Exactly one member in the Liriodendron chinense reference, Castanea mollissima, and Vitis vinifera columns; other four reference species unconstrained.",
+      "dataset": "../../datasets_data/ortho_dicot3_2885.json.gz"
+    },
+    "cula_picea_operational_pairwise_one_to_one": {
+      "count": 4059,
+      "definition": "Exactly one member in Cunninghamia lanceolata and Picea abies; orthology resource only and outside the primary 24-contrast DEG scope.",
+      "dataset": "../../datasets_data/ortho_gymno_4059.json.gz"
+    }
+  },
   "publication_figures": {
     "count": 5,
     "formats": [

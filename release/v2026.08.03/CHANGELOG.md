@@ -23,6 +23,13 @@ Release date: **2026-08-03**
 - Renumbered the PsbO/OEE1 microsynteny and Ka/Ks figure from Figure 6 to Figure 5.
 - Rebuilt checksums and validation rules around the unified manuscript, supplementary-material, and website scope.
 
+## Orthogroup-definition patch
+
+- The website now labels the seven-reference set as **504 operational one-to-one orthogroups**. It is reconstructed directly from the archived `Orthogroups.tsv` table by retaining only rows with exactly one non-empty member in each of the seven species columns; it is not described as an OrthoFinder-generated single-copy set.
+- The Orthologs module now exposes the 504 membership table, archived source table, reproducible filtering script, source SHA-256 checksums, and set-comparison audit summary.
+- The website explicitly distinguishes the **2,885** target-three operational subset (exactly one member in the *L. chinense* reference, *C. mollissima*, and *V. vinifera* columns; other four species unconstrained) from the **4,059** CULA–*Picea* pairwise operational subset.
+- The CULA–*Picea* resource is identified as orthology-only and is not presented as evidence that *Picea abies* feature-level DEG results enter the primary 24-contrast scope.
+
 Coexpression relationships are associative and must not be interpreted as experimentally validated regulatory interactions.
 
 ## Date synchronization
