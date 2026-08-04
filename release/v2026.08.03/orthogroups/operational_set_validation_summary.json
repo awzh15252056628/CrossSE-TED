@@ -1,0 +1,22 @@
+{
+  "source_orthogroups_tsv": "audit_source_files/Orthogroups.tsv",
+  "source_orthogroups_sha256": "9ecbfaddea0baef744cc0bfd392c990b28153d81a85fd899bdf22d0f3151e26c",
+  "operational_membership_file": "Supplementary_File_1_504_operational_1to1_orthogroups.tsv",
+  "operational_membership_sha256": "9289badaeb5b99060a7b83c2c511f09f9948e8e8d092f5790a054994f7ab778b",
+  "rows": 504,
+  "species_columns": [
+    "Castanea_mollissima",
+    "Cunninghamia_lanceolata_CULA",
+    "Liquidambar_formosana",
+    "Liriodendron_chinense",
+    "Picea_abies",
+    "Quercus_suber",
+    "Vitis_vinifera"
+  ],
+  "rule_verified_from_uploaded_Orthogroups.tsv": true,
+  "official_list_flag_counts": {
+    "no": 304,
+    "yes": 200
+  },
+  "note": "The official 505-ID source list itself was not among the newly uploaded files; the 200/304 flags and 505/305 comparison counts are retained from the archived audit supplied with the submission package."
+}
