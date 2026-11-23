@@ -721,7 +721,197 @@ function setToolStatus(id, message, kind = "") {
   node.className = `tool-status${kind ? ` ${kind}` : ""}`;
 }
 
-function designPrimers() {
+const PRIMER3PLUS_ENDPOINT = "https://www.primer3plus.com/primer3plus/api/v1/runprimer3";
+let primerOnlineController = null;
+let primerRequestVersion = 0;
+let primerLastOnlineStart = 0;
+
+function invalidatePrimerDesign(message = "Inputs changed. Run the selected designer again.") {
+  primerRequestVersion++;
+  if (primerOnlineController) primerOnlineController.abort();
+  primerOnlineController = null;
+  primerDesignRows = [];
+  $("primerExportBtn").disabled = true;
+  $("primerResults").innerHTML = "";
+  $("designPrimerBtn").disabled = false;
+  $("primerCancelBtn").style.display = "none";
+  setToolStatus("primerStatus", message);
+}
+
+function updatePrimerEngine() {
+  const online = $("primerEngine").value === "primer3plus";
+  for (const id of ["primerOnlineNotice", "primerConsentRow", "primerThermoSettings"]) $(id).hidden = !online;
+  $("primerUploadConsent").checked = false;
+  invalidatePrimerDesign(online ? "Online mode: confirm upload consent before submitting. No request has been sent." : "Local mode: the original screening algorithm runs on this device; no sequence is uploaded.");
+}
+
+function primerOnlineNumber(id, label, minimum, maximum, integer = false) {
+  const raw = $(id).value.trim();
+  const value = Number(raw);
+  if (!raw || !Number.isFinite(value) || value < minimum || value > maximum || (integer && !Number.isInteger(value))) {
+    throw new Error(`${label} must be ${integer ? "an integer" : "a number"} from ${minimum} to ${maximum}.`);
+  }
+  return value;
+}
+
+function readOnlinePrimerInput() {
+  const records = parseFastaRecords($("primerTemplate").value, "template");
+  if (records.length !== 1) throw new Error("Online design requires exactly one nonempty DNA template or FASTA record.");
+  const template = records[0].sequence;
+  if (!/^[ACGTN]+$/.test(template)) throw new Error("The template contains characters other than A, C, G, T or N.");
+  if (template.length > 50000) throw new Error("Online design accepts at most 50,000 bases per request. Use a shorter target region.");
+  const length = primerOnlineNumber("primerLength", "Primer length", 16, 35, true);
+  const [productMin, productMax] = parseNumericRange($("primerProductRange").value, "Product size", 40, 10000);
+  if (!Number.isInteger(productMin) || !Number.isInteger(productMax)) throw new Error("Product-size limits must be whole numbers of bases.");
+  if (template.length < productMin) throw new Error("The template is shorter than the minimum product size.");
+  const [gcMin, gcMax] = parseNumericRange($("primerGcRange").value, "GC range", 0, 100);
+  const tmMin = primerOnlineNumber("primerTmMin", "Minimum Tm", 40, 80);
+  const tmMax = primerOnlineNumber("primerTmMax", "Maximum Tm", 40, 85);
+  if (tmMin >= tmMax) throw new Error("Minimum Tm must be lower than maximum Tm.");
+  const count = primerOnlineNumber("primerPairCount", "Number of pairs", 1, 50, true);
+  const startRaw = $("primerTargetStart").value.trim();
+  const endRaw = $("primerTargetEnd").value.trim();
+  const midpoint = Math.ceil(template.length / 2);
+  const targetStart = startRaw ? Number(startRaw) : (endRaw ? Number(endRaw) : midpoint);
+  const targetEnd = endRaw ? Number(endRaw) : targetStart;
+  if (!Number.isInteger(targetStart) || !Number.isInteger(targetEnd) || targetStart < 1 || targetEnd < targetStart || targetEnd > template.length) {
+    throw new Error("Target coordinates must define a valid 1-based interval within the template.");
+  }
+  const saltMonovalent = primerOnlineNumber("primerSaltMonovalent", "Monovalent salt", 0, 1000);
+  const saltDivalent = primerOnlineNumber("primerSaltDivalent", "Mg2+ concentration", 0, 100);
+  const dntp = primerOnlineNumber("primerDntp", "Total dNTP", 0, 100);
+  const dnaConcentration = primerOnlineNumber("primerDnaConcentration", "Annealing oligo concentration", 0.01, 10000);
+  return {template, length, productMin, productMax, gcMin, gcMax, tmMin, tmMax, count, targetStart, targetEnd, saltMonovalent, saltDivalent, dntp, dnaConcentration};
+}
+
+function onlinePrimerBoulderInput(p) {
+  const fields = {
+    SEQUENCE_ID:"CrossSE_TED_template", SEQUENCE_TEMPLATE:p.template,
+    SEQUENCE_TARGET:`${p.targetStart - 1},${p.targetEnd - p.targetStart + 1}`,
+    PRIMER_TASK:"generic", PRIMER_PICK_LEFT_PRIMER:1, PRIMER_PICK_RIGHT_PRIMER:1, PRIMER_PICK_INTERNAL_OLIGO:0,
+    PRIMER_FIRST_BASE_INDEX:0, PRIMER_MIN_SIZE:p.length, PRIMER_OPT_SIZE:p.length, PRIMER_MAX_SIZE:p.length,
+    PRIMER_MIN_TM:p.tmMin, PRIMER_OPT_TM:(p.tmMin + p.tmMax) / 2, PRIMER_MAX_TM:p.tmMax,
+    PRIMER_MIN_GC:p.gcMin, PRIMER_MAX_GC:p.gcMax, PRIMER_PRODUCT_SIZE_RANGE:`${p.productMin}-${p.productMax}`,
+    PRIMER_NUM_RETURN:p.count, PRIMER_MAX_POLY_X:4, PRIMER_GC_CLAMP:1, PRIMER_MAX_END_GC:4,
+    PRIMER_PAIR_MAX_DIFF_TM:4, PRIMER_SALT_MONOVALENT:p.saltMonovalent, PRIMER_SALT_DIVALENT:p.saltDivalent,
+    PRIMER_DNTP_CONC:p.dntp, PRIMER_DNA_CONC:p.dnaConcentration,
+    PRIMER_THERMODYNAMIC_OLIGO_ALIGNMENT:1, PRIMER_TM_FORMULA:1, PRIMER_SALT_CORRECTIONS:1, PRIMER_EXPLAIN_FLAG:1
+  };
+  return Object.entries(fields).map(([key, value]) => `${key}=${value}`).join("\n") + "\n=\n";
+}
+
+function parseOnlinePrimerOutput(payload, p) {
+  if (!payload || typeof payload.outfile !== "string") throw new Error("Primer3Plus returned an unexpected response format.");
+  const fields = Object.create(null);
+  for (const line of payload.outfile.split(/\r?\n/)) {
+    const at = line.indexOf("=");
+    if (at > 0) fields[line.slice(0, at)] = line.slice(at + 1);
+  }
+  if (fields.PRIMER_ERROR || fields.P3P_ERROR) throw new Error(`Primer3Plus: ${fields.PRIMER_ERROR || fields.P3P_ERROR}`);
+  const number = key => {
+    if (fields[key] === undefined || !fields[key].trim() || !Number.isFinite(Number(fields[key]))) throw new Error(`Incomplete Primer3Plus result: ${key}.`);
+    return Number(fields[key]);
+  };
+  const count = number("PRIMER_PAIR_NUM_RETURNED");
+  if (!Number.isInteger(count) || count < 0 || count > p.count) throw new Error("Primer3Plus returned an invalid pair count.");
+  const rows = [];
+  for (let i = 0; i < count; i++) {
+    const left = fields[`PRIMER_LEFT_${i}`] || "";
+    const right = fields[`PRIMER_RIGHT_${i}`] || "";
+    if (!/^\d+,\d+$/.test(left) || !/^\d+,\d+$/.test(right)) throw new Error("Primer3Plus returned invalid primer coordinates.");
+    const [leftPosition, leftLength] = left.split(",").map(Number);
+    const [rightPosition, rightLength] = right.split(",").map(Number);
+    const forward = fields[`PRIMER_LEFT_${i}_SEQUENCE`] || "";
+    const reverse = fields[`PRIMER_RIGHT_${i}_SEQUENCE`] || "";
+    const productSize = number(`PRIMER_PAIR_${i}_PRODUCT_SIZE`);
+    if (leftLength !== p.length || rightLength !== p.length || leftPosition < 0 || rightPosition >= p.template.length ||
+        leftPosition + leftLength > p.targetStart - 1 || rightPosition - rightLength + 1 < p.targetEnd ||
+        productSize !== rightPosition - leftPosition + 1 || productSize < p.productMin || productSize > p.productMax ||
+        !/^[ACGT]+$/.test(forward) || !/^[ACGT]+$/.test(reverse) ||
+        forward !== p.template.slice(leftPosition, leftPosition + leftLength) ||
+        reverse !== reverseComplement(p.template.slice(rightPosition - rightLength + 1, rightPosition + 1))) {
+      throw new Error("Primer3Plus results do not match the submitted template, target or product-size limits.");
+    }
+    const forwardTm = number(`PRIMER_LEFT_${i}_TM`), reverseTm = number(`PRIMER_RIGHT_${i}_TM`);
+    const forwardGc = number(`PRIMER_LEFT_${i}_GC_PERCENT`), reverseGc = number(`PRIMER_RIGHT_${i}_GC_PERCENT`);
+    if ([forwardTm, reverseTm].some(tm => tm < p.tmMin - 0.01 || tm > p.tmMax + 0.01) ||
+        [forwardGc, reverseGc].some(gc => gc < p.gcMin - 0.01 || gc > p.gcMax + 0.01) || Math.abs(forwardTm - reverseTm) > 4.01) {
+      throw new Error("Primer3Plus results are outside the submitted Tm or GC limits.");
+    }
+    rows.push({engine:"primer3plus", rank:i + 1, forward, forwardStart:leftPosition + 1, forwardEnd:leftPosition + leftLength,
+      forwardTm, forwardGc, reverse, reverseStart:rightPosition + 1, reverseEnd:rightPosition - rightLength + 2, reverseTm, reverseGc,
+      productSize, tmDifference:Math.abs(forwardTm - reverseTm), score:number(`PRIMER_PAIR_${i}_PENALTY`),
+      pairAnyTm:number(`PRIMER_PAIR_${i}_COMPL_ANY_TH`), pairEndTm:number(`PRIMER_PAIR_${i}_COMPL_END_TH`),
+      forwardHairpinTm:number(`PRIMER_LEFT_${i}_HAIRPIN_TH`), reverseHairpinTm:number(`PRIMER_RIGHT_${i}_HAIRPIN_TH`),
+      targetStart:p.targetStart, targetEnd:p.targetEnd, saltMonovalent:p.saltMonovalent, saltDivalent:p.saltDivalent,
+      dntp:p.dntp, dnaConcentration:p.dnaConcentration});
+  }
+  return {rows, warning:fields.PRIMER_WARNING || "", explanation:[fields.PRIMER_LEFT_EXPLAIN, fields.PRIMER_RIGHT_EXPLAIN, fields.PRIMER_PAIR_EXPLAIN].filter(Boolean).join("; ")};
+}
+
+function renderOnlinePrimerResults(result) {
+  const rows = result.rows;
+  $("primerResults").innerHTML = `<h3>Primer3Plus online primer pairs</h3><div class="table-wrap"><table class="primer-table">
+    <thead><tr><th>Rank</th><th>Forward primer (5′→3′)</th><th>F position</th><th>Tm / GC</th><th>Reverse primer (5′→3′)</th><th>R position</th><th>Tm / GC</th><th>Product</th><th>ΔTm</th><th>Pair dimer Tm (any / 3′)</th><th>Primer3 penalty</th></tr></thead>
+    <tbody>${rows.map(row => `<tr><td>${row.rank}</td><td class="mono-seq">${row.forward}</td><td>${row.forwardStart}–${row.forwardEnd}</td><td>${row.forwardTm.toFixed(2)}°C / ${row.forwardGc.toFixed(1)}%</td><td class="mono-seq">${row.reverse}</td><td>${row.reverseStart}–${row.reverseEnd}</td><td>${row.reverseTm.toFixed(2)}°C / ${row.reverseGc.toFixed(1)}%</td><td>${row.productSize} bp</td><td>${row.tmDifference.toFixed(2)}°C</td><td>${row.pairAnyTm.toFixed(2)} / ${row.pairEndTm.toFixed(2)}°C</td><td>${row.score.toFixed(3)}</td></tr>`).join("")}</tbody></table></div>
+    <p class="sequence-note">Engine: Primer3 via <a href="https://www.primer3plus.com/" target="_blank" rel="noopener noreferrer">Primer3Plus</a>. Both sequences are written 5′→3′; reverse-primer coordinates run from high to low. Lower Primer3 penalty is better. Dimer values are thermodynamic temperatures, not matching-base counts. No genome-wide specificity check was performed; confirm specificity against the correct reference and validate experimentally. Exported TSV includes the thermodynamic settings.</p>${result.warning ? `<p class="sequence-note">Provider warning: ${escapeHtml(result.warning)}</p>` : ""}`;
+}
+
+async function designPrimers() {
+  if (primerOnlineController) return;
+  if ($("primerEngine").value === "local") { designLocalPrimers(); return; }
+  primerDesignRows = [];
+  $("primerExportBtn").disabled = true;
+  $("primerResults").innerHTML = "";
+  let controller, requestVersion, timer, timedOut = false;
+  try {
+    if ($("primerEngine").value !== "primer3plus") throw new Error("Select a supported primer-design engine.");
+    const p = readOnlinePrimerInput();
+    if (!$("primerUploadConsent").checked) throw new Error("Confirm the upload-consent checkbox before sending this template to Primer3Plus, or select local screening.");
+    const remaining = 5000 - (Date.now() - primerLastOnlineStart);
+    if (remaining > 0) throw new Error(`Please wait ${Math.ceil(remaining / 1000)} second(s) before another online request.`);
+    const body = new FormData();
+    body.append("P3_INPUT_FILE", onlinePrimerBoulderInput(p));
+    controller = new AbortController();
+    primerOnlineController = controller;
+    requestVersion = ++primerRequestVersion;
+    primerLastOnlineStart = Date.now();
+    $("designPrimerBtn").disabled = true;
+    $("primerCancelBtn").style.display = "inline-flex";
+    setToolStatus("primerStatus", "Request sent to Primer3Plus. Waiting for Primer3 thermodynamic design (up to 60 seconds). No automatic retries.");
+    timer = setTimeout(() => { timedOut = true; controller.abort(); }, 60000);
+    const response = await fetch(PRIMER3PLUS_ENDPOINT, {method:"POST", body, credentials:"omit", referrerPolicy:"no-referrer", signal:controller.signal});
+    let payload;
+    try { payload = await response.json(); } catch (_) { throw new Error("Primer3Plus returned an unreadable response."); }
+    if (!response.ok) {
+      const detail = Array.isArray(payload.errors) ? payload.errors.map(error => error.title || "").filter(Boolean).join("; ") : "";
+      throw new Error(`Primer3Plus returned HTTP ${response.status}${detail ? `: ${detail}` : "."}`);
+    }
+    if (requestVersion !== primerRequestVersion) return;
+    const result = parseOnlinePrimerOutput(payload, p);
+    if (!result.rows.length) {
+      setToolStatus("primerStatus", `Primer3Plus found no pairs under these constraints. Try widening the Tm/GC or product-size range. ${result.explanation}`, "error");
+      return;
+    }
+    primerDesignRows = result.rows;
+    renderOnlinePrimerResults(result);
+    $("primerExportBtn").disabled = false;
+    setToolStatus("primerStatus", `Primer3Plus returned ${result.rows.length} pair(s) spanning target ${p.targetStart}–${p.targetEnd}. This is primer design, not a genome-wide specificity assessment.`, "ok");
+  } catch (error) {
+    if (requestVersion !== undefined && requestVersion !== primerRequestVersion) return;
+    const message = timedOut ? "Primer3Plus timed out after 60 seconds. No retry was sent." : error.name === "AbortError" ? "Online request cancelled." : error instanceof TypeError ? "Unable to reach Primer3Plus. Check the connection or select original local screening; no automatic fallback was used." : error.message;
+    setToolStatus("primerStatus", message, "error");
+  } finally {
+    clearTimeout(timer);
+    if (controller && primerOnlineController === controller) {
+      primerOnlineController = null;
+      $("designPrimerBtn").disabled = false;
+      $("primerCancelBtn").style.display = "none";
+    }
+  }
+}
+
+function designLocalPrimers() {
   primerDesignRows = [];
   $("primerExportBtn").disabled = true;
   $("primerResults").innerHTML = "";
@@ -820,6 +1010,12 @@ function designPrimers() {
 
 function exportPrimerResults() {
   if (!primerDesignRows.length) return;
+  if (primerDesignRows[0].engine === "primer3plus") {
+    const header = ["engine","rank","forward_primer_5to3","forward_start","forward_end","forward_tm_c","forward_gc_pct","reverse_primer_5to3","reverse_start","reverse_end","reverse_tm_c","reverse_gc_pct","product_size_bp","tm_difference_c","pair_dimer_any_tm_c","pair_dimer_3prime_tm_c","forward_hairpin_tm_c","reverse_hairpin_tm_c","primer3_penalty","target_start","target_end","monovalent_salt_mm","magnesium_mm","total_dntp_mm","annealing_oligo_nm"];
+    const rows = primerDesignRows.map(row => ["Primer3Plus_online",row.rank,row.forward,row.forwardStart,row.forwardEnd,row.forwardTm.toFixed(3),row.forwardGc.toFixed(3),row.reverse,row.reverseStart,row.reverseEnd,row.reverseTm.toFixed(3),row.reverseGc.toFixed(3),row.productSize,row.tmDifference.toFixed(3),row.pairAnyTm.toFixed(3),row.pairEndTm.toFixed(3),row.forwardHairpinTm.toFixed(3),row.reverseHairpinTm.toFixed(3),row.score.toFixed(6),row.targetStart,row.targetEnd,row.saltMonovalent,row.saltDivalent,row.dntp,row.dnaConcentration]);
+    downloadText("CrossSE-TED_Primer3Plus_primers.tsv", [header, ...rows].map(row => row.join("\t")).join("\n"), "text/tab-separated-values;charset=utf-8");
+    return;
+  }
   const header = ["rank","forward_primer_5to3","forward_start","forward_end","forward_tm_c","forward_gc_pct","reverse_primer_5to3","reverse_start","reverse_end","reverse_tm_c","reverse_gc_pct","product_size_bp","tm_difference_c","pair_complementary_run","score"];
   const rows = primerDesignRows.map(row => [row.rank,row.forward,row.forwardStart,row.forwardEnd,row.forwardTm.toFixed(2),row.forwardGc.toFixed(2),row.reverse,row.reverseStart,row.reverseEnd,row.reverseTm.toFixed(2),row.reverseGc.toFixed(2),row.productSize,row.tmDifference.toFixed(2),row.pairRun,row.score.toFixed(3)]);
   downloadText("CrossSE-TED_primer_design.tsv", [header, ...rows].map(row => row.join("\t")).join("\n"), "text/tab-separated-values;charset=utf-8");
@@ -1005,11 +1201,19 @@ function initSequenceTools() {
   $("designPrimerBtn").addEventListener("click", designPrimers);
   $("primerExportBtn").addEventListener("click", exportPrimerResults);
   $("primerExampleBtn").addEventListener("click", () => {
-    $("primerTemplate").value = `>example_transcript_650bp\n${makeExampleDna().match(/.{1,70}/g).join("\n")}`;
+    $("primerTemplate").value = `>synthetic_unit_test_650bp\n${makeExampleDna().match(/.{1,70}/g).join("\n")}`;
     $("primerTargetStart").value = "300";
     $("primerTargetEnd").value = "340";
-    setToolStatus("primerStatus", "Example loaded. Select “Design primers” to generate candidate pairs.");
+    $("primerUploadConsent").checked = false;
+    invalidatePrimerDesign("Artificially generated unit-test sequence loaded (not a biological sample). Confirm upload consent for online mode, then select Design primers.");
   });
+  $("primerEngine").addEventListener("change", updatePrimerEngine);
+  $("primerCancelBtn").addEventListener("click", () => invalidatePrimerDesign("Online request cancelled. A submitted request may still finish at the provider; no result will be used."));
+  $("primerUploadConsent").addEventListener("change", () => invalidatePrimerDesign("Upload consent updated. Run the selected designer again."));
+  document.querySelectorAll("#primer-design input:not([type=checkbox]), #primerTemplate").forEach(input => input.addEventListener("input", () => {
+    if (input.id === "primerTemplate") $("primerUploadConsent").checked = false;
+    invalidatePrimerDesign();
+  }));
   $("runBlastBtn").addEventListener("click", runLocalBlast);
   $("blastExportBtn").addEventListener("click", exportBlastResults);
   $("blastExampleBtn").addEventListener("click", () => {
