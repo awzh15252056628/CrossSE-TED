@@ -7,6 +7,8 @@
     "rna_seq_records": {
       "runs": 1097,
       "taxonomic_labels": 46,
+      "named_species": 38,
+      "named_species_definition": "Unique named species after parent-species normalization of infraspecific and cultivar-group labels. Genus-level, unspecified-species and separately labeled hybrid entries contribute only to the taxonomic label count.",
       "bioprojects": 82,
       "library_strategy": "RNA-Seq",
       "total_size_gb": 2602.8,

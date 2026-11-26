@@ -331,22 +331,40 @@ function projectUrl(project) {
   return /^PRJEB|^ERP/i.test(project) ? `https://www.ebi.ac.uk/ena/browser/view/${p}` : `https://www.ncbi.nlm.nih.gov/bioproject/${p}`;
 }
 
+// The exceptions in Table S1 use NCBI TaxIDs so the source labels and filters stay intact.
+function countSraNamedSpecies(rows) {
+  const nonSpecies = new Set(["2706", "4688", "4398", "3751", "2828060", "3114324", "128735"]);
+  const parentSpecies = new Map([
+    ["308682", "308681"], // Picea meyeri var. mongolica to Picea meyeri
+    ["39947", "4530"]    // Oryza sativa Japonica Group to Oryza sativa
+  ]);
+  const species = new Set();
+  for (const {TaxID} of rows) {
+    const id = String(TaxID ?? "").trim();
+    if (id && !nonSpecies.has(id)) species.add(parentSpecies.get(id) ?? id);
+  }
+  return species.size;
+}
+
 function initSraBrowser() {
   const data = DB.public_sra || {rows: [], summary: {}};
   const rows = data.rows || [];
   const summary = data.summary || {};
   $("sraRuns").textContent = Number(summary.runs || rows.length).toLocaleString();
-  $("sraSpeciesCount").textContent = Number(summary.species || new Set(rows.map(x=>x.ScientificName).filter(Boolean)).size).toLocaleString();
   $("sraProjectCount").textContent = Number(summary.projects || new Set(rows.map(x=>x.BioProject).filter(Boolean)).size).toLocaleString();
   $("sraStrategyCount").textContent = Number(summary.strategies || new Set(rows.map(x=>x.LibraryStrategy).filter(Boolean)).size).toLocaleString();
   $("sraTotalSize").textContent = `${summary.total_size_gb || 0} GB`;
 
-  const species = [...new Set(rows.map(x => x.ScientificName).filter(Boolean))].sort();
+  const labels = [...new Set(rows.map(x => x.ScientificName).filter(Boolean))].sort();
+  const namedSpecies = countSraNamedSpecies(rows);
+  $("sraLabelCount").textContent = labels.length.toLocaleString();
+  $("sraNamedSpeciesCount").textContent = namedSpecies.toLocaleString();
   const projects = [...new Set(rows.map(x => x.BioProject).filter(Boolean))].sort();
   const strategies = [...new Set(rows.map(x => x.LibraryStrategy).filter(Boolean))].sort();
-  $("sraSpeciesFilter").innerHTML += species.map(x => `<option>${escapeHtml(x)}</option>`).join("");
+  $("sraSpeciesFilter").innerHTML += labels.map(x => `<option>${escapeHtml(x)}</option>`).join("");
   $("sraProjectFilter").innerHTML += projects.map(x => `<option>${escapeHtml(x)}</option>`).join("");
   $("sraStrategyFilter").innerHTML += strategies.map(x => `<option>${escapeHtml(x)}</option>`).join("");
+  return {labels: labels.length, namedSpecies};
 }
 
 function filteredSraRows() {
@@ -1481,11 +1499,11 @@ const MODULE_META = [
   {id:"literature", title:"Literature", desc:"PubMed search linked to database species and RNA-seq datasets.", accent:"#c98a12", grad:"linear-gradient(135deg,#c98a12,#e6ad35)", icon:"book"},
   {id:"figures", title:"Figure Gallery", desc:"32 integrated result figures, including all five publication-associated figures in vector and 600-dpi raster formats.", accent:"#d0416b", grad:"linear-gradient(135deg,#d0416b,#ef7396)", icon:"image"},
   {id:"downloads", title:"Download Center", desc:"Export matrix inventory, SRA links, project links and metadata.", accent:"#0d7a8c", grad:"linear-gradient(135deg,#0d7a8c,#14b0a0)", icon:"download"},
-  {id:"expr-query", title:"Expression Query", desc:"Look up FPKM / read count / CPM for any gene across all samples in 10 species, with CSV / TSV export.", accent:"#7b3fe4", grad:"linear-gradient(135deg,#7b3fe4,#9d6bff)", icon:"chart"},
+  {id:"expr-query", title:"Expression Query", desc:"Look up FPKM / read count / CPM for any gene across all samples from 10 taxa, with CSV / TSV export.", accent:"#7b3fe4", grad:"linear-gradient(135deg,#7b3fe4,#9d6bff)", icon:"chart"},
   {id:"ortho-query", title:"Orthologs", desc:"504 operational one-to-one orthogroups across 7 reference species plus the 2,885 target-three and 4,059 CULA–Picea operational subsets, with gene / protein / OrthoFinder ID lookup and CSV / TSV export.", accent:"#0d7a8c", grad:"linear-gradient(135deg,#0d7a8c,#22b0c4)", icon:"nodes"},
-  {id:"deg-query", title:"Differential Expression", desc:"Significant DEGs (padj<0.05, |log2FC|≥1) across 6 species and their stage / treatment comparisons; filter by direction and gene ID, with export.", accent:"#d0416b", grad:"linear-gradient(135deg,#c0392b,#e8615a)", icon:"volcano"},
-  {id:"nr-annotation", title:"NR Annotation", desc:"Best-hit protein annotations against the NCBI NR database (DIAMOND blastp) for 10 species; search by gene / protein ID and export hit accession, identity, e-value, bitscore, coverage and description.", accent:"#8e44ad", grad:"linear-gradient(135deg,#6d28d9,#a855f7)", icon:"nrtag"},
-  {id:"tf-query", title:"Transcription Factors", desc:"Putative transcription factors for 10 species, classified into families from NCBI NR best-hit descriptions; filter by species, TF family and gene / protein ID, with CSV / TSV export.", accent:"#16a34a", grad:"linear-gradient(135deg,#15803d,#22c55e)", icon:"tftree"}
+  {id:"deg-query", title:"Differential Expression", desc:"Significant DEGs (padj<0.05, |log2FC|≥1) across 6 taxa and their stage / treatment comparisons; filter by direction and gene ID, with export.", accent:"#d0416b", grad:"linear-gradient(135deg,#c0392b,#e8615a)", icon:"volcano"},
+  {id:"nr-annotation", title:"NR Annotation", desc:"Best-hit protein annotations against the NCBI NR database (DIAMOND blastp) for 10 taxa; search by gene / protein ID and export hit accession, identity, e-value, bitscore, coverage and description.", accent:"#8e44ad", grad:"linear-gradient(135deg,#6d28d9,#a855f7)", icon:"nrtag"},
+  {id:"tf-query", title:"Transcription Factors", desc:"Putative transcription factors for 10 taxa, classified into families from NCBI NR best-hit descriptions; filter by species, TF family and gene / protein ID, with CSV / TSV export.", accent:"#16a34a", grad:"linear-gradient(135deg,#15803d,#22c55e)", icon:"tftree"}
 ];
 const MODULE_ICONS = {
   leaf:'<path d="M5 21C4 12 9 4 20 4c0 11-8 16-15 15z"/><path d="M5 21c3-6 7-9 12-11"/>',
@@ -1603,14 +1621,14 @@ renderModuleGrid();
       }; });
       const c = data.counts || {};
       DB.public_sra = { rows: rows, summary: {
-        runs:c.runs, species:c.species, projects:c.projects, strategies:c.strategies, total_size_gb:c.total_size_gb
+        runs:c.runs, projects:c.projects, strategies:c.strategies, total_size_gb:c.total_size_gb
       }};
       resetSelect("sraSpeciesFilter"); resetSelect("sraProjectFilter"); resetSelect("sraStrategyFilter");
-      initSraBrowser();
+      const coverage = initSraBrowser();
       renderSraBrowser(true);
       if($("downloadStatus")) $("downloadStatus").textContent = `Ready: ${matrixExportRows().length.toLocaleString()} matrix/supplementary records, ${rows.length.toLocaleString()} public SRA records, ${bioprojectRows().length.toLocaleString()} project links.`;
       SRA.loaded = true;
-      setSraStatus("Loaded curated Table S1: "+c.runs+" runs | "+c.species+" species | "+c.projects+" BioProjects | "+c.rna_seq_only+" RNA-Seq runs | "+c.total_size_gb+" GB total.", "ok");
+      setSraStatus(`Loaded curated Table S1. ${rows.length.toLocaleString()} runs · ${coverage.labels} NCBI taxonomic labels · ${coverage.namedSpecies} named species · ${c.projects} BioProjects · ${c.total_size_gb} GB total.`, "ok");
     }catch(err){
       setSraStatus("Curated catalog not loaded. No run-level fallback is embedded in the page; open via a local server or GitHub Pages to load the authoritative datasets_data/sra_datasets.json.gz file. "+err, "warn");
     }finally{
